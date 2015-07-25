@@ -1,6 +1,6 @@
 ---
 title: "#kosen10s LT 01に参加した"
-date: '2015-05-05'
+date: '2015-05-04'
 tags:
 - diary
 - nct

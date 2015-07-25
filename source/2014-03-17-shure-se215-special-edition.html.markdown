@@ -1,6 +1,6 @@
 ---
 title: Shure SE215 Special Editionを買って、なくした
-date: '2014-03-18'
+date: '2014-03-17'
 tags:
 - gadget
 - review

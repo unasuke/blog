@@ -1,6 +1,6 @@
 ---
 title: Rubyとrmagickでjpegのexif削除、サイズ変更ツールを作った話
-date: '2015-02-08'
+date: '2015-02-07'
 tags:
 - diary
 - programming

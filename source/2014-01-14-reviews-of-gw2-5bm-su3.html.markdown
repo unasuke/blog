@@ -1,6 +1,6 @@
 ---
 title: 玄人志向 GW2.5BM-SU3を買った
-date: '2014-01-15'
+date: '2014-01-14'
 tags:
 - review
 ---

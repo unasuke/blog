@@ -1,6 +1,6 @@
 ---
 title: 複数アプリケーションから参照されるDBをridgepoleで管理する
-date: '2015-06-11'
+date: '2015-06-10'
 tags:
 - howto
 - programming

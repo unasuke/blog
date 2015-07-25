@@ -1,6 +1,6 @@
 ---
 title: Homebrewとbrewfileとhomebrew-caskでMacの環境構築
-date: '2014-03-23'
+date: '2014-03-22'
 tags:
 - homebrew
 - howto

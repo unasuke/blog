@@ -1,6 +1,6 @@
 ---
 title: 高専カンファレンスin福井2を開催して kosenconf-089fukui
-date: '2014-12-14'
+date: '2014-12-13'
 tags:
 - diary
 - kosenconf

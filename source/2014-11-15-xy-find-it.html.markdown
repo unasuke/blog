@@ -1,6 +1,6 @@
 ---
 title: XY find itが届いた
-date: '2014-11-16'
+date: '2014-11-15'
 tags:
 - gadget
 - review

@@ -1,6 +1,6 @@
 ---
 title: XcodeとOpenCVで特徴点検出
-date: '2013-08-01'
+date: '2013-07-31'
 tags:
 - howto
 - mac

@@ -1,6 +1,6 @@
 ---
 title: Linuxでandroidの音楽管理
-date: '2014-03-21'
+date: '2014-03-20'
 tags:
 - android
 - howto

@@ -1,6 +1,6 @@
 ---
 title: Boxenの導入……ができない助けて
-date: '2014-03-22'
+date: '2014-03-21'
 tags:
 - boxen
 - git
