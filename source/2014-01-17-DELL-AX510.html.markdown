@@ -1,0 +1,40 @@
+---
+title: DELL AX510を買った
+date: '2014-01-17'
+tags:
+- review
+---
+
+モニターアームを設置する前のこの写真と
+<a href="http://unasuke.com/wp/wp-content/uploads/2014/01/7-5-2.jpg"><img src="http://unasuke.com/wp/wp-content/uploads/2014/01/7-5-2-1024x768.jpg" alt="圧迫感がある" width="625" height="468" class="size-large wp-image-419" /></a>
+
+設置後のこの写真。何か欠けているものがある。
+<a href="http://unasuke.com/wp/wp-content/uploads/2014/01/7.jpg"><img src="http://unasuke.com/wp/wp-content/uploads/2014/01/7-1024x768.jpg" alt="左" width="625" height="468" class="size-large wp-image-423" /></a>
+
+スピーカーである。
+今まで使ってきたスピーカー(<a href="http://www.sanwa.co.jp/product/syohin.asp?code=MM-SPL2" target="_blank">サンワサプライ MM-SPL2</a>)をこのまま使い続けるのもいいが、モニターアームと合わないので、ディスプレイに取り付けるスピーカーを買った。
+
+<h2>買ったもの</h2>
+<a href="http://accessories.apj.dell.com/sna/productdetail.aspx?c=jp&l=ja&s=dhs&cs=jpdhs1&sku=520-10981">DELL AX510</a>
+ディスプレイによってはACアダプタ付きの<a href="http://accessories.apj.dell.com/sna/productdetail.aspx?c=jp&l=ja&s=dhs&cs=jpdhs1&sku=520-11283" target="_blank">AX510PA</a>を買う必要がある。
+
+<h2>開封と設置</h2>
+中身はこの半分しかない
+<a href="http://unasuke.com/wp/wp-content/uploads/2014/01/IMAG0007.jpg"><img src="http://unasuke.com/wp/wp-content/uploads/2014/01/IMAG0007-1024x577.jpg" alt="IMAG0007" width="625" height="352" class="alignnone size-large wp-image-431" /></a>
+
+ケーブルの長さは1.5mはある。
+<a href="http://unasuke.com/wp/wp-content/uploads/2014/01/IMAG0008.jpg"><img src="http://unasuke.com/wp/wp-content/uploads/2014/01/IMAG0008-1024x577.jpg" alt="IMAG0008" width="625" height="352" class="alignnone size-large wp-image-432" /></a>
+
+電源はディスプレイから取れる。
+<a href="http://unasuke.com/wp/wp-content/uploads/2014/01/IMAG0012.jpg"><img src="http://unasuke.com/wp/wp-content/uploads/2014/01/IMAG0012-1024x577.jpg" alt="IMAG0012" width="625" height="352" class="alignnone size-large wp-image-433" /></a>
+
+ケーブルの取り回しをして設置完了。
+<a href="http://unasuke.com/wp/wp-content/uploads/2014/01/IMAG0014.jpg"><img src="http://unasuke.com/wp/wp-content/uploads/2014/01/IMAG0014-1024x577.jpg" alt="IMAG0014" width="625" height="352" class="alignnone size-large wp-image-434" /></a>
+
+下がスッキリして見える。
+<a href="http://unasuke.com/wp/wp-content/uploads/2014/01/IMG_2156.jpg"><img src="http://unasuke.com/wp/wp-content/uploads/2014/01/IMG_2156-1024x767.jpg" alt="IMG_2156" width="625" height="468" class="alignnone size-large wp-image-435" /></a>
+
+<h2>感想</h2>
+音質については評価できる耳を持ち合わせていないので何も言えないが、今までのスピーカーではヘッドホンを接続すると(無音時に)ノイズが聞こえていたが、これは聞こえないのでおそらく良いものなのだろう。
+
+お年玉で買ったシリーズは終わり

@@ -1,0 +1,44 @@
+---
+title: 玄人志向 GW2.5BM-SU3を買った
+date: '2014-01-15'
+tags:
+- review
+---
+
+USB3.0の2.5インチHDDケースを買った。お年玉最高。
+<a href="http://www.kuroutoshikou.com/modules/display/?iid=1501" target="_blank">玄人志向 GW2.5BM-SU3</a>
+<a href="http://unasuke.com/wp/wp-content/uploads/2014/01/36403186a6b983825eb8c382c294056c.jpg"><img src="http://unasuke.com/wp/wp-content/uploads/2014/01/36403186a6b983825eb8c382c294056c-1024x768.jpg" alt="写真 2014-01-14 23 02 07-5-0" width="625" height="468" class="alignnone size-large wp-image-403" /></a>
+
+<h2>大きさ</h2>
+HDDとほとんど同じ大きさ。出っ張った部分もないからコンパクト。
+<a href="http://unasuke.com/wp/wp-content/uploads/2014/01/342f598d8141155b12ff855293364c34.jpg"><img src="http://unasuke.com/wp/wp-content/uploads/2014/01/342f598d8141155b12ff855293364c34-1024x768.jpg" alt="写真 2014-01-14 23 02 07-5-1" width="625" height="468" class="alignnone size-large wp-image-402" /></a>
+
+<!--more-->
+
+<h2>組み立て</h2>
+まずカバーを開けるのだが、これがだいぶ硬い。
+<a href="http://unasuke.com/wp/wp-content/uploads/2014/01/94917586093be319cc1664761834b83e.jpg"><img src="http://unasuke.com/wp/wp-content/uploads/2014/01/94917586093be319cc1664761834b83e-1024x768.jpg" alt="写真 2014-01-14 23 02 07-5-2" width="625" height="468" class="alignnone size-large wp-image-401" /></a>
+
+HDDを接続。ケースに余裕がないので斜めから入れなければならない。少し不安。
+<a href="http://unasuke.com/wp/wp-content/uploads/2014/01/f9460e2e90afd5a8d6cadd84e3097882.jpg"><img src="http://unasuke.com/wp/wp-content/uploads/2014/01/f9460e2e90afd5a8d6cadd84e3097882-1024x768.jpg" alt="写真 2014-01-14 23 02 07" width="625" height="468" class="alignnone size-large wp-image-405" /></a>
+
+
+裏からネジ止め。このネジは付属の工具では大きすぎるので別にドライバーが必要。無理すれば付属の工具でも締められる。
+<a href="http://unasuke.com/wp/wp-content/uploads/2014/01/d0dc032c7ee934c7141293f50fc25c7e.jpg"><img src="http://unasuke.com/wp/wp-content/uploads/2014/01/d0dc032c7ee934c7141293f50fc25c7e-1024x768.jpg" alt="写真 2014-01-14 23 02 07-5-3" width="625" height="468" class="alignnone size-large wp-image-400" /></a>
+
+カバーをつけてネジ止め。ビニールがはられている部分が基盤の裏側になるよう注意する。このネジがかなり小さいので注意。予備で1個ついてくるので1個までなら落として無くしても……
+<a href="http://unasuke.com/wp/wp-content/uploads/2014/01/0491256aa1e5ab39c3f690f972dc96ef.jpg"><img src="http://unasuke.com/wp/wp-content/uploads/2014/01/0491256aa1e5ab39c3f690f972dc96ef-1024x768.jpg" alt="写真 2014-01-14 23 02 07-5-4" width="625" height="468" class="alignnone size-large wp-image-399" /></a>
+<a href="http://unasuke.com/wp/wp-content/uploads/2014/01/negi.jpg"><img src="http://unasuke.com/wp/wp-content/uploads/2014/01/negi-1024x768.jpg" alt="negi" width="625" height="468" class="alignnone size-large wp-image-404" /></a>
+
+<h2>速度の変化</h2>
+まずはUSB2.0接続での速度。
+[caption id="attachment_392" align="alignnone" width="416"]<a href="http://unasuke.com/wp/wp-content/uploads/2014/01/usb2.jpg"><img src="http://unasuke.com/wp/wp-content/uploads/2014/01/usb2.jpg" alt="USB2.0で接続した場合のアクセス速度" width="416" height="379" class="size-full wp-image-392" /></a> USB2.0で接続した場合のアクセス速度[/caption]
+
+
+そして、USB3.0での速度。
+[caption id="attachment_393" align="alignnone" width="416"]<a href="http://unasuke.com/wp/wp-content/uploads/2014/01/usb3.jpg"><img src="http://unasuke.com/wp/wp-content/uploads/2014/01/usb3.jpg" alt="USB2.0で接続した場合のアクセス速度" width="416" height="379" class="size-full wp-image-393" /></a> USB3.0で接続した場合のアクセス速度[/caption]
+数値がだいぶ違う……のもあれば変わらないのも。でも速くはなってるし満足。
+
+
+ちなみに別HDDの内部SATA接続の速度がこれ。
+[caption id="attachment_394" align="alignnone" width="416"]<a href="http://unasuke.com/wp/wp-content/uploads/2014/01/sata.jpg"><img src="http://unasuke.com/wp/wp-content/uploads/2014/01/sata.jpg" alt="SATAで接続した場合のアクセス速度" width="416" height="379" class="size-full wp-image-394" /></a> SATAで接続した場合のアクセス速度[/caption]
