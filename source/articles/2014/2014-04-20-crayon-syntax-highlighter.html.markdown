@@ -5,9 +5,9 @@ tags:
 - diary
 ---
 
-今までシンタックスハイライトのために導入していたプラグインは<a href="http://wordpress.org/plugins/syntaxhighlighter/" target="_blank">SyntaxHighlighter Evolved</a>だった。
-それを<a href="http://wordpress.org/plugins/crayon-syntax-highlighter/" target="_blank">Crayon Syntax Highlighter</a>へと変更した。
+今までシンタックスハイライトのために導入していたプラグインは[SyntaxHighlighter Evolved](http://wordpress.org/plugins/syntaxhighlighter/)だった。
+それを[Crayon Syntax Highlighter](http://wordpress.org/plugins/crayon-syntax-highlighter/)へと変更した。
 
-<h2>理由</h2>
+## 理由
 
 特になし

@@ -6,10 +6,9 @@ tags:
 - nct
 ---
 
-<a href="http://unasuke.com/wp/wp-content/uploads/2014/10/IMG_4479.jpg"><img src="http://unasuke.com/wp/wp-content/uploads/2014/10/IMG_4479-1024x768.jpg" alt="IMG_4479" width="625" height="468" class="alignnone size-large wp-image-802" /></a>
+![fukui nct festival 50th](fukui-nct-festival-50th.jpg)
 
 高専生として最後となるであろう第50回高専祭が終わりました。5年生という最高学年で、50回目という節目の回に高専祭実行委員として活動できたことを、嬉しく思います。
-</p>
 
 
 事の発端はいつだったか、学生会長らに今年もスポンサー長として活動してくれないかと頼まれたときでした。昨年度の高専祭でもスポンサー長として働いていて、今年はもう実行委員にはならない、あんなに自分の時間を取られてたまるものかと思っていました。しかし僕は自分の替わりとなる人を指名できず、2年連続でスポンサー長になりました。

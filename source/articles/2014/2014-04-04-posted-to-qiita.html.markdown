@@ -6,9 +6,9 @@ tags:
 - qiita
 ---
 
-<a href="http://qiita.com/yu_suke1994/items/37e626ec9b479f72f854" target="_blank">homesickとhomeshickの違い</a>
-<a href="http://qiita.com/yu_suke1994/items/830c7ab8a6bf75044001" target="_blank">homeshickを使ったdotfilesの管理</a>
-<a href="http://qiita.com/yu_suke1994/items/b9fa651d77aed2eae339" target="_blank">HomebrewでMacVim-Kaoriyaのビルド 〜luaを添えて〜</a>
+[homesickとhomeshickの違い](http://qiita.com/yu_suke1994/items/37e626ec9b479f72f854)
+[homeshickを使ったdotfilesの管理](http://qiita.com/yu_suke1994/items/830c7ab8a6bf75044001)
+[HomebrewでMacVim-Kaoriyaのビルド 〜luaを添えて〜](http://qiita.com/yu_suke1994/items/b9fa651d77aed2eae339)
 
 ご確認ください
 

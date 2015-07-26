@@ -7,42 +7,42 @@ tags:
 - info
 ---
 
-<a href="http://unasuke.com/wp/wp-content/uploads/2014/03/IMG_2645.png"><img src="http://unasuke.com/wp/wp-content/uploads/2014/03/IMG_2645-169x300.png" alt="Hangouts" width="169" height="300" class="alignnone size-medium wp-image-566" /></a>
+![hangouts](let-use-hanguts.png)
 
-<h2>Hangouts</h2>
+## Hangouts
 
 HangoutsはGoogle+のチャット的なアレです。
-<a href="http://www.google.com/+/learnmore/hangouts/" target="_blank">Google+ ハングアウト</a>
+[Google+ ハングアウト](http://www.google.com/+/learnmore/hangouts/)
 似たようなサービスにSkype LINE メッセージ(apple) twitter facebookなどがあります。Hangoutsはそれらとどう違うのでしょう。
 
-<h2>Hangoutsと比べた時</h2>
+## Hangoutsと比べた時
 
-<h3>Skype</h3>
+### Skype
 
 Skypeはサインインしていないとメッセージを受け取れないという欠点があり、そのせいでスマートフォンで常駐させておくのは気が引けます。
 
-<h3>LINE</h3>
+### LINE
 
 電話番号と結び付けられていて面倒です。個人情報の流出が話題になったけど今はどうなの……？既読機能は便利かも。
 LinuxだとWine使わなきゃいけないし面倒です。
 
-<h3>メッセージ(apple)</h3>
+### メッセージ(apple)
 
 いまいち仕組みがつかめません。AndroidやWindowsでも使えるの？
 
-<h3>twitter</h3>
+### twitter
 
 会話が筒抜けで、DMだとグループチャットはできません。全員鍵垢なら……そうでもないか。
 
-<h3>facebook メッセージ</h3>
+### facebook メッセージ
 
 一番Hangoutsに近い存在(だと思う)。強いて欠点を上げるならAndroidだとアプリのインストールをしなければいけない。
 
-<h3>between</h3>
+### between
 
 論外
 
-<h2>Hangoutsを比べた時</h2>
+## Hangoutsを比べた時
 
 まず、Googleアカウントが必要になります。これはAndroidユーザーも増えてるしだいたいみんな持ってるでしょう。
 そしてGoogle+に登録する必要があります。実名感あって抵抗が高いのがここ。

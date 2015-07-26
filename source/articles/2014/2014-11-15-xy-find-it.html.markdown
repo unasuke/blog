@@ -7,62 +7,59 @@ tags:
 ---
 
 
-<a href="http://unasuke.com/wp/wp-content/uploads/2014/11/tag.jpg"><img src="http://unasuke.com/wp/wp-content/uploads/2014/11/tag-1024x767.jpg" alt="tag" width="625" height="468" class="alignnone size-large wp-image-833" /></a>
+![tag](xy-tag-tag.jpg)
 2014年4月21日に目標額を達成したXY find itがようやく届いた。
-<a href="http://www.xyfindit.com">XY find it</a>
+[XY find it](http://www.xyfindit.com)
 
 
-<h2>XY find itとは</h2>
-
+## XY find itとは
 
 持ち物につけるiBeacon互換デバイス？で、Bluetooth LEで動作する。ある一定の距離を離れるとアラートが届いたり、なくした時には、どこにあるのかを地図上に表示したり、このデバイスからアラートを鳴らしたりすることができる。
 
-
-
 海外メディアだけでなく、国内のメディアでも取り上げられたことがあり、わりと知名度が高いのではないか。
-<a href="http://gigazine.net/news/20140318-xy-findit/">落とし物を防止・追跡・発見できるiOS/Android用トラッキングタグ「XY」</a>(Gigazin)
-<a href="http://www.wired.com/2014/04/a-tag-that-finds-lost-keys-and-lost-pets-and-has-killer-ux/">A Tag With Killer UX That Finds Lost Keys and Pets</a>(WIRED)
+[落とし物を防止・追跡・発見できるiOS/Android用トラッキングタグ「XY」 - GIGAZINE](http://gigazine.net/news/20140318-xy-findit/)
+[A Tag With Killer UX That Finds Lost Keys and Pets | WIRED](http://www.wired.com/2014/04/a-tag-that-finds-lost-keys-and-lost-pets-and-has-killer-ux/)
 
-<h2>レビュー</h2>
+## レビュー
 
-<a href="http://unasuke.com/wp/wp-content/uploads/2014/11/packet.jpg"><img src="http://unasuke.com/wp/wp-content/uploads/2014/11/packet-1024x768.jpg" alt="小包" width="625" height="468" class="alignnone size-large wp-image-813" /></a>
 まず、海外から小包が届く。
+![小包](xy-tag-packet.jpg)
 
-<a href="http://unasuke.com/wp/wp-content/uploads/2014/11/opened.jpg"><img src="http://unasuke.com/wp/wp-content/uploads/2014/11/opened-1024x768.jpg" alt="小包開封" width="625" height="468" class="alignnone size-large wp-image-812" /></a>
 3つ入りのやつで投資したので、これが届く。
+![小筒開封](xy-tag-opened.jpg)
 
-<a href="http://unasuke.com/wp/wp-content/uploads/2014/11/contents.jpg"><img src="http://unasuke.com/wp/wp-content/uploads/2014/11/contents-1024x768.jpg" alt="中身" width="625" height="468" class="alignnone size-large wp-image-811" /></a>
 内容物。何かに付ける用のチェーンも入っている。
+![中身](xy-tag-contents.jpg)
 
-[youtube=https://www.youtube.com/watch?v=jW8wl_DxMCM]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jW8wl_DxMCM" frameborder="0" allowfullscreen></iframe>
 まず、絶縁シートを外してやる必要があるが、めちゃくちゃ固かった。工具がいる。
 
 さて、これを使うのはアプリのダウンロードが必要になる。iOSにもAndroidにも対応しているので、良い。
-<a href="https://itunes.apple.com/us/app/xy/id797274875?mt=8">iOS用</a>
-<a href="https://play.google.com/store/apps/details?id=com.webble.xy&hl=en">Android用</a>
+[iOS用](https://itunes.apple.com/us/app/xy/id797274875?mt=8)
+[Android用](https://play.google.com/store/apps/details?id=com.webble.xy&hl=en)
 
-<a href="http://unasuke.com/wp/wp-content/uploads/2014/11/screen1.png"><img src="http://unasuke.com/wp/wp-content/uploads/2014/11/screen1-169x300.png" alt="起動直後" width="169" height="300" class="alignnone size-medium wp-image-814" /></a>
 初回起動時は、位置情報の許可をする必要がある。
+![位置情報の許可](xy-tag-app-01.png)
 
-<a href="http://unasuke.com/wp/wp-content/uploads/2014/11/screen2.png"><img src="http://unasuke.com/wp/wp-content/uploads/2014/11/screen2-169x300.png" alt="ログイン" width="169" height="300" class="alignnone size-medium wp-image-815" /></a>
 ログインを要求される。facebookアカウントでもいけるのでそれにした。ただし、メールアドレスを検証するメールが届くが、そのリンク先に飛ぶとサーバーがエラーを吐く。つらい。
 追記(2014-11-16 22:46)エラーが直っていた
+![ログイン要求](xy-tag-app-02.png)
 
-<a href="http://unasuke.com/wp/wp-content/uploads/2014/11/screen3.png"><img src="http://unasuke.com/wp/wp-content/uploads/2014/11/screen3-169x300.png" alt="通知許可" width="169" height="300" class="alignnone size-medium wp-image-816" /></a>
 通知も許可する。
+![通知の許可](xy-tag-app-03.png)
 
-<a href="http://unasuke.com/wp/wp-content/uploads/2014/11/screen7.png"><img src="http://unasuke.com/wp/wp-content/uploads/2014/11/screen7-169x300.png" alt="screen7" width="169" height="300" class="alignnone size-medium wp-image-830" /></a>
 タグを認識する。いくつか買ったので、どれがどれかわからないかもしれないが、認識作業は結構シビアである。端末の画面の上にタグを置いて30秒位待たないとベアリング出来ない。
+![タグの紐付け](xy-tag-app-04.png)
 
-<a href="http://unasuke.com/wp/wp-content/uploads/2014/11/screen4.png"><img src="http://unasuke.com/wp/wp-content/uploads/2014/11/screen4-169x300.png" alt="写真と対応" width="169" height="300" class="alignnone size-medium wp-image-817" /></a>
 写真と対応させることができる。どれがどれだったかを覚えておかなくてもいい。なぜか画像加工機能が豊富。
+![写真を登録](xy-tag-app-05.png)
 
-<a href="http://unasuke.com/wp/wp-content/uploads/2014/11/screen5.png"><img src="http://unasuke.com/wp/wp-content/uploads/2014/11/screen5-169x300.png" alt="タグ情報画面" width="169" height="300" class="alignnone size-medium wp-image-818" /></a>
 タグをタップすると、この画面に遷移する。この画面から、アラーム音を出す、現在地を表示、画像の変更やなくした報告ができる。たぶん、XYユーザーどうしでどこにあるのか探す機能もあるっぽいけど試せない。
+![タグの情報](xy-tag-app-06.png)
 
-<a href="http://unasuke.com/wp/wp-content/uploads/2014/11/screen6.png"><img src="http://unasuke.com/wp/wp-content/uploads/2014/11/screen6-169x300.png" alt="追加完了" width="169" height="300" class="alignnone size-medium wp-image-819" /></a>
 一通り追加完了。左列が離れた時にアラームを出すタグ、右側がそうでもないタグと分類されている。タグの長押しからそれを切り替える。
+![設定完了](xy-tag-app-07.png)
 
-<h2>感想</h2>
+## 感想
 
 タグのデザインもいいし、アプリもいい感じである。届いたばかりなので、しばらく使ってみたあとに感想を追記していくかもしれない。ただ、プロジェクトページにあるイメージ写真より厚いように見えるのが惜しい点かなと思う。

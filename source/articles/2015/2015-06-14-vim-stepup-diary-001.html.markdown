@@ -7,39 +7,44 @@ tags:
 - vim
 ---
 
-<a href="http://unasuke.com/wp/wp-content/uploads/2015/06/vimlogo-564x564.png"><img src="http://unasuke.com/wp/wp-content/uploads/2015/06/vimlogo-564x564-300x300.png" alt="vim" width="300" height="300" class="alignnone size-medium wp-image-1181" /></a>
-<h2>きっかけ</h2>
-<blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">あこがれの先輩とペアでvimの練習とかしてた</p>&mdash; うなすけ(借金予定有) (@yu_suke1994) <a href="https://twitter.com/yu_suke1994/status/609344859283980288">2015, 6月 12</a></blockquote>
+![vim logo](vimlogo.png)
+
+## きっかけ
+
+<blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">あこがれの先輩とペアでvimの練習とかしてた</p>&mdash; うなすけ(偏差値5) (@yu_suke1994) <a href="https://twitter.com/yu_suke1994/status/609344859283980288">2015, 6月 12</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<h2>べんきょう</h2>
-<h3>Vim plugin</h3>
-<p>
-新しくNERDTree(<a href="https://github.com/scrooloose/nerdtree">scrooloose/nerdtree</a>)と、vim-slim(<a href="https://github.com/slim-template/vim-slim">slim-template/vim-slim</a>)と、vimshell.vim(<a href="https://github.com/Shougo/vimshell.vim">Shougo/vimshell.vim</a>)をインストールした。
-</p>
-<p>
+## べんきょう
+### Vim plugin
+
+新しくNERDTree([scrooloose/nerdtree](https://github.com/scrooloose/nerdtree))と、vim-slim([slim-template/vim-slim](https://github.com/slim-template/vim-slim))と、vimshell.vim([Shougo/vimshell.vim](https://github.com/Shougo/vimshell.vim))をインストールした。
+
+
 NERDTreeの設定も先輩のからもってきて、space+eで開閉できるようにした。
  
-<pre class="lang:vim decode:true " >nmap &lt;silent&gt; &lt;Space&gt;e :NERDTreeToggle&lt;CR&gt;
+```vim
+nmap <silent> <Space>e :NERDTreeToggle<CR>
 
 autocmd vimenter * if !argc() | NERDTree | endif
-autocmd bufenter * if (winnr("$") == 1 &amp;&amp; exists("b:NERDTreeType") &amp;&amp; b:NERDTreeType == "primary") | q | endif
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
-let g:NERDTreeShowHidden=1</pre> 
+let g:NERDTreeShowHidden=1
+```
 
-</p>
-<p>
+
+
 また、インストールしたきり設定が書いてないneocompleteの設定も行った。
-</p>
-<p>
-他にも、ウィンドウ分割の方法など教えて頂いた。
-</p>
 
-<h2>まとめ</h2>
-<p>
+
+他にも、ウィンドウ分割の方法など教えて頂いた。
+
+
+## まとめ
+
 ペアvim前 .vimrc
  
-<pre class="lang:default decode:true " >"neobundle.vimの設定
+```vim
+"neobundle.vimの設定
 if has('vim_starting')
 	set runtimepath+=~/.vim/bundle/neobundle.vim/
 endif
@@ -116,14 +121,13 @@ endfunction
 command -nargs=0 SetUU call SetUU()
 
 "use backspace
-set backspace=indent,eol,start</pre> 
+set backspace=indent,eol,start
+```
 
- 
 
-</p>
-<p>
 ペアvim後 .vimrc
-<pre class="lang:default decode:true " >"neobundle.vimの設定
+```vim
+"neobundle.vimの設定
 if has('vim_starting')
 	set runtimepath+=~/.vim/bundle/neobundle.vim/
 endif
@@ -212,10 +216,9 @@ set backspace=indent,eol,start
 source ~/.neocomplete.vim
 
 "NerdTree
-source ~/.nerdtree.vim</pre> 
+source ~/.nerdtree.vim
+```
 
-</p>
-<p>
+
 当該コミット
-<a href="https://github.com/unasuke/dotfiles/commit/5cae399797e8e2d71abb0af7d98da24c88d343e4">github.com/unasuke/dotfiles pair vim lesson</a>
-</p>
+[github.com/unasuke/dotfiles pair vim lesson](https://github.com/unasuke/dotfiles/commit/5cae399797e8e2d71abb0af7d98da24c88d343e4)

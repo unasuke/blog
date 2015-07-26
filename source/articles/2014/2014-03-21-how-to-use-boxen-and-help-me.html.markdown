@@ -9,82 +9,83 @@ tags:
 - programming
 ---
 
-<h2>Boxenとは</h2>
+## Boxenとは
 
 まずBoxenとはなんぞや？
-<a href="http://boxen.github.com/" target="_blank">BOXEN</a>
+[BOXEN](http://boxen.github.com/)
 なるほど、わからん。
 次にこっちを見てほしい。
-<a href="http://qiita.com/yuku_t/items/c6f20de0e4f4c352046c" target="_blank">Boxen使わなくても許されるのは2012年までだよね</a>
+[Boxen使わなくても許されるのは2012年までだよね](http://qiita.com/yuku_t/items/c6f20de0e4f4c352046c)
 
 つまり、OS installerにとってはありがたいツールであるということだ。2012年も過ぎ去ったし、導入しない手はないだろう。
 
-<h2>How to Use BOXEN?</h2>
+## How to Use BOXEN?
 
 Boxenを使うには、次のものが必要である。
 
-<ul>
-<li>mac</li>
-<li>githubアカウント</li>
-</ul>
+- mac
+- githubアカウント
 
-導入だが、<a href="http://qiita.com/yuku_t/items/c6f20de0e4f4c352046c" target="_blank">Boxen使わなくても許されるのは2012年までだよね</a>と、GitHubの公式マニュアルを見つつ順を追って僕がやったことを説明していく。複数のやり方がある時は公式マニュアル通りにやった。
-<del datetime="2014-03-20T18:02:56+00:00">今は2014年だし今更解説記事書いてるあたり許されないと思った。</del>
+導入だが、[Boxen使わなくても許されるのは2012年までだよね](http://qiita.com/yuku_t/items/c6f20de0e4f4c352046c)と、GitHubの公式マニュアルを見つつ順を追って僕がやったことを説明していく。複数のやり方がある時は公式マニュアル通りにやった。
+~~今は2014年だし今更解説記事書いてるあたり許されないと思った。~~
 
-<h3>Xcodeのインストール</h3>
+### Xcodeのインストール
 
 基本的にまっさらな状態からつくり上げることとする。だからすでにhomebrewが入ってたりしたら消さなきゃダメかもね。しらんけど。
 で、まずはAppStoreからXcodeをインストールする。インストールが終わったら環境設定からCommand Line Toolsをダウンロードとインストール。
-[caption id="attachment_284" align="alignnone" width="625"]<a href="http://unasuke.com/wp/wp-content/uploads/2013/10/b05f78eb4df058940d04997b8cc89d36.png"><img src="http://unasuke.com/wp/wp-content/uploads/2013/10/b05f78eb4df058940d04997b8cc89d36-1024x640.png" alt="バッテリーは%表示になってないし壁紙は銀河だし本当にOSインストール直後にやってる" width="625" height="390" class="size-large wp-image-284" /></a> バッテリーは%表示になってないし壁紙は銀河だし本当にOSインストール直後にやってる[/caption]
+![まっさら](how-to-use-boxen-01.png)
+バッテリーは%表示になってないし壁紙は銀河だし本当にOSインストール直後にやってる
 
 <h4>Mavericksの場合</h4>
 
 Mavericksから、Command Line ToolsがXcodeからインストールできなくなっている。
-[caption id="attachment_532" align="alignnone" width="760"]<a href="http://unasuke.com/wp/wp-content/uploads/2014/03/nothingclt.png"><img src="http://unasuke.com/wp/wp-content/uploads/2014/03/nothingclt.png" alt="Command Line Toolsがない" width="760" height="510" class="size-full wp-image-532" /></a> Command Line Toolsがない[/caption]
+![command line toolsがない](how-to-use-boxen-02.png)
 なので、ターミナルで
-<code>xcode-select --install</code>
+```shell
+$ xcode-select --install
+```
 と入力し、インストールしなければならない。
-<a href="http://stackoverflow.com/questions/19066647/xcode-5-0-error-installing-command-line-tools" target="_blank">Xcode 5.0 Error installing command line tools</a>
-<a href="http://qiita.com/marqs/items/bd43a031c0398d3ddecf" target="_blank">Mavericks上のXcode 5.0でCommand Line Toolsがない場合</a>
-<br>
+[Xcode 5.0 Error installing command line tools](http://stackoverflow.com/questions/19066647/xcode-5-0-error-installing-command-line-tools)
+[Mavericks上のXcode 5.0でCommand Line Toolsがない場合](http://qiita.com/marqs/items/bd43a031c0398d3ddecf)
 
-<h3>Boxenフォルダの作成</h3>
+### Boxenフォルダの作成
 
 Boxenがいろいろダウンロードしたり実行したりするフォルダを作る。(と思い込んでる)
 ターミナルで、
 
-<pre class="lang:sh decode:true " >
+```shell
 $ sudo mkdir -p /opt/boxen
 $ sudo chown ${USER}:staff /opt/boxen
-</pre>
+```
 
 mkdirのpオプションはサブフォルダも一気に作るということ。chownでそのフォルダの所有者を自分に、グループをstaffに設定。間違ってる可能性大。不安なら自分で調べてほしい。
 
-<h3>設定の編集</h3>
+### 設定の編集
 
 まずはGitHubのほうでリポジトリを作る。中身は空で。
-[caption id="attachment_535" align="alignnone" width="256"]<a href="http://unasuke.com/wp/wp-content/uploads/2014/03/c413774d92bd0c22397f3a81f5a18cc7.png"><img src="http://unasuke.com/wp/wp-content/uploads/2014/03/c413774d92bd0c22397f3a81f5a18cc7.png" alt="ここから" width="256" height="179" class="size-full wp-image-535" /></a> ここから[/caption]
+![ここから](how-to-use-boxen-03.png)
+![こんなかんじで](how-to-use-boxen-04.png)
 
-[caption id="attachment_536" align="alignnone" width="1014"]<a href="http://unasuke.com/wp/wp-content/uploads/2014/03/de0373e5e2bec431d9342cb918c7ed8a.png"><img src="http://unasuke.com/wp/wp-content/uploads/2014/03/de0373e5e2bec431d9342cb918c7ed8a.png" alt="こんなかんじで" width="1014" height="560" class="size-full wp-image-536" /></a> こんなかんじで[/caption]
-
-<pre class="lang:sh decode:true " >
+```shell
 $ git clone https://github.com/boxen/our-boxen /opt/boxen/repo
 $ cd /opt/boxen/repo
 $ git remote rm origin
-$ git remote add origin &lt;the location of my new git repository&gt;
-$ git push -u origin master</pre>
+$ git remote add origin <the location of my new git repository>
+$ git push -u origin master
+```
 
-大本の<a href="https://github.com/boxen/our-boxen" target="_blank">boxen/our-boxen</a>からそっくり引っ張ってきて、そのままだとpushする先が大元様なのを削除→自分のリポジトリに変更。そんでもってpushする。-uはupstreamの意味。これにより、大元様の変更を取り込むことができる……っぽい？
+大本の[boxen/our-boxen](https://github.com/boxen/our-boxen)からそっくり引っ張ってきて、そのままだとpushする先が大元様なのを削除→自分のリポジトリに変更。そんでもってpushする。-uはupstreamの意味。これにより、大元様の変更を取り込むことができる……っぽい？
 実際はこんな感じ。
 
-[caption id="attachment_537" align="alignnone" width="600"]<a href="http://unasuke.com/wp/wp-content/uploads/2014/03/pushdone.png"><img src="http://unasuke.com/wp/wp-content/uploads/2014/03/pushdone.png" alt="ちょっと表示が乱れてる" width="600" height="380" class="size-full wp-image-537" /></a> ちょっと表示が乱れてる[/caption]
+![ちょっと表示が乱れている](how-to-use-boxen-05.png)
 
-<h3>puppetに書き込む</h3>
+### puppetに書き込む
 
-Boxenでは内部で<a href="http://puppetlabs.com/" target="_blank">Puppet</a>を使用している。それに関連するファイルなのだろう。Puppetについての詳しくは<a href="https://gihyo.jp/admin/serial/01/puppet" target="_blank">gihyo</a>で。
+Boxenでは内部で[Puppet](http://puppetlabs.com/)を使用している。それに関連するファイルなのだろう。Puppetについての詳しくは[gihyo](https://gihyo.jp/admin/serial/01/puppet)で。
 boxenフォルダの中にPuppetfileというファイルがある。それを編集していく。
 
-<pre class="lang:default decode:true " ># This file manages Puppet module dependencies.
+```puppet
+# This file manages Puppet module dependencies.
 #
 # It works a lot like Bundler. We provide some core modules by
 # default. This ensures at least the ability to construct a basic
@@ -112,97 +113,103 @@ github "better_touch_tools",  "1.0.0"
 
 # editor
 github "sublime_text_2",      "1.1.2"
-github "macvim_kaoriya",      "1.1.0",  :repo =&gt; "boxelly/puppet-macvim_kaoriya"
-</pre>
+github "macvim_kaoriya",      "1.1.0",  :repo => "boxelly/puppet-macvim_kaoriya"
+```
 
 パッケージ名の横の数字はここから取ってくる。
-[caption id="attachment_288" align="alignnone" width="597"]<a href="http://unasuke.com/wp/wp-content/uploads/2013/10/55276d7d5c5610f17f666590ed4b55f4.png"><img src="http://unasuke.com/wp/wp-content/uploads/2013/10/55276d7d5c5610f17f666590ed4b55f4.png" alt="最新のやつ選べば大丈夫か？" width="597" height="460" class="size-full wp-image-288" /></a> 最新のやつ選べば大丈夫か？[/caption]
+![最新のやつを選べば大丈夫か？](how-to-use-boxen-06.png)
+最新のやつを選べば大丈夫か？
 
-<h3>自分用の設定を書いていく</h3>
+### 自分用の設定を書いていく
 
 さて、Puppetfileで記述したパッケージを、実際にインストールさせるという記述をしなければならない。なんでだ……
-個人用の設定はmodules/people/manifests/hoge.ppに書いていく。ここでhogeはgithubのアカウント名。自分の場合だとこう編集する。
+個人用の設定は`modules/people/manifests/hoge.pp`に書いていく。ここでhogeはgithubのアカウント名。自分の場合だとこう編集する。
 
-<pre class="lang:sh decode:true " >$ vim /opt/boxen/repo/modules/people/manifests/unasuke.pp</pre>
+```shell
+$ vim /opt/boxen/repo/modules/people/manifests/unasuke.pp
+```
 
 ほいで、中身はこれ。
 
-<pre class="lang:default decode:true " >class people::unasuke{
-    
-    # core modules
-    #include xquartz
+```puppet
+class people::unasuke{
+  # core modules
+  #include xquartz
 
-    # web browser
-    include chrome
-    include firefox
-    include opera
+  # web browser
+  include chrome
+  include firefox
+  include opera
 
-    # voip
-    include skype
+  # voip
+  include skype
 
-    # memo
-    include evernote
+  # memo
+  include evernote
 
-    # player
-    include vlc
+  # player
+  include vlc
 
-    # utility
-    include dropbox
-    include virtualbox
-    include keyremap4macbook
-    include better_touch_tools
+  # utility
+  include dropbox
+  include virtualbox
+  include keyremap4macbook
+  include better_touch_tools
 
-    # editor
-    include sublime_text_2  
-    include macvim_kaoriya  
-    
-    # raw package
-    package{
-# japanese ime
-'GoogleJapaneseInput':
-source      =&gt; "http://dl.google.com/japanese-ime/latest/GoogleJapaneseInput.dmg",
-provider    =&gt; pkgdmg;
+  # editor
+  include sublime_text_2  
+  include macvim_kaoriya  
 
-# markdown editor
-'Kobito':
-source      =&gt; "http://kobito.qiita.com/download/Kobito_v1.2.0.zip",
-provider    =&gt; compressed_app;
+  # raw package
+  package{
+    # japanese ime
+    'GoogleJapaneseInput':
+    source      => "http://dl.google.com/japanese-ime/latest/GoogleJapaneseInput.dmg",
+    provider    => pkgdmg;
 
-# ssd trim
-'Trim Enabler':
-source      =&gt; "https://s3.amazonaws.com/groths/TrimEnabler.dmg",
-provider    =&gt; pkgdmg;
+    # markdown editor
+    'Kobito':
+    source      => "http://kobito.qiita.com/download/Kobito_v1.2.0.zip",
+    provider    => compressed_app;
 
-# scroll setting
-'Scroll Reverser':
-source      =&gt; "https://d20vhy8jiniubf.cloudfront.net/downloads/ScrollReverser-1.6.zip,      provider    =&gt; compressed_app;
+    # ssd trim
+    'Trim Enabler':
+    source      => "https://s3.amazonaws.com/groths/TrimEnabler.dmg",
+    provider    => pkgdmg;
 
-# typing sound
-# noisy typer
-    }
-}</pre>
+    # scroll setting
+    'Scroll Reverser':
+    source      => "https://d20vhy8jiniubf.cloudfront.net/downloads/ScrollReverser-1.6.zip,      provider    => compressed_app;
+
+    # typing sound
+    # noisy typer
+  }
+}
+```
 
 それぞれに書いてあることは冒頭で紹介したQiitaの記事を見てほしい。簡単に説明すると、上からPuppetfieでincudeしたパッケージのインストール、webのアドレスからダウンロードしてインストールの指定をしている。
 
-<h3>site.ppの編集</h3>
+### site.ppの編集
 
 さて、このファイルにはすべてのPCに適用される設定が書かれている。というのも、Boxenがもともとチーム向けに作られたものだから。
 中を見てみると、複数のバージョンがインストール指定されている部分がある。互換性など配慮しているのだろうが、個人用途というか僕にとっていらないので最新のバージョンのみインストールするようにしてもいいが、なんかあったら嫌なので放っておいた。
 <br>
 ひととおり設定し終わったらgit addとgit commitとgit push origin masterしておく。
 
-<h3>インストール</h3>
+### インストール
 
 では設定のとおりにBoxenに仕事してもらおう。
 
-<pre class="lang:sh decode:true " >
+```shell
 $ cd /opt/boxen/repo/
-$ script/boxen --no-fde</pre>
+$ script/boxen --no-fde
+```
 
 --no-fdeは暗号化無しの場合につけるオプション
 すると、こんなのがでた。
 
-<pre class="lang:sh decode:true " >$ script/boxen --no-fde
+```shell
+$ script/boxen --no-fde
 Need to install Bundler for system ruby, password for sudo:
 Fetching: bundler-1.3.6.gem (100%)
 Successfully installed bundler-1.3.6
@@ -223,11 +230,13 @@ Gem files will remain installed in /opt/boxen/repo/.bundle/ruby/2.0.0/gems/json-
 Results logged to /opt/boxen/repo/.bundle/ruby/2.0.0/gems/json-1.8.1/ext/json/ext/generator/gem_make.out
 An error occurred while installing json (1.8.1), and Bundler cannot continue.
 Make sure that `gem install json -v '1.8.1'` succeeds before bundling.
-Can't bootstrap, dependencies are outdated.</pre>
+Can't bootstrap, dependencies are outdated.
+```
 
 どうやらjsonのバージョン1.8.1が必要な様子。そこでインストールしようとすると……
 
-<pre class="lang:sh decode:true " >$ sudo gem install json -v '1.8.1'
+```shell
+$ sudo gem install json -v '1.8.1'
 Fetching: json-1.8.1.gem (100%)
 Building native extensions. This could take a while...
 ERROR: Error installing json:
@@ -246,21 +255,24 @@ make: *** [generator.bundle] Error 1
 
 Gem files will remain installed in /Library/Ruby/Gems/2.0.0/gems/json-1.8.1 for inspection.
 Results logged to /Library/Ruby/Gems/2.0.0/gems/json-1.8.1/ext/json/ext/generator/gem_make.out
-</pre>
+```
 
 失敗する。
 
-<h4>Mavericksの場合</h4>
+#### Mavericksの場合
 
 どうやらライセンスに同意しないといけないっぽい。
-<a href="http://qiita.com/yuku_t/items/30015dba2b6497b80074" target="_blank">MavericksでC拡張を含むgemをインストールできない場合の対処法</a>
+[MavericksでC拡張を含むgemをインストールできない場合の対処法](http://qiita.com/yuku_t/items/30015dba2b6497b80074)
 
-<pre class="lang:sh decode:true " >$ sudo xcodebuild -license</pre>
+```shell
+$ sudo xcodebuild -license
+```
 
 このコマンドでダーーッと出てくるライセンスを読んで最後にagreeと入力。
 さてやり直すか。
 
-<pre class="lang:sh decode:true " >$ sudo gem install json -v '1.8.1'
+```shell
+$ sudo gem install json -v '1.8.1'
 Building native extensions. This could take a while...
 ERROR: Error installing json:
 ERROR: Failed to build gem native extension.
@@ -278,34 +290,37 @@ make: *** [generator.bundle] Error 1
 
 Gem files will remain installed in /Library/Ruby/Gems/2.0.0/gems/json-1.8.1 for inspection.
 Results logged to /Library/Ruby/Gems/2.0.0/gems/json-1.8.1/ext/json/ext/generator/gem_make.out
-</pre>
+```
 
 は？
 どうやらclangのところで警告が出ているので、無視するために以下のコマンドで実行。
 
-<pre class="lang:sh decode:true " >$ sudo ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future gem install json -v '1.8.1'
+```shell
+$ sudo ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future gem install json -v '1.8.1'
 Building native extensions. This could take a while...
 Successfully installed json-1.8.1
 Parsing documentation for json-1.8.1
 unable to convert "\xCF" from ASCII-8BIT to UTF-8 for lib/json/ext/generator.bundle, skipping
 unable to convert "\xCF" from ASCII-8BIT to UTF-8 for lib/json/ext/parser.bundle, skipping
 Installing ri documentation for json-1.8.1
-1 gem installed</pre>
+1 gem installed
+```
 
 成功した。
-<a href="http://stackoverflow.com/questions/22352838/ruby-gem-install-json-fails-on-mavericks-and-xcode-5-1-unknown-argument-mul" target="_blank">Ruby Gem install Json fails on Mavericks and Xcode 5.1 - unknown argument: '-multiply_definedsuppress'</a>
-ちなみにこのまま<code>script/boxen</code>しても同じ警告で止まるので、同様に<code>ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future</code>を付加して実行する必要がある。
-<a href="https://github.com/boxen/our-boxen/issues/528" target="_blank">Ruby Gem install Json fails on Mavericks and Xcode 5.1 - unknown argument: '-multiply_definedsuppress' #528</a>
+[Ruby Gem install Json fails on Mavericks and Xcode 5.1 - unknown argument: '-multiply_definedsuppress'](http://stackoverflow.com/questions/22352838/ruby-gem-install-json-fails-on-mavericks-and-xcode-5-1-unknown-argument-mul)
+ちなみにこのまま`script/boxen`しても同じ警告で止まるので、同様に`ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future`を付加して実行する必要がある。
+[Ruby Gem install Json fails on Mavericks and Xcode 5.1 - unknown argument: '-multiply_definedsuppress' #528](https://github.com/boxen/our-boxen/issues/528)
 が、しかし。
 
-<h3>help me</h3>
+### help me
 
-<pre class="lang:sh decode:true " >$ ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future ./script/boxen --no-fde
---&gt; Hey, I need your current GitHub credentials to continue.
+```shell
+$ ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future ./script/boxen --no-fde
+--> Hey, I need your current GitHub credentials to continue.
 
 GitHub login: |unasuke| unasuke
 GitHub password: *
-/opt/boxen/repo/.bundle/ruby/2.0.0/gems/librarian-puppet-0.9.10/vendor/librarian/lib/librarian/dsl/receiver.rb:119:in `instance_binding': undefined method `guthub' for #&lt;Librarian::Dsl::Receiver:0x007f962b822c10&gt; (NoMethodError)
+/opt/boxen/repo/.bundle/ruby/2.0.0/gems/librarian-puppet-0.9.10/vendor/librarian/lib/librarian/dsl/receiver.rb:119:in `instance_binding': undefined method `guthub' for #<Librarian::Dsl::Receiver:0x007f962b822c10> (NoMethodError)
 from /opt/boxen/repo/.bundle/ruby/2.0.0/gems/librarian-puppet-0.9.10/vendor/librarian/lib/librarian/dsl/receiver.rb:33:in `eval'
 from /opt/boxen/repo/.bundle/ruby/2.0.0/gems/librarian-puppet-0.9.10/vendor/librarian/lib/librarian/dsl/receiver.rb:33:in `run'
 from /opt/boxen/repo/.bundle/ruby/2.0.0/gems/librarian-puppet-0.9.10/vendor/librarian/lib/librarian/dsl.rb:81:in `block in run'
@@ -322,15 +337,16 @@ from /opt/boxen/repo/.bundle/ruby/2.0.0/gems/thor-0.18.1/lib/thor/invocation.rb:
 from /opt/boxen/repo/.bundle/ruby/2.0.0/gems/thor-0.18.1/lib/thor.rb:363:in `dispatch'
 from /opt/boxen/repo/.bundle/ruby/2.0.0/gems/thor-0.18.1/lib/thor/base.rb:439:in `start'
 from /opt/boxen/repo/.bundle/ruby/2.0.0/gems/librarian-puppet-0.9.10/vendor/librarian/lib/librarian/cli.rb:29:in `bin!'
-from /opt/boxen/repo/.bundle/ruby/2.0.0/gems/librarian-puppet-0.9.10/bin/librarian-puppet:9:in `&lt;top (required)&gt;'
+from /opt/boxen/repo/.bundle/ruby/2.0.0/gems/librarian-puppet-0.9.10/bin/librarian-puppet:9:in `<top (required)>'
 from /opt/boxen/repo/bin/librarian-puppet:16:in `load'
-from /opt/boxen/repo/bin/librarian-puppet:16:in `&lt;main&gt;'
-Can't run Puppet, fetching dependencies with librarian failed.</pre>
+from /opt/boxen/repo/bin/librarian-puppet:16:in `<main>'
+Can't run Puppet, fetching dependencies with librarian failed.
+```
 
 どうしてもCan't run Puppet, fetching dependencies with librarian failed.で実行ができない。
-<a href="https://github.com/boxen/our-boxen/issues/78" target="_blank">Can't run Puppet, fetching dependencies with librarian failed #78</a>
-<a href="https://github.com/boxen/our-boxen/issues/313" target="_blank">Unable to find module 'boxen/puppet-github_for_mac' on https://github.com Can't run Puppet, fetching dependencies with librarian failed. #313</a>
-<a href="http://baqamore.hatenablog.com/entry/2013/12/17/205925" target="_blank">苦悶に満ちて溢れ出した Boxen のお話 (Winter ver.) - 弐</a>
+[Can't run Puppet, fetching dependencies with librarian failed #78](https://github.com/boxen/our-boxen/issues/78)
+[Unable to find module 'boxen/puppet-github_for_mac' on https://github.com Can't run Puppet, fetching dependencies with librarian failed. #313](https://github.com/boxen/our-boxen/issues/313)
+[苦悶に満ちて溢れ出した Boxen のお話 (Winter ver.) - 弐](http://baqamore.hatenablog.com/entry/2013/12/17/205925)
 など参考にしたが、効果はなかった。
 誰か助けて……
-参考までに僕のboxen→<a href="https://github.com/unasuke/unasuke-boxen" target="_blank">unasuke/unasuke-boxen</a>
+参考までに僕のboxen→[unasuke/unasuke-boxen](https://github.com/unasuke/unasuke-boxen)

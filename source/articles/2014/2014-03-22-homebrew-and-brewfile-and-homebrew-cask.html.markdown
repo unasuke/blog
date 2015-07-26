@@ -9,120 +9,133 @@ tags:
 - vim
 ---
 
-<a href="http://unasuke.com/wp/wp-content/uploads/2014/03/Untitled.png"><img src="http://unasuke.com/wp/wp-content/uploads/2014/03/Untitled.png" alt="Homebrew" width="600" height="380" class="alignnone size-full wp-image-562" /></a>
+![homebrew](homebrew-environment-setup.png)
 
-<h2>Homebrewとbrewfileとhomebrew-cask？</h2>
+## Homebrewとbrewfileとhomebrew-cask？
 
-<h3>Homebrewとは</h3>
+### Homebrewとは
 
-<a href="http://brew.sh/">Homewbrew</a>
-<a href="http://qiita.com/b4b4r07/items/6efebc2f3d1cbbd393fc">パッケージ管理システム Homebrew</a>
-以前、<a href="http://unasuke.com/howto/2013/opencv-testprogram-on-xcode/">OpenCVの導入</a>に使った<a href="http://www.macports.org/">MacPorts</a>のようなまた別のパッケージ管理ソフト。MacPortsとは違い、依存関係をいちから導入するのではなく、元からインストールされているもので解決するためMacPortsより軽い……？
+[Homebrew](http://brew.sh/)
+[パッケージ管理システム Homebrew](http://qiita.com/b4b4r07/items/6efebc2f3d1cbbd393fc)
+以前、[OpenCVの導入](articles/2013/2013-05-26-opencv-testprogram-on-xcode)に使った[MacPorts](http://www.macports.org/)のようなまた別のパッケージ管理ソフト。MacPortsとは違い、依存関係をいちから導入するのではなく、元からインストールされているもので解決するためMacPortsより軽い……？
 
-<h3>brewfileとは</h3>
+### brewfileとは
 
 Homebrewのコマンドを羅列したテキストファイル。要するにシェルスクリプト。
-<a href="http://deeeet.com/writing/2013/12/23/brewfile/">BrewfileでHomebrewパッケージを管理する</a>
-<del datetime="2014-12-31T23:54:21+00:00">tcnksm/dotfiles/Brewfile上の記事を書いた<a href="https://twitter.com/deeeet">@deeeet</a>さんのbrewfile</del>
+[BrewfileでHomebrewパッケージを管理する](http://deeeet.com/writing/2013/12/23/brewfile/)
 
-※<strong>使えなくなります</strong>(下記事参照) 2014-7-30追記
-<a href="http://unasuke.com/info/2014/brewfile-is-outdated/" title="Brewfileで管理するのはもうオワコン" target="_blank">Brewfileで管理するのはもうオワコン</a>
+※__使えなくなります__(下記事参照) 2014-7-30追記
+[Brewfileで管理するのはもうオワコン](articles/2014/2014-07-28-brewfile-is-outdated)
 
-<h3>homebrew-caskとは</h3>
+### homebrew-caskとは
 
-<a href="http://caskroom.io/">Homebrew Cask</a>
-<a href="https://github.com/phinze/homebrew-cask">phinze / homebrew-cask</a>
+[Homebrew Cask](http://caskroom.io/)
+[phinze/homebrew-cask](https://github.com/phinze/homebrew-cask)
 HomebrewをつかってChromeやVirtuaBoxなどのアプリケーションをインストールするための仕組み。
 つまりは、これらでBoxenを置き換えることができる。
 
-<h2>導入</h2>
+## 導入
 
-<h3>Boxenのアンインストール</h3>
+### Boxenのアンインストール
 
-<pre class="lang:sh decode:true " >$ script/nuke ---all ---force</pre>
+```shell
+$ script/nuke ---all ---force
+```
 
 このスクリプト、中身見れば分かるんだけどRubyで書かれてる。さらばBoxen。
 
-<h3>Homebrewのインストール</h3>
+### Homebrewのインストール
 
 必要な物は
 
-<ul>
-<li>Intel CPUのMac(OS X 10.5以上)</li>
-<li>XcodeとCommand Line Tools</li>
-<li>Java</li>
-</ul>
+- Intel CPUのMac(OS X 10.5以上)
+- XcodeとCommand Line Tools
+- Java
 
 Javaについては必須じゃないけど、それが必要なソフトをインストールするときに必要になる(あたりまえ)
 
-<h4>XcodeとCommand Line Tools</h4>
+#### XcodeとCommand Line Tools
 
 XcodeはMac App Storeからインストールする。
 Command Line ToolsはXcodeのPreferencesのDownloadsからインストール。
 Mavericksの場合は
 
-<pre class="lang:sh decode:true " >$ xcode-select --install</pre>
+```shell
+$ xcode-select --install
+```
 
-もしくは<a href="https://developer.apple.com/downloads/index.action">Downloads for Apple Developers</a>から.dmgをダウンロードしてインストール。
+もしくは[Downloads for Apple Developers](https://developer.apple.com/downloads/index.action)から.dmgをダウンロードしてインストール。
 その後、ライセンスに同意しておく。
 
-<pre class="lang:sh decode:true " >$ sudo xcodebuild -license</pre>
+```shell
+$ sudo xcodebuild -license
+```
 
-<h4>Java</h4>
+#### Java
 
-<pre class="lang:sh decode:true " >$ java -version</pre>
+```shell
+$ java -version
+```
 
 これで、Javaがインストールされていればバージョンが、インストールされていなければインストールを促すダイアログが出る。
 
-<h4>Homebrew</h4>
+#### Homebrew
 
-<a href="http://brew.sh/">Homwbrew</a>の一番下のコマンドより、
+[Homebrew](http://brew.sh/)の一番下のコマンドより、
 
-<pre class="lang:sh decode:true " >$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"</pre>
+```shell
+$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
 
 を実行。なんて簡単なんだ。
 
-<h3>homebrew-caskのインストール</h3>
+### homebrew-caskのインストール
 
-<pre class="lang:sh decode:true " >$ brew tap phinze/cask
-$ brew install brew-cask</pre>
+```shell
+$ brew tap phinze/cask
+$ brew install brew-cask
+```
 
 これでおしまい。もしくは、Brewfileに
 
-<pre class="lang:sh decode:true " >tap phinze/homebrew-cask
-install brew-cask</pre>
+```
+tap phinze/homebrew-cask
+install brew-cask
+```
 
 と記述して、同じディレクトリで
 
-<pre class="lang:sh decode:true " >$ brew bundle</pre>
+```shell
+$ brew bundle
+```
 
 としても同じ。これがBrewfile。
 
-<h4>homebrew-caskでインストールできるアプリケーション</h4>
+#### homebrew-caskでインストールできるアプリケーション
 
-<a href="https://github.com/phinze/homebrew-cask/tree/master/Casks">phinze/homebrew-cask/Casks</a><br/>
+[phinze/homebrew-cask/Casks](https://github.com/phinze/homebrew-cask/tree/master/Casks)
 やたらある。MacPortsまである。
 
-<h2>インストール</h2>
+## インストール
 
 とりあえず、自分がほしいものをいろいろ書いたBrewfileをつくった。
-<a href="https://github.com/unasuke/my-homebrew-setup">unasuke/my-homebrew-setup</a></p>
+[unasuke/my-homebrew-setup](https://github.com/unasuke/my-homebrew-setup)
 
-<pre class="lang:sh decode:true " >
+```shell
 $ git clone https://github.com/unasuke/my-homebrew-setup.git
 $ cd my-homebrew-setup
 $ ./install.sh
 $ brew bundle
-</pre>
+```
 
 これでHomebrewのインストールからhomebrew-caskの導入とインストールまでやってくれる。
-install.sh内で<code>brew bundle</code>してもいいが、念のため<code>brew doctor</code>を挟んだ。<code>brew doctor</code>で指示されたことはやっておくこと。お医者さんの言いつけは守ろうね。
+install.sh内で`brew bundle`してもいいが、念のため`brew doctor`を挟んだ。`brew doctor`で指示されたことはやっておくこと。お医者さんの言いつけは守ろうね。
 
-<h2>本末転倒</h2>
+## 本末転倒
 
-<del datetime="2014-03-23T23:40:40+00:00">MacVim KaoriyaをsplhackさんのリポジトリにあるFormula<a href="https://github.com/splhack/homebrew-splhack">(splhack/homebrew-splhack)</a>からビルドしようとしたけど、pythonのあたりでどうしてもこけるのでビルド済の.appをインストールするCasksを作っちゃいました。<a href="https://github.com/unasuke/homebrew-unasuke">unasuke/homebrew-unasuke</a>
+~~MacVim KaoriyaをsplhackさんのリポジトリにあるFormula[(splhack/homebrew-splhack)](https://github.com/splhack/homebrew-splhack)からビルドしようとしたけど、pythonのあたりでどうしてもこけるのでビルド済の.appをインストールするCasksを作っちゃいました。[unasuke/homebrew-unasuke](https://github.com/unasuke/homebrew-unasuke)
 HomebrewでMacVim Kaoriyaがビルドできるようになったらリポジトリ消します。いや、消します。
-ついでにビルドの仕方教えてください。</del>
+ついでにビルドの仕方教えてください。~~
 追記
-tapするリポジトリをsupermomongaさんのforkの方にしたらビルドうまく行った。<a href="https://github.com/supermomonga/homebrew-splhack" target="_blank">(supermomonga/homebrew-splhack)</a>
+tapするリポジトリをsupermomongaさんのforkの方にしたらビルドうまく行った。[(supermomonga/homebrew-splhack)](https://github.com/supermomonga/homebrew-splhack)
 それに伴いBrewfileとかも書き換えた。
