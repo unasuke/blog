@@ -8,8 +8,6 @@ tags:
 - programming
 ---
 
-A君にごめんなさいしながら書く記事。
-
 <h2>SSH鍵とは</h2>
 
 <a href="http://www.adminweb.jp/web-service/ssh/index4.html" target="_blank">共通鍵暗号と公開鍵暗号の解説とSSHでの認証手順</a>
