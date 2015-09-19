@@ -6,7 +6,7 @@ tags:
 - review
 ---
 
-![oyaide mmcx hpc mx](oyaide-mmcx-hpc-mx.jpg)
+![oyaide mmcx hpc mx](2014/oyaide-mmcx-hpc-mx.jpg)
 
 ## 経緯
 

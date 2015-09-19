@@ -6,7 +6,7 @@ tags:
 - nct
 ---
 
-![fukui nct festival 50th](fukui-nct-festival-50th.jpg)
+![fukui nct festival 50th](2014/fukui-nct-festival-50th.jpg)
 
 高専生として最後となるであろう第50回高専祭が終わりました。5年生という最高学年で、50回目という節目の回に高専祭実行委員として活動できたことを、嬉しく思います。
 

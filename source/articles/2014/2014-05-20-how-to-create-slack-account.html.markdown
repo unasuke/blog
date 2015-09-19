@@ -14,72 +14,72 @@ tags:
 
 たとえば、僕が「ABC株式会社」内のプロジェクト「123」に参加しているとします。
 まず最初に、メールアドレスと会社名(ここで入力する必要はない)を入力してサインアップします。
-![サインアップ](how-to-use-slack-01.png)
+![サインアップ](2014/how-to-use-slack-01.png)
 
 
 するとメールで確認用URLがくるので飛びましょう。
-![確認用URL](how-to-use-slack-02.png)
+![確認用URL](2014/how-to-use-slack-02.png)
 
 
 さらにメールアドレスを確認されるので、もう一度確認します。
-![メルアド確認](how-to-use-slack-03.png)
+![メルアド確認](2014/how-to-use-slack-03.png)
 
 
 Team Nameを聞かれます。ここでは「ABC株式会社」としましたが、ここにプロジェクトの名前を入力して、後述するChannelで課題管理や機能議論を行っていくスタイルのほうがいいかもしれません。まあ、この記事を最後まで読んで感じを掴んでから決めればいいかと思います。
-![team name設定](how-to-use-slack-04.png)
+![team name設定](2014/how-to-use-slack-04.png)
 
 
 URLを聞かれます。ここでは同様に「abc-corp」としました。
-![URL設定](how-to-use-slack-05.png)
+![URL設定](2014/how-to-use-slack-05.png)
 
 
 企業等で独自のドメインのメールアドレスがあればここで設定するっぽいんですがよくわかんないのでチェックを外して続行します。
-![独自ドメイン設定](how-to-use-slack-06.png)
+![独自ドメイン設定](2014/how-to-use-slack-06.png)
 
 
 招待を送ります。あとでやるのでSkipします。
-![招待はSkip](how-to-use-slack-07.png)
+![招待はSkip](2014/how-to-use-slack-07.png)
 
 
 ユーザー名を決めます。
-![ユーザー名を決める](how-to-use-slack-08.png)
+![ユーザー名を決める](2014/how-to-use-slack-08.png)
 
 
 パスワードを決めます。強度インジケータが出てるので参考に。
-![パスワードを決める](how-to-use-slack-09.png)
+![パスワードを決める](2014/how-to-use-slack-09.png)
 
 
 とりあえずこれで使えるようになりました。
-![ひとまず完了](how-to-use-slack-10.png)
+![ひとまず完了](2014/how-to-use-slack-10.png)
 
 
 プロジェクト123についての会話をするチャンネルを作りたいので「Create a channel...」をクリックします。
-![チャンネルを作る](how-to-use-slack-11.png)
+![チャンネルを作る](2014/how-to-use-slack-11.png)
 
 
 必要事項を記入します。
-![色々書く](how-to-use-slack-12.png)
+![色々書く](2014/how-to-use-slack-12.png)
 
 できました。
-![できました](how-to-use-slack-13.png)
+![できました](2014/how-to-use-slack-13.png)
 
 ## 招待
 
 あるグループに他人が参加するにあたっては、招待制度を利用したほうが良さそうです。
 ここでは「ABC株式会社」のプルダウンから「Send Invitations」をクリックします。
-![招待を送る](how-to-use-slack-14.png)
+![招待を送る](2014/how-to-use-slack-14.png)
 
 招待したい人のメールアドレスを1行ごとに入力し、デフォルトで追加するチャンネルを指定します。
-![メルアドとデフォルトチャンネル](how-to-use-slack-15.png)
+![メルアドとデフォルトチャンネル](2014/how-to-use-slack-15.png)
 
 すると、招待される側にこんなメールが届くのでクリックしましょう。
-![メールが届く](how-to-use-slack-16.png)
+![メールが届く](2014/how-to-use-slack-16.png)
 
 すると名前とパスワードを聞かれるので入力します。
-![名前とパスワードを決める](how-to-use-slack-17.png)
+![名前とパスワードを決める](2014/how-to-use-slack-17.png)
 
 参加出来ました。
-![参加成功](how-to-use-slack-18.png)
+![参加成功](2014/how-to-use-slack-18.png)
 
 ## 参考URL
 [SkypeやYammerよりも使いやすい！チーム向けコミュニケーションツール、Slackが超便利！](https://medium.com/@y_ukyk/6afefd6fd0dc)

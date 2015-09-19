@@ -7,7 +7,7 @@ tags:
 - info
 ---
 
-![hangouts](let-use-hanguts.png)
+![hangouts](2014/let-use-hanguts.png)
 
 ## Hangouts
 

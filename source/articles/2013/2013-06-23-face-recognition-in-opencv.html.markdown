@@ -18,7 +18,7 @@ tags:
 ## 顔認識に必要なデータとは
 
 OpenCVのインストールフォルダにdataフォルダがあって、その中のhaarcascadesフォルダに顔認識に必要なファイルがあるが、MacPortsからOpenCVをインストールするとそんなのはない。
-Githubで落としてくるとかして手に入れなければならない。![Itseez/opencv・GitHub](https://github.com/Itseez/opencv)
+Githubで落としてくるとかして手に入れなければならない。[Itseez/opencv・GitHub](https://github.com/Itseez/opencv)
 
 ## イケメンとは
 
@@ -115,10 +115,10 @@ int main(int argc, char *argv[])
 Build Setting→Apple LLVM compiler 4.2 - Language
 から、C++ Standard Library を ibstdc++(GNU C++ standard library)
 に設定する。
-![リンクさせるライブラリ](opencv-face-recognition-01.png)
+![リンクさせるライブラリ](2013/opencv-face-recognition-01.png)
 
 ## 実行結果
-![顔認識結果](opencv-face-recognition-02.png)
+![顔認識結果](2013/opencv-face-recognition-02.png)
 
 ## 参考
 [顔を検出する](http://opencv.jp/cookbook/opencv_img.html#id40)

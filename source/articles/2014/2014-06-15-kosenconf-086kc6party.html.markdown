@@ -7,7 +7,7 @@ tags:
 - nct
 ---
 
-![pixiv絵馬](kosenconf-086kc6party.jpg)
+![pixiv絵馬](2014/kosenconf-086kc6party.jpg)
 
 ## 発表の感想
 

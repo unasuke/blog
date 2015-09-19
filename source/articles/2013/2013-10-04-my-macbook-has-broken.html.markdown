@@ -6,7 +6,7 @@ tags:
 - mac
 ---
 
-![こわれたmacbook](macbook-broken-01.jpg)
+![こわれたmacbook](2013/macbook-broken-01.jpg)
 <br>
 2012年6月に買ったMacBookProが壊れた。いや、正確には壊れていないのかもしれないが、とにかく動作が重い。クリックのたびに虹色グルグルに待たされ、入力した文字は途中で消え、IMEが落ちる。こんな状況では作業なんて出来るわけがない。
 <br>
@@ -16,4 +16,4 @@ tags:
 <br>
 <br>
 HDD外してubuntuでデータを単純にコピーしてるけど、これができるってことはHDD壊れてないかもしれない？
-![こわれたime](macbook-broken-02.png)
+![こわれたime](2013/macbook-broken-02.png)

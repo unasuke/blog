@@ -6,7 +6,7 @@ tags:
 - review
 ---
 
-![ATH-IM50](ath-im50.jpg)
+![ATH-IM50](2014/ath-im50.jpg)
 
 ## 新しいイヤホンが欲しかった
 

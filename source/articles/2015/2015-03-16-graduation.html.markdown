@@ -6,7 +6,7 @@ tags:
 - nct
 ---
 
-![祝卒業確定](graduation.jpg)
+![祝卒業確定](2015/graduation.jpg)
 
 この度、福井高専を卒業することになりました。
 

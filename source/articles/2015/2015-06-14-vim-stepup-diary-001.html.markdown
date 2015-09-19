@@ -7,7 +7,7 @@ tags:
 - vim
 ---
 
-![vim logo](vimlogo.png)
+![vim logo](2015/vimlogo.png)
 
 ## きっかけ
 

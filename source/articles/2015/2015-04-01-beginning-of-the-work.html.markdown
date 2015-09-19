@@ -5,7 +5,7 @@ tags:
 - diary
 ---
 
-![桜](beginning-of-the-work.jpg)
+![桜](2015/beginning-of-the-work.jpg)
 
 ## 新卒
 

@@ -7,7 +7,7 @@ tags:
 - ruby
 ---
 
-![brewfile is outdated](brewfile-is-outdated.png)
+![brewfile is outdated](2014/brewfile-is-outdated.png)
 
 ## Brewfileでパッケージ管理していたあの頃
 
@@ -38,7 +38,7 @@ $ brew bundle Brewfile
 と怒られてしまう。
 [What?  "Warning: brew bundle is unsupported ..." · Issue #30815 · Homebrew/homebrew](https://github.com/Homebrew/homebrew/issues/30815)
 
-![brewfile is dead](brewfile-is-dead.png)
+![brewfile is dead](2014/brewfile-is-dead.png)
 
 ## どうすればいいのか
 

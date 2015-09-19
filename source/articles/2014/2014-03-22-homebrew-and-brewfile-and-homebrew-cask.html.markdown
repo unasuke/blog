@@ -9,7 +9,7 @@ tags:
 - vim
 ---
 
-![homebrew](homebrew-environment-setup.png)
+![homebrew](2014/homebrew-environment-setup.png)
 
 ## Homebrewとbrewfileとhomebrew-cask？
 

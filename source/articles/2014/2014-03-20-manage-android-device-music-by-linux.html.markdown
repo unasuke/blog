@@ -45,7 +45,7 @@ amarokは機能はいいだろうが、iTunesから移行しようとなるとUI
 おそらくwindowsで音楽管理するなら転送プロトコル(端末をUSBでつないだ時の設定)は「MTP」になっている。Linux(ubuntu)でも「MTP」でのマウントは可能だが、rhythmbox(Bnashee)で音楽を転送しようとすると転送する楽曲の数だけエラーが出て使いものにならない。
 よって、マウントは「MSC」(ファイル転送モード)に設定する必要がある。
 
-![MSC](manage-music-by-linux.png)
+![MSC](2014/manage-music-by-linux.png)
 Xperiaでは設定→Xperia→USB接続設定から変更。HTC系端末では接続のたびに変更する必要があるかもしれない。
 
 ### .is_audio_playerの設定

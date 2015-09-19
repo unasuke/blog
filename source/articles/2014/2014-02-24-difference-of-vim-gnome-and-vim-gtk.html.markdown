@@ -8,7 +8,7 @@ tags:
 - vim
 ---
 
-![vimの種類](vim-kind.png)
+![vimの種類](2014/vim-kind.png)
 vimが入っていないと、このようにインストールを促される。
 これらのvimの違いはなんだろうか？
 
@@ -25,17 +25,17 @@ GUIのないvim。今欲しいのはこれじゃない。
 
 ## vim-athena
 
-![vim-athena](vim-athena.png)
+![vim-athena](2014/vim-athena.png)
 ちょっとお引き取り願えますか。
 
 ## vim-gnome
 
-![vim-gnome](vim-gnome.png)
+![vim-gnome](2014/vim-gnome.png)
 うん。これが欲しかったんだ。
 
 ## vim-gtk
 
-![vim-gtk](vim-gtk.png)
+![vim-gtk](2014/vim-gtk.png)
 えっ、さっきのと何が違うん？
 
 ## vim-gnomeとvim-gtkの違い

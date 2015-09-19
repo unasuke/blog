@@ -15,18 +15,18 @@ tags:
 ## どんな感じになるのか
 
 例えばvim-airlineを導入直後だとこんな表示です。
-![フォントがおかしい](lightline-install-01.png)
+![フォントがおかしい](2013/lightline-install-01.png)
 fontがおかしいっていうか。なんかスッキリしない。
 
 まず[NeoBundle](https://github.com/Shougo/neobundle.vim)を導入する必要があったりしますがまあ今はそれについては置いといて。
 こうして
-![こうして](lightline-install-02.png)
+![こうして](2013/lightline-install-02.png)
 `:NeoBundleClean`
 して
 `:NeoBundleInstall`
 して
 こうじゃ
-![こうじゃ](lightline-install-03.png)
+![こうじゃ](2013/lightline-install-03.png)
 おお……なんかそれっぽい。
 
 あとはカラースキームをsolarizedにしたいんだけどreadmeが英語の上にvim力低いのでよくわかりません。どなたか教えてください。見返りはないです。

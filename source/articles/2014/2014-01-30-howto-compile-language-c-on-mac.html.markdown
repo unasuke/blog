@@ -15,10 +15,10 @@ Macで使えるC/C++のコンパイラはgccとclangの2種類ある。どちら
 ### インストール</h3>
 
 まずXcodeを立ち上げ、「Xcode」から「Preferences...」をクリックする。
-![手順1](mac-compiler-setup-01.png)
+![手順1](2014/mac-compiler-setup-01.png)
 
 設定画面が開くので、「Downloads」から「Command Line Tools」をダウンロード&インストールする。これでOK。
-![手順2](mac-compiler-setup-02.png)
+![手順2](2014/mac-compiler-setup-02.png)
 
 ## エディタ
 

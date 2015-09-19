@@ -8,7 +8,7 @@ tags:
 ---
 
 予選で負け、1回戦で負け、敗者復活でも負けました。そんなプロコン旭川のことを振り返ります。
-![I love dice.](kosen-procon-dice.jpg)
+![I love dice.](2013/kosen-procon-dice.jpg)
 
 ## 福井チームの戦略
 まずは我が福井がどのような戦略で挑んだのか説明します。

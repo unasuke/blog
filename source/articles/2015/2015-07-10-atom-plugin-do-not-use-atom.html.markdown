@@ -7,7 +7,7 @@ tags:
 - programming
 ---
 
-![do-not-use-atom](do-not-use-atom-01.png)
+![do-not-use-atom](2015/do-not-use-atom-01.png)
 
 ## 結局vimを使おうという目標
 
@@ -26,12 +26,12 @@ vim(emacs)での設定法は後ろの席の人に聞けばすぐわかるので�
 
 [do-not-use-atom](https://atom.io/packages/do-not-use-atom)
 
-![do-not-use-atom page](do-not-use-atom-02.png)
+![do-not-use-atom page](2015/do-not-use-atom-02.png)
 
 
 こんな感じで動作します。
 
-![do-not-use-atom 動作](do-not-use-atom-03.gif)
+![do-not-use-atom 動作](2015/do-not-use-atom-03.gif)
 
 ctrl + alt + o でアラートが出ます。閉じているのはatomのウィンドウのみで、プロセスは死んでいません。
 

@@ -34,7 +34,7 @@ $ sudo port install git-core</pre>
 ## Gitを使ってみる
 
 まずは適当なフォルダに適当なコードを保存する。今回は試しにということで授業で出された課題である電話帳のプログラムでGitを使ってみた。
-![finderで見るとこんな感じ](git-install-01.png)
+![finderで見るとこんな感じ](2013/git-install-01.png)
 ホームフォルダの下に
 `WorkSpase/database/database.c`と配置した。この場所はどこでもいいと思う。
 そして。このフォルダに移動する。

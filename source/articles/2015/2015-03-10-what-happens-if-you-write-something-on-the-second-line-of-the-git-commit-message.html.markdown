@@ -22,34 +22,34 @@ GitHubのOS X用クライアントでは、そもそもコミットメッセー�
 ## 実践
 
 リポジトリを新規に作成し、README.mdを作成した。そしてコミットメッセージを以下のように記述して、コミット。
-![2行目に記述があるコミットメッセージ](git-commit-message-01.png)
+![2行目に記述があるコミットメッセージ](2015/git-commit-message-01.png)
 プラグインか何かの働きかと思うが、2行目が注意色になっていて、あからさまな警告を感じるが、何もエラーメッセージを吐くことなくコミットできた。
 
 
 そしてコミットログを表示したのがこれ。しっかり2行目も表示されている。(メルアドは隠した)
-![2行目のメッセージも表示されている](git-commit-message-02.png)
+![2行目のメッセージも表示されている](2015/git-commit-message-02.png)
 
 
 その後、2行目を記述しないコミットを同様に行ったが、問題なく出来た。
-![普通のコミットメッセージ](git-commit-message-03.png)
+![普通のコミットメッセージ](2015/git-commit-message-03.png)
 コミットログも。
-![2つのコミットのlog](git-commit-message-04.png)
+![2つのコミットのlog](2015/git-commit-message-04.png)
 
 
 GitHubではどのように見えるのか確認したところ、webではこのように表示されている。
-![githubでの2行目の表示](git-commit-message-05.png)
+![githubでの2行目の表示](2015/git-commit-message-05.png)
 普通のコミットメッセージはこのように。
-![普通のコミットメッセージの表示](git-commit-message-06.png)
+![普通のコミットメッセージの表示](2015/git-commit-message-06.png)
 
 
 GitHub for Macでは、すこし小さく表示されているように見える。
-![GitHub for Macでの2行目](git-commit-message-07.png)
+![GitHub for Macでの2行目](2015/git-commit-message-07.png)
 普通のコミットメッセージは、こう。
-![普通のコミットメッセージのGitHub for Mac](git-commit-message-08.png)
+![普通のコミットメッセージのGitHub for Mac](2015/git-commit-message-08.png)
 
 
 bitbucketでも、このように特に問題なく表示された。
-![bitbucketの2行目](git-commit-message-09.png)
+![bitbucketの2行目](2015/git-commit-message-09.png)
 
 
 このように、コミットメッセージの2行目になにか書いても特に問題はないように見受けられる……が、git logをするとおかしなことになる。
@@ -57,16 +57,16 @@ bitbucketでも、このように特に問題なく表示された。
 ## git logの表示が
 
 git logでoneline表示をすると、このように表示される。
-![複数行が表示される](git-commit-message-10.png)
+![複数行が表示される](2015/git-commit-message-10.png)
 2行目を記述したコミットメッセージの1行目、2行目、3行目がひとつの行に表示されている。
 
 
 そこで、このように3行目が長い(2行目はそれほどでもない)コミットメッセージを記入し、onelineで表示させるとどうなるだろうか。
-![3行目が長いコミットメッセージ](git-commit-message-11.png)
+![3行目が長いコミットメッセージ](2015/git-commit-message-11.png)
 
 
 結果、こうなった。どうやらgit log --onelineは、コミットメッセージの初めの空行までを読み取って1行に出力する動作をするようだ。(空行をはさんだ後の文章は表示されていない)ソースコードを読んでないので推測だが。
-![長いコミットメッセージのgit log](git-commit-message-12.png)
+![長いコミットメッセージのgit log](2015/git-commit-message-12.png)
 
 
 ## まとめ

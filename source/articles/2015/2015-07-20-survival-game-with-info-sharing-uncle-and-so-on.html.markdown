@@ -6,7 +6,7 @@ tags:
 - サバゲー
 ---
 
-![武器とか](survival-game-with-info-sharing-uncle-01.jpg)
+![武器とか](2015/survival-game-with-info-sharing-uncle-01.jpg)
 
 ## あらすじ
 
@@ -29,9 +29,9 @@ tags:
 実際の会場がこちらです。[サバイバルゲームフィールド　HEADSHOT（ヘッドショット）](http://head-shot.jp/)
 
 ### 写真など
-![会場パノラマ](survival-game-with-info-sharing-uncle-02.jpg)
-![会場パノラマその2](survival-game-with-info-sharing-uncle-03)
-![蜂の巣](survival-game-with-info-sharing-uncle-04.jpg)
+![会場パノラマ](2015/survival-game-with-info-sharing-uncle-02.jpg)
+![会場パノラマその2](2015/survival-game-with-info-sharing-uncle-03)
+![蜂の巣](2015/survival-game-with-info-sharing-uncle-04.jpg)
 
 蜂の巣とか蜘蛛の巣があって虫苦手な人は絶対無理だなって思いました。
 

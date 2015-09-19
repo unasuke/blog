@@ -10,7 +10,7 @@ tags:
 ## Xcodeは素晴らしいIDEです
 
 Xcodeは補完の強力な、iOS開発には欠かせない素晴らしいIDEです。が、MacBookで使うとなると、どうしても気になってくるのが__画面の狭さ__ですね。
-![画面が狭い](bbudebuggertuckaway-01.jpg)
+![画面が狭い](2014/bbudebuggertuckaway-01.jpg)
 
 ## BBUDebuggerTuckAway
 
@@ -31,8 +31,8 @@ $git clone https://github.com/neonichu/BBUDebuggerTuckAway.git
 
 gitが入ってない場合やめんどくさい場合はgithubのDownload ZIPからZIPファイルをダウンロードして解凍すればまあ同じことです。[ここからもダウンロードできます(Download ZIPへの直リンク)](https://github.com/neonichu/BBUDebuggerTuckAway/archive/master.zip)
 そしたらフォルダ内の.xcodeprojファイルを開いて……
-![これを開く](bbudebuggertuckaway-02.jpg)
+![これを開く](2014/bbudebuggertuckaway-02.jpg)
 そしたらコンパイルしてXcodeを再起動すると……
-![こうする](bbudebuggertuckaway-03.jpg)
-[youtube](https://www.youtube.com/watch?v=rjygs4n6oIY)
+![こうする](2014/bbudebuggertuckaway-03.jpg)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rjygs4n6oIY" frameborder="0" allowfullscreen></iframe>
 このように、入力開始とともにデバッグエリアが自動的に隠れます。

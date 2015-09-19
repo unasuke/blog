@@ -13,7 +13,7 @@ tags:
 弊社では、業務日報はesa([https://esa.io](https://esa.io/))で管理しています。
 
 
-さてそのesaですが、先日APIがpublic β公開されました([release_note/2015/05/27/esa API v1をβ公開しました](https://docs.esa.io/posts/109))。同時に<a href="">[API docs](https://docs.esa.io/posts/102)とRuby Gem([esaio/esa-ruby](https://github.com/esaio/esa-ruby))も公開されました。
+さてそのesaですが、先日APIがpublic β公開されました([release\_note/2015/05/27/esa API v1をβ公開しました](https://docs.esa.io/posts/109))。同時に[API docs](https://docs.esa.io/posts/102)とRuby Gem([esaio/esa-ruby](https://github.com/esaio/esa-ruby))も公開されました。
 
 ということで、勤務時間を計算するRubyスクリプトを作れそうだったので、作ることにしました。
 
@@ -21,7 +21,7 @@ tags:
 ### access token取得
 
 まず、今回は読めればいいだけなのでread onlyでaccess tokenを取得します。右上にある自分のアイコンを押して飛ぶ画面でaccess tokenを発行します。
-![access token](spicelife-esa-io.png)
+![access token](2015/spicelife-esa-io.png)
 
 ### とりあえずサンプルコードを実行
 
@@ -45,9 +45,12 @@ puts client.posts
 require 'esa'
 
 client = Esa::Client.new(access_token: "xxxxxxxxxxxxxxxxxxxxxxxx", current_team: "xxxxxx")
-puts client.posts(q: "user:unasuke category:日報/2015/06")</pre>
+puts client.posts(q: "user:unasuke category:日報/2016/06")
+```
+
 これで、投稿者が"unasuke"で、カテゴリが"日報/2015/06"の記事(今月の日報)が取得できます。15分毎にAPIリミットがリセットされるとはいえ、あんまり何回もGETするのもアレなので応答を何かに格納しておきましょう。
-<pre class="font-size:16 lang:ruby decode:true " >require 'esa'
+```ruby
+require 'esa'
 
 client = Esa::Client.new(access_token: "xxxxxxxxxxxxxxxxxxxxxxxx", current_team: "xxxxxx")
 response = client.posts(q: "user:unasuke category:日報/2015/06")

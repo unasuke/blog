@@ -5,7 +5,7 @@ tags:
 - diary
 ---
 
-![買ったCD](m3-2015-spring-cds.jpg)
+![買ったCD](2015/m3-2015-spring-cds.jpg)
 
 ## 行くのを決めたのは2日前
 

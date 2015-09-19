@@ -8,7 +8,7 @@ tags:
 - ruby
 ---
 
-![pkgUninstaller](pkguninstaller.png)
+![pkgUninstaller](2014/pkguninstaller.png)
 
 ## pkgからのインストール
 

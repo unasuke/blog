@@ -7,7 +7,7 @@ tags:
 - nct
 ---
 
-![kosenconf-089fukui](kosenconf-089fukui.jpg)
+![kosenconf-089fukui](2014/kosenconf-089fukui.jpg)
 
 この記事は[Kosen Advent Calendar 2014](http://www.adventar.org/calendars/496)の14日目の記事です。
 

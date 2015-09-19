@@ -69,4 +69,4 @@ int main(int argc, const char * argv[])
 の3つ(画像加工をしないので)
 MacのiSight？内蔵カメラは最初に接続されてるのでcvCreateCameraCaptureに渡す引数は0。
 C++の設定だけどC++要素全くない。
-![カメラに写った](opencv-camera-test.png)
+![カメラに写った](2013/opencv-camera-test.png)

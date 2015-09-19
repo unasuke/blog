@@ -6,7 +6,7 @@ tags:
 ---
 
 [ATND 第13回さくらの夕べin鯖江](http://atnd.org/events/47271)
-![さくらの夕べ](evening-of-sakura.jpg)
+![さくらの夕べ](2014/evening-of-sakura.jpg)
 
 ## 公演について
 

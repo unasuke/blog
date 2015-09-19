@@ -26,7 +26,7 @@ int main(int argc, const char * argv[])
   /*****カメラからのビデオキャプチャを初期化する*****/
   //デフォルトカメラをオープン
   cv::VideoCapture cap(0);
-  
+
   //カメラがオープンできない場合終了
   if( !cap.isOpened() )
     return -1;
@@ -34,13 +34,13 @@ int main(int argc, const char * argv[])
   //キャプチャ画像を1280*720で取得
   cap.set( CV_CAP_PROP_FRAME_HEIGHT, 720 );
   cap.set( CV_CAP_PROP_FRAME_WIDTH, 1280 );
-  
+
 
   /*****ウィンドウを作成する*****/
   char windowName[] = "SURF-TEST";
   cv::namedWindow( windowName, CV_WINDOW_AUTOSIZE );
-  
-  
+
+
   //何かキーが押下されるまで、ループをくり返す
   while( cvWaitKey( 1 ) == -1 )
   {
@@ -99,13 +99,13 @@ int main(int argc, const char * argv[])
     imshow( windowName, frame );
 
   }
-  
+
   // ウィンドウを破棄する
   cvDestroyWindow( windowName );
-  
+
   return 0;
 }
 ```
 
 ## 実行結果
-![特徴点抽出結果](opencv-feature-point-detection.png)
+![特徴点抽出結果](2013/opencv-feature-point-detection.png)

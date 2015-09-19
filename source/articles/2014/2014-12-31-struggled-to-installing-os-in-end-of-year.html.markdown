@@ -6,7 +6,7 @@ tags:
 - linux
 ---
 
-![OSインストールディスクたち](os-install-discs.jpg)
+![OSインストールディスクたち](2014/os-install-discs.jpg)
 
 ## 12月29日
 

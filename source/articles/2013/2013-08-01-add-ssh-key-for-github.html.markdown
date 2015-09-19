@@ -33,12 +33,12 @@ $ ssh-keygen
 と入力すると、保存場所とパスフレーズを聞かれるので、それぞれこのように(パスフレーズは好きに)
 
 ```shell
-$ ssh-keygen 
+$ ssh-keygen
 Generating public/private rsa key pair.
 Enter file in which to save the key (/Users/username/.ssh/id_rsa): github_id_rsa
 Created directory '/Users/username/.ssh'.
-Enter passphrase (empty for no passphrase): 
-Enter same passphrase again: 
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
 Your identification has been saved in /Users/username/.ssh/github_id_rsa.
 Your public key has been saved in /Users/username/.ssh/github_id_rsa.pub.
 The key fingerprint is:
@@ -81,9 +81,9 @@ $ chmod 600 .ssh/github*
 
 `.ssh/github_id_rsa.pub`の中身をまるごとコピーする。
 [GitHub Setting SSH Keys](https://github.com/settings/ssh)からAdd SSH Keyをクリックして
-![ssh keyの追加その1](add-ssh-key-github-01.png)
+![ssh keyの追加その1](2013/add-ssh-key-github-01.png)
 ペーストする
-![ssh keyの追加その2](add-ssh-key-github-02.png)
+![ssh keyの追加その2](2013/add-ssh-key-github-02.png)
 
 ### 接続テスト
 

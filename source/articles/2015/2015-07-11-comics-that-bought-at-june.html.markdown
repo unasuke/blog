@@ -6,7 +6,7 @@ tags:
 - diary
 ---
 
-![本棚がない](comics-bought-at-june.jpeg)
+![本棚がない](2015/comics-bought-at-june.jpeg)
 
 ## 漫画を買う量が一気に増えた
 

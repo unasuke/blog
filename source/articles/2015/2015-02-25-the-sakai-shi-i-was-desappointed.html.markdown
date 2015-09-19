@@ -12,7 +12,7 @@ tags:
 
 さて、先ほどの記事では、「坂井市の津波避難所データ」を__XML形式で__ダウンロードしています。では、ダウンロードページに飛んでみましょう。
 [津波避難場所 ｜ 福井県坂井市公式ホームページ](http://www.city.fukui-sakai.lg.jp/shimin/10/003/p004835.html)
-![XMLではない](sakai-shi-opendata-01.png)
+![XMLではない](2015/sakai-shi-opendata-01.png)
 あれ……XML形式ではありませんね。
 
 
@@ -23,7 +23,7 @@ tags:
 
 そこで、ふと気になってページのキャシュを検索したところ……
 [Googleによって2015年1月21日 20:24:53 GMT に取得されたキャッシュ](http://webcache.googleusercontent.com/search?q=cache:2fOQamQ8NjUJ:www.city.fukui-sakai.lg.jp/shimin/10/003/p004835.html+&cd=1&hl=ja&ct=clnk&gl=jp)
-![XMLがダウンロードできる](sakai-shi-opendata-01.png)
+![XMLがダウンロードできる](2015/sakai-shi-opendata-01.png)
 というものが見つかりました。(ダウンロードリンク先は404 not found)
 
 

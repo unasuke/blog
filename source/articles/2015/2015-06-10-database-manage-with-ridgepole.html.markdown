@@ -7,7 +7,7 @@ tags:
 - ruby
 ---
 
-![ridgepole](ridgepole-01.png)
+![ridgepole](2015/ridgepole-01.png)
 
 ## 忙しい人のためのまとめ
 
@@ -54,7 +54,7 @@ bundle exec ridgepole -c ../tmix/config/database.yml --apply
 
 そこで、いい方法はないものかとCircle CIのchatで聞いてみたところ、user keyを追加しろとの返答があった。しかし、それでは僕がアクセスできる全リポジトリへの権限が渡ってしまう。それに、サービスの運用が属人性の高いものになってしまう。これは良くない。
 そのような返答をすると、今度はkey pairをCircle CIとGitHubに登録しろと言われた。これなら、権限が最小に抑えられて望ましい。
-![circle ciでのchatの様子](ridgepole-02.png)
+![circle ciでのchatの様子](2015/ridgepole-02.png)
 
 
 さて、SSH keyを登録するにしても、hostnameがgithub.comではいろいろと都合が悪い。そこで、hostanemeを"ridgepole"として登録し、git cloneするときには明示的にその鍵を使うようにした。具体的には以下のようにした。

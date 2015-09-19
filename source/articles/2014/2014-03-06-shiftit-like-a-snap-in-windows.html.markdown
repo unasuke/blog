@@ -20,6 +20,6 @@ tags:
 
 ## 使い方の様子
 
-[youtube](https://www.youtube.com/watch?v=yFse0EFDpnM)
+<iframe width="420" height="315" src="https://www.youtube.com/embed/yFse0EFDpnM" frameborder="0" allowfullscreen></iframe>
 controlとoption(alt)と⌘(command)と矢印などの同時押しでウィンドウのリサイズを行います。
 コマンドはメニューバーのShiftitのアイコンをクリックすることで確認することができます。

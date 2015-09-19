@@ -32,14 +32,14 @@ __※ただ書き直しただけなので、検証とかは一切行っていな
 [GrWin／GrWinC - 静岡大学](http://spdg1.sci.shizuoka.ac.jp/grwinlib/)
 コンパイラによってダウンロードするファイルが異なります。
 組み合わせ的に「Borland C++ & f2c」を選択。
-![Borland C++ & f2c](grwin-01.png)
+![Borland C++ & f2c](2014/grwin-01.png)
 
 ## BCpad側の設定
 
 実行→設定の、設定タブにあるコンパイル時パラメータに以下の文字列を入力する。
 `-w-8060 -WC GrWin.lib`
-![実行の設定の](grwin-02.png)
-![ここ](grwin-03.png)
+![実行の設定の](2014/grwin-02.png)
+![ここ](2014/grwin-03.png)
 
 以上。これでコンパイルができるようになっているはずである。
-![実行可能になりました](grwin-04.png)
+![実行可能になりました](2014/grwin-04.png)

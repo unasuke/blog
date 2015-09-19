@@ -20,14 +20,14 @@ $ sudo port install opencv
 ## Xcodeの準備
 
 まずはプロジェクトの作成から始める。
-![プロジェクトの作成](opencv-setup-01.png)
+![プロジェクトの作成](2013/opencv-setup-01.png)
 Create a new Xcode project"を選択し……
-![プロジェクトの選択](opencv-setup-02.png)
+![プロジェクトの選択](2013/opencv-setup-02.png)
 OS X"の"Application"の"Command Line Tool"を選択し……
-![プロジェクトの作成2](opencv-setup-03.png)
+![プロジェクトの作成2](2013/opencv-setup-03.png)
 各項目を記入し……
 こんな画面になるかと思うので、囲ったところをクリックして下準備。
-![プロジェクトを作成](opencv-setup-04.png)
+![プロジェクトを作成](2013/opencv-setup-04.png)
 
 ## 下準備
 
@@ -37,8 +37,8 @@ Liberty Search Pathが
 `/opt/local/include`
 `/opt/local/lib`
 と、それぞれnon-recursiveで設定する。recursiveにすると大量のエラーが出る。Liberty Search Pathは設定してない例もいくつか見つけたので不要かもしれない。
-![Search Pathの設定](opencv-setup-05.png)
-![Seach Path設定完了](opencv-setup-06.png)
+![Search Pathの設定](2013/opencv-setup-05.png)
+![Seach Path設定完了](2013/opencv-setup-06.png)
 
 次にLink Binary With Librariesを設定する。今回はウィンドウの表示、ガウシアンフィルタを利用するので、以下の4つのLibraryをリンクさせる。
 `libc++.dylib`
@@ -47,8 +47,8 @@ Liberty Search Pathが
 `libopencv_imgproc.dylib`
 
 OpenCVの.dylibは(MacPortsからのインストールなら)`/opt/local/lib`にあるので検索すると見つけやすい。追加は"Add Other"から行う。
-![libc++.dylibのリンク](opencv-setup-07.png)
-![libopencv_hoge.dylibのリンク](opencv-setup-08.png)
+![libc++.dylibのリンク](2013/opencv-setup-07.png)
+![libopencv_hoge.dylibのリンク](2013/opencv-setup-08.png)
 これで下準備は終わり。
 
 ## テストプログラムを打ち込む
@@ -109,5 +109,5 @@ int main(int argc, const char * argv[])
 ```
 
 で、実行するとこうなる。
-![サンプルコードの実行結果](opencv-setup-09.png)
+![サンプルコードの実行結果](2013/opencv-setup-09.png)
 疲れた。

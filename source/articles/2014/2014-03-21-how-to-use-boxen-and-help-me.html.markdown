@@ -33,13 +33,13 @@ Boxenを使うには、次のものが必要である。
 
 基本的にまっさらな状態からつくり上げることとする。だからすでにhomebrewが入ってたりしたら消さなきゃダメかもね。しらんけど。
 で、まずはAppStoreからXcodeをインストールする。インストールが終わったら環境設定からCommand Line Toolsをダウンロードとインストール。
-![まっさら](how-to-use-boxen-01.png)
+![まっさら](2014/how-to-use-boxen-01.png)
 バッテリーは%表示になってないし壁紙は銀河だし本当にOSインストール直後にやってる
 
 <h4>Mavericksの場合</h4>
 
 Mavericksから、Command Line ToolsがXcodeからインストールできなくなっている。
-![command line toolsがない](how-to-use-boxen-02.png)
+![command line toolsがない](2014/how-to-use-boxen-02.png)
 なので、ターミナルで
 ```shell
 $ xcode-select --install
@@ -63,8 +63,8 @@ mkdirのpオプションはサブフォルダも一気に作るということ�
 ### 設定の編集
 
 まずはGitHubのほうでリポジトリを作る。中身は空で。
-![ここから](how-to-use-boxen-03.png)
-![こんなかんじで](how-to-use-boxen-04.png)
+![ここから](2014/how-to-use-boxen-03.png)
+![こんなかんじで](2014/how-to-use-boxen-04.png)
 
 ```shell
 $ git clone https://github.com/boxen/our-boxen /opt/boxen/repo
@@ -77,7 +77,7 @@ $ git push -u origin master
 大本の[boxen/our-boxen](https://github.com/boxen/our-boxen)からそっくり引っ張ってきて、そのままだとpushする先が大元様なのを削除→自分のリポジトリに変更。そんでもってpushする。-uはupstreamの意味。これにより、大元様の変更を取り込むことができる……っぽい？
 実際はこんな感じ。
 
-![ちょっと表示が乱れている](how-to-use-boxen-05.png)
+![ちょっと表示が乱れている](2014/how-to-use-boxen-05.png)
 
 ### puppetに書き込む
 
@@ -117,7 +117,7 @@ github "macvim_kaoriya",      "1.1.0",  :repo => "boxelly/puppet-macvim_kaoriya"
 ```
 
 パッケージ名の横の数字はここから取ってくる。
-![最新のやつを選べば大丈夫か？](how-to-use-boxen-06.png)
+![最新のやつを選べば大丈夫か？](2014/how-to-use-boxen-06.png)
 最新のやつを選べば大丈夫か？
 
 ### 自分用の設定を書いていく

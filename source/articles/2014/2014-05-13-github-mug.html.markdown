@@ -25,16 +25,16 @@ tags:
 ## 写真
 
 ステッカーが貼られて送られてきました。ひと目でGitHubからだとわかります。
-![GitHubステッカーのはられた箱](github-mug-01.jpg)
+![GitHubステッカーのはられた箱](2014/github-mug-01.jpg)
 
 中には大きな2つの箱が
-![箱のなかに箱](github-mug-02.jpg)
+![箱のなかに箱](2014/github-mug-02.jpg)
 
 大きめのプチプチにくるまれてるので輸送中に割れることは多分無いでしょう。
-![アメリカサイズの緩衝材](github-mug-03.jpg)
+![アメリカサイズの緩衝材](2014/github-mug-03.jpg)
 
 でかい。
-![でかい](github-mug-04.jpg)
+![でかい](2014/github-mug-04.jpg)
 
 500mlが全部は入りきらないくらいの大きさ。
-![大量に入る](github-mug-05.jpg)
+![大量に入る](2014/github-mug-05.jpg)
