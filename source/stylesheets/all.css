@@ -1,4 +1,5 @@
 @charset "utf-8";
+@import "solarized.css";
 
 body {
   background: #d4d4d4 url("../images/background.png");
