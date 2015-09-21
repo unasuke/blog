@@ -14,3 +14,6 @@ gem 'redcarpet'
 
 # For feed.xml.builder
 gem "builder", "~> 3.0"
+
+# slim
+gem "slim"
