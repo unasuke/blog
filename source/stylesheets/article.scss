@@ -1,0 +1,18 @@
+@import "definitions";
+
+.article {
+  border: 2px solid $main_color;
+  padding: 10px 10px 0;
+  margin-bottom: 10px;
+
+  img {
+    max-width: 80%;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  blockquote {
+    text-align: center;
+    background-color: #dddddd;
+  }
+}

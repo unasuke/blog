@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+@import "definitions";
+@import "solarized";
+@import "header";
+@import "article";
+
+body {
+  width: 80%;
+  //margin-left: 0;
+  //margin-right: 0;
+  //right: 0;
+  //left: 0;
+  margin: 0 auto;
+  font-family: $font_family;
+}

@@ -1,0 +1,23 @@
+@import "definitions";
+
+header {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  padding: 30px;
+  border: 2px solid $main_color;
+
+  title {
+    text-align: center;
+  }
+
+  a {
+    text-align: center;
+    text-decoration: none;
+    color: $font_color;
+  }
+
+  h1 {
+    text-align: center;
+    margin: 0;
+  }
+}
