@@ -17,8 +17,6 @@ html
     = javascript_include_tag "all"
 
   body
-    section.title
-      h1
-        | うなすけとあれこれ
-    section.article[class="#{page_classes}"]
+    = partial "layouts/header"
+    section[class="#{page_classes}"]
       = yield
