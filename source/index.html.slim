@@ -1,0 +1,29 @@
+---
+pageable: true
+per_page: 10
+site_url: "http://blog.unasuke.com"
+---
+
+- page_articles.each_with_index do |article, i|
+  .article
+    h2
+      = link_to article.title, article
+      span.article-wrote-at
+        = article.date.strftime('%Y年%m月%d日')
+
+    = article.body
+    = partial "layouts/twitter_button", locals: { url: "#{current_page.data.site_url + article.url}", title: "#{article.title} | うなすけとあれこれ" }
+    .article-info
+      .article-wrote-at
+        = article.date.strftime('%Y年%m月%d日')
+      .tags
+        - article.tags.each do |tag|
+          li.tag
+            = link_to "#{tag}", tag_path(tag)
+
+- if paginate
+  span
+    - if next_page
+      = link_to "古い投稿", next_page
+    - if prev_page
+      = link_to "新しい投稿", prev_page

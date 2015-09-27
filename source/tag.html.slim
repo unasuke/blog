@@ -1,0 +1,12 @@
+---
+pageable: false
+---
+section.tag-list
+  h1
+    | tag:#{tagname}の記事一覧
+  
+  - page_articles.each_with_index do |article, i|
+    li
+      = link_to article.title, article
+      span.article-wrote-at
+        = article.date.strftime('%Y年%m月%d日')
