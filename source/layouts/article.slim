@@ -1,0 +1,34 @@
+doctype html
+html
+  head
+    meta charset="utf-8"
+
+    / Always force latest IE rendering engine or request Chrome Frame
+    meta content="IE=edge" http-equiv="X-UA-Compatible"
+
+    / Use title if it's in the page YAML frontmatter
+    title
+      - if current_page.data.title
+        = "#{current_page.data.title}" + " | うなすけとあれこれ"
+      - else
+        = "うなすけとあれこれ"
+
+    = stylesheet_link_tag "normalize", "all"
+    = javascript_include_tag "all"
+
+  body
+    = partial "layouts/header"
+    section.article[class="#{page_classes}"]
+      h2
+        = link_to current_page.data.title, current_page
+        span.article-wrote-at
+          = current_page.date.strftime('%Y年%m月%d日')
+      = yield
+      = partial "layouts/twitter_button", locals: { url: nil, title: nil }
+      .article-info
+        .article-wrote-at
+          = current_page.date.strftime('%Y年%m月%d日')
+        .tags
+          - current_page.tags.each do |tag|
+            li.tag
+              = link_to "#{tag}", tag_path(tag)
