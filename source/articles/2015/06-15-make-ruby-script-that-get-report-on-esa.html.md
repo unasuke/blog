@@ -49,6 +49,7 @@ puts client.posts(q: "user:unasuke category:日報/2016/06")
 ```
 
 これで、投稿者が"unasuke"で、カテゴリが"日報/2015/06"の記事(今月の日報)が取得できます。15分毎にAPIリミットがリセットされるとはいえ、あんまり何回もGETするのもアレなので応答を何かに格納しておきましょう。
+
 ```ruby
 require 'esa'
 

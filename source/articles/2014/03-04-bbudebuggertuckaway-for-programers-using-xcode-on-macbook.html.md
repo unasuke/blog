@@ -19,14 +19,16 @@ Xcodeは補完の強力な、iOS開発には欠かせない素晴らしいIDEで
 ## インストール方法
 
 まず、適当なフォルダを作ります。~/workspaceでもなんでも。
+
 ```shell
-$mkdir ~/workspace
+$ mkdir ~/workspace
 ```
 
 次に、githubのプロジェクトをコピーします。
-```shell```
-$cd ~/workspase
-$git clone https://github.com/neonichu/BBUDebuggerTuckAway.git
+
+```shell
+$ cd ~/workspase
+$ git clone https://github.com/neonichu/BBUDebuggerTuckAway.git
 ```
 
 gitが入ってない場合やめんどくさい場合はgithubのDownload ZIPからZIPファイルをダウンロードして解凍すればまあ同じことです。[ここからもダウンロードできます(Download ZIPへの直リンク)](https://github.com/neonichu/BBUDebuggerTuckAway/archive/master.zip)

@@ -9,7 +9,7 @@ tags:
 
 ## きっかけ
 
-前回記事[TEX Yoda Trackpoint Keyboardを買った](/2015/tex-yoda-trackpoint-keyboard-assembly/)を書くときに、多くの写真を加工することになった。
+前回記事[TEX Yoda Trackpoint Keyboardを買った](2015/tex-yoda-trackpoint-keyboard-assembly/)を書くときに、多くの写真を加工することになった。
 
 
 スマートフォンで撮影した写真には、exif情報として、撮影地の緯度経度などが記録されていることが多い。そういう写真をブログに載せるときは、一応exif情報を削除している。まあ僕の個人情報になんの価値があるかはわからないが、自衛のためだ。
@@ -104,6 +104,7 @@ warn "No input image." if ARGV.size == 0
 
 
 事前にimagemagickとrmagickのインストールをしておく必要がある。
+
 ```shell
 #exif情報を削除し、画像を半分の大きさにリサイズ
 $ ruby ceifpar.rb -r 1/2 hoge.jpg

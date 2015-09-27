@@ -25,7 +25,7 @@ public class FileSendServer{
   public static final int INPUT_STREAM_BUFFER = 512;	//入力ストリーム格納バッファサイズ
   public static final int FILE_READ_BUFFER = 512;	//ファイル読み込みバッファサイズ
 
-  //引数は使用しない	
+  //引数は使用しない
   public static void main(String[] args){
 
     ServerSocket servSock = null;
@@ -51,7 +51,7 @@ public class FileSendServer{
       //6001番ポート
       servSock = new ServerSocket(6001);
 
-      //ソケットに対する接続要求を待機	
+      //ソケットに対する接続要求を待機
       sock = servSock.accept();
 
       //入出力ストリーム設定
@@ -84,7 +84,7 @@ public class FileSendServer{
         //getの場合
         if( getArgs[0].equals(&quot;get&quot;) )
         {				
-          //受け取ったファイル名のファイルを読み込むストリーム作成	
+          //受け取ったファイル名のファイルを読み込むストリーム作成
           fileInStream = new FileInputStream(getArgs[1]);
           int fileLength = 0;
           //System.out.println(&quot;Create stream &quot; + getArgs[1] );
@@ -92,7 +92,7 @@ public class FileSendServer{
           //最大data長まで読み込む(終端に達し読み込むものがないとき-1を返す)
           while( (fileLength = fileInStream.read(fileBuff)) != -1 )
           {
-            //出力ストリームに書き込み	
+            //出力ストリームに書き込み
             outStream.write( fileBuff , 0 , fileLength );
           }
 
@@ -100,7 +100,7 @@ public class FileSendServer{
           //System.out.println(&quot;Close stream &quot; + getArgs[1] );
           fileInStream.close();
         }
-        
+
         //exitの場合
         if( getArgs[0].equals(&quot;exit&quot;) )
         {
@@ -114,12 +114,12 @@ public class FileSendServer{
       //ソケットやストリームのクローズ
       //outStream.close();
       inStream.close();
-      
+
       sock.close();
       servSock.close();
 
     }
-    
+
     //例外処理
     catch( Exception e )
     {
@@ -156,7 +156,7 @@ public class FileRecvCliant{
   public static final int INPUT_STREAM_BUFFER = 512;
   public static final int FILE_WRITE_BUFFER = 512;
 
-  //引数として、サーバのIPアドレスとポート番号を要求する	
+  //引数として、サーバのIPアドレスとポート番号を要求する
   public static void main(String[] args){
 
     //引数エラー
@@ -165,19 +165,19 @@ public class FileRecvCliant{
       System.exit(1);
     }
 
-    OutputStream outStream;	//送信用ストリーム	
+    OutputStream outStream;	//送信用ストリーム
     InputStream inStream;	//受信用ストリーム
     FileOutputStream fileOutStream;	//ファイルの書き込むためのストリーム
-    
+
     byte[] inputBuff = new byte[INPUT_STREAM_BUFFER];	//サーバからのls出力を受け取る
     byte[] fileBuff = new byte[FILE_WRITE_BUFFER];	    //サーバからのファイル出力を受け取る
-    
+
     String command;	        //キーボードからの入力を格納
     int recvFileSize;	    //InputStreamから受け取ったファイルのサイズ
     int recvByteLength = 0; //受信したファイルのバイト数格納
     int waitCount = 0;      //タイムアウト用
-    
-    
+
+
     //キーボードからの入力受付
     BufferedReader keyInputReader = new BufferedReader( new InputStreamReader(System.in) );
 
@@ -186,27 +186,27 @@ public class FileRecvCliant{
     {
       //ソケットのコンストラクト
       Socket sock = new Socket( args[0] , Integer.parseInt(args[1]) );
-      
+
       //ソケットが生成できたらストリームを開く
       outStream = sock.getOutputStream();
       inStream = sock.getInputStream();
-      
+
       //ここからループ
       while(true)
       {
         //コマンド入力を促す
         System.out.print(&quot;cmd:&quot;);
-        
+
         //キーボードからのコマンド入力
         command = keyInputReader.readLine();
-        
+
         //スペースごとにコマンドを区切る
         String[] getArgs = command.split(&quot; &quot;);
-        
-        //キーボードからの入力をそのまま送信	
+
+        //キーボードからの入力をそのまま送信
         outStream.write( command.getBytes() , 0 , command.length() );
-        
-        
+
+
         /************************コマンド解析***********************/
         //lsの場合
         if( getArgs[0].equals(&quot;ls&quot;) )
@@ -232,14 +232,14 @@ public class FileRecvCliant{
             }
           }
         }
-        
+
         //getの場合
         if( getArgs[0].equals(&quot;get&quot;) )
         {
           //引数で指定されたファイルを保存するためのストリーム
           fileOutStream = new FileOutputStream( getArgs[1] );
           waitCount = 0;
-          
+
           //ストリームからの入力をファイルとして書き込む
           while( true )
           {
@@ -250,7 +250,7 @@ public class FileRecvCliant{
               recvFileSize = inStream.read(fileBuff);
               fileOutStream.write( fileBuff , 0 , recvFileSize );
             }
-            
+
             //タイムアウト処理
             else
             {
@@ -259,20 +259,20 @@ public class FileRecvCliant{
               if (waitCount > 10)break;
             }
           }
-          
+
           //ファイルの書き込みを閉じる
           fileOutStream.close();
-          
+
           //書き込み完了表示
           System.out.println( &quot;Download &quot;+ getArgs[1] + &quot; done&quot; );
         }
-        
+
         //exitコマンド入力でwhileループを抜ける
         if( getArgs[0].equals(&quot;exit&quot;) )
           break;
       }
-      
-      //ストリームのクローズ	
+
+      //ストリームのクローズ
       outStream.close();
       inStream.close();
     }
@@ -285,6 +285,7 @@ public class FileRecvCliant{
   }
 }
 ```
+
 [gist](https://gist.github.com/unasuke/8837211)
 
 ### 動作説明

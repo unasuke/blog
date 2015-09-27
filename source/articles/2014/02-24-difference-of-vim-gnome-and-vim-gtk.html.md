@@ -53,29 +53,29 @@ vim-gnome
 > Source: vim
 > Version: 2:7.4.000-1ubuntu2
 > Provides: editor, gvim, vim, vim-lua, vim-perl, vim-python, vim-ruby, vim-tcl
-> Depends: vim-gui-common (= 2:7.4.000-1ubuntu2), 
-> vim-common (= 2:7.4.000-1ubuntu2), 
-> vim-runtime (= 2:7.4.000-1ubuntu2), 
-> libacl1 (>= 2.2.51-8), 
-> libbonoboui2-0 (>= 2.15.1), 
-> libc6 (>= 2.15), 
-> libgdk-pixbuf2.0-0 (>= 2.22.0), 
-> libglib2.0-0 (>= 2.12.0), 
-> libgnome2-0 (>= 2.17.3), 
-> libgnomeui-0 (>= 2.22.0), 
-> libgpm2 (>= 1.20.4), 
-> libgtk2.0-0 (>= 2.24.0), 
-> libice6 (>= 1:1.0.0), 
-> liblua5.2-0, 
-> libpango-1.0-0 (>= 1.14.0), 
-> libperl5.14 (>= 5.14.2), 
-> libpython2.7 (>= 2.7), 
-> libruby1.9.1 (>= 1.9.2.0), 
-> libselinux1 (>= 1.32), 
-> libsm6, 
-> libtinfo5, 
-> libx11-6, 
-> libxt6, 
+> Depends: vim-gui-common (= 2:7.4.000-1ubuntu2),
+> vim-common (= 2:7.4.000-1ubuntu2),
+> vim-runtime (= 2:7.4.000-1ubuntu2),
+> libacl1 (>= 2.2.51-8),
+> libbonoboui2-0 (>= 2.15.1),
+> libc6 (>= 2.15),
+> libgdk-pixbuf2.0-0 (>= 2.22.0),
+> libglib2.0-0 (>= 2.12.0),
+> libgnome2-0 (>= 2.17.3),
+> libgnomeui-0 (>= 2.22.0),
+> libgpm2 (>= 1.20.4),
+> libgtk2.0-0 (>= 2.24.0),
+> libice6 (>= 1:1.0.0),
+> liblua5.2-0,
+> libpango-1.0-0 (>= 1.14.0),
+> libperl5.14 (>= 5.14.2),
+> libpython2.7 (>= 2.7),
+> libruby1.9.1 (>= 1.9.2.0),
+> libselinux1 (>= 1.32),
+> libsm6,
+> libtinfo5,
+> libx11-6,
+> libxt6,
 > tcl8.5 (>= 8.5.0)
 > Suggests: cscope, vim-doc, ttf-dejavu, gnome-icon-theme
 > Filename: pool/main/v/vim/vim-gnome_7.4.000-1ubuntu2_amd64.deb
@@ -110,26 +110,26 @@ vim-gtk
 > Source: vim
 > Version: 2:7.4.000-1ubuntu2
 > Provides: editor, gvim, vim, vim-lua, vim-perl, vim-python, vim-ruby, vim-tcl
-> Depends: vim-gui-common (= 2:7.4.000-1ubuntu2), 
-> vim-common (= 2:7.4.000-1ubuntu2), 
-> vim-runtime (= 2:7.4.000-1ubuntu2), 
-> libacl1 (>= 2.2.51-8), 
-> libc6 (>= 2.15), 
-> libgdk-pixbuf2.0-0 (>= 2.22.0), 
-> libglib2.0-0 (>= 2.12.0), 
-> libgpm2 (>= 1.20.4), 
-> libgtk2.0-0 (>= 2.24.0), 
-> libice6 (>= 1:1.0.0), 
-> liblua5.2-0, 
-> libpango-1.0-0 (>= 1.14.0), 
-> libperl5.14 (>= 5.14.2), 
-> libpython2.7 (>= 2.7), 
-> libruby1.9.1 (>= 1.9.2.0), 
-> libselinux1 (>= 1.32), 
-> libsm6, 
-> libtinfo5, 
-> libx11-6, 
-> libxt6, 
+> Depends: vim-gui-common (= 2:7.4.000-1ubuntu2),
+> vim-common (= 2:7.4.000-1ubuntu2),
+> vim-runtime (= 2:7.4.000-1ubuntu2),
+> libacl1 (>= 2.2.51-8),
+> libc6 (>= 2.15),
+> libgdk-pixbuf2.0-0 (>= 2.22.0),
+> libglib2.0-0 (>= 2.12.0),
+> libgpm2 (>= 1.20.4),
+> libgtk2.0-0 (>= 2.24.0),
+> libice6 (>= 1:1.0.0),
+> liblua5.2-0,
+> libpango-1.0-0 (>= 1.14.0),
+> libperl5.14 (>= 5.14.2),
+> libpython2.7 (>= 2.7),
+> libruby1.9.1 (>= 1.9.2.0),
+> libselinux1 (>= 1.32),
+> libsm6,
+> libtinfo5,
+> libx11-6,
+> libxt6,
 > tcl8.5 (>= 8.5.0)
 > Suggests: cscope, vim-doc, ttf-dejavu, gnome-icon-theme
 > Filename: pool/universe/v/vim/vim-gtk_7.4.000-1ubuntu2_amd64.deb
@@ -152,7 +152,7 @@ vim-gtk
 > Origin: Ubuntu
 
 よく見ないとわからないが、依存するライブラリで差が生まれている。
-vim-gnomeのほうが依存するライブラリが多く、__libbonoboui2-0__と__libgnome2-0__と__ibgnomeui2-0__がvim-gtkで必要なライブラリに加えてインストールされる。
+vim-gnomeのほうが依存するライブラリが多く、__libbonoboui2-0__ と __libgnome2-0__ と __ibgnomeui2-0__ がvim-gtkで必要なライブラリに加えてインストールされる。
 (どれもGNOME関係のライブラリ)
 
 ## どっちがいいのか

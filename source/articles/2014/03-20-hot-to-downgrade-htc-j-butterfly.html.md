@@ -10,7 +10,6 @@ __だいぶ前にやったのを思い出しながら書いてるので間違っ
 
 ## 用意するもの
 
-
 - [HTL21 1.36.970.1](http://www.au.kddi.com/mobile/product/archive/smartphone/dp/htl21/)
 - [HTL21 1.36.970.1対応 run\_root\_shell](http://www.androidfilehost.com/?fid=23212708291675550)
 - [HTL21 1.36.970.1のOTAファイル内のfirmware.zip](http://www.androidfilehost.com/?fid=23060877490001301)

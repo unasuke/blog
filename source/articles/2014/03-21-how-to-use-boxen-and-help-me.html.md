@@ -41,9 +41,11 @@ Boxenを使うには、次のものが必要である。
 Mavericksから、Command Line ToolsがXcodeからインストールできなくなっている。
 ![command line toolsがない](2014/how-to-use-boxen-02.png)
 なので、ターミナルで
+
 ```shell
 $ xcode-select --install
 ```
+
 と入力し、インストールしなければならない。
 [Xcode 5.0 Error installing command line tools](http://stackoverflow.com/questions/19066647/xcode-5-0-error-installing-command-line-tools)
 [Mavericks上のXcode 5.0でCommand Line Toolsがない場合](http://qiita.com/marqs/items/bd43a031c0398d3ddecf)

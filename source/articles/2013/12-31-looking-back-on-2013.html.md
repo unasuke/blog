@@ -8,24 +8,24 @@ tags:
 今年から始めたwordpress、年の瀬ということで振り返ってみる。
 
 ## 2013年に投稿した記事
-[WordPressに移行した](2013-05-13-shift-to-wordpress)
-[MacにBootcampでWindows8をインストールした後にパーティションを追加するとWindows8が起動しなくなる問題の解決法](2013-05-17-repair-windows8-on-buutcamp)
-[GitHubアカウントを取得した。](2013-05-21-i-was-get-github-account)
-[Macで始めるGUIを使わないやさしくないGit](2013-05-23-install-git-using-macports)
-[XcodeでOpenCV始めると大変](2013-05-26-opencv-testprogram-on-xcode)
-[XcodeのOpenCVでカメラを使ってみる](2013-05-27-opencv-camera-test-on-xcode)
-[htc j butterflyの充電スタンドを作った](2013-06-13-i-made-a-charging-stand-for-htc-j-butterfly)
-[OpenCVで顔認識](2013-06-23-face-recognition-in-opencv)
-[しゃべってコンシェルにげきおこ](2013-07-03-i-hate-docomo-tailing-concierge)
-[XcodeとOpenCVで特徴点検出](2013-07-31-opencv-feature-point-detection)
-[GitHubにSSH鍵を追加してそれからどうするつもり？](2013-08-01-add-ssh-key-for-github.html)
-[プログラミングなんてできるわけがない](2013-08-24-i-cant-programming)
-[lightline.vimの導入](2013-08-26-install-lightline-vim)
-[インターンシップを終えた。](2013-08-30-internship-is-over)
-[MacBookProが壊れたと思う](2013-10-04-my-macbook-has-broken)
-[Macbay2とSSDでMacBookPro延命措置](2013-10-06-i-bought-macbay2-and-intel-ssd)
-[プロコン競技で惨敗したよ](2013-10-15-the-24th-programming-contest-geld-in-asahikawa)
-[ubuntu13.10とWindows8(8.1)のデュアルブートで悩まされたいくつかの問題](2013-12-23-ploblems-with-dual-boot-windows-and-ubuntu)
+[WordPressに移行した](2013/shift-to-wordpress)
+[MacにBootcampでWindows8をインストールした後にパーティションを追加するとWindows8が起動しなくなる問題の解決法](2013/repair-windows8-on-buutcamp)
+[GitHubアカウントを取得した。](2013/i-was-get-github-account)
+[Macで始めるGUIを使わないやさしくないGit](2013/install-git-using-macports)
+[XcodeでOpenCV始めると大変](2013/opencv-testprogram-on-xcode)
+[XcodeのOpenCVでカメラを使ってみる](2013/opencv-camera-test-on-xcode)
+[htc j butterflyの充電スタンドを作った](2013/i-made-a-charging-stand-for-htc-j-butterfly)
+[OpenCVで顔認識](2013/face-recognition-in-opencv)
+[しゃべってコンシェルにげきおこ](2013/i-hate-docomo-tailing-concierge)
+[XcodeとOpenCVで特徴点検出](2013/opencv-feature-point-detection)
+[GitHubにSSH鍵を追加してそれからどうするつもり？](2013/add-ssh-key-for-github.html)
+[プログラミングなんてできるわけがない](2013/i-cant-programming)
+[lightline.vimの導入](2013/install-lightline-vim)
+[インターンシップを終えた。](2013/internship-is-over)
+[MacBookProが壊れたと思う](2013/my-macbook-has-broken)
+[Macbay2とSSDでMacBookPro延命措置](2013/i-bought-macbay2-and-intel-ssd)
+[プロコン競技で惨敗したよ](2013/the-24th-programming-contest-geld-in-asahikawa)
+[ubuntu13.10とWindows8(8.1)のデュアルブートで悩まされたいくつかの問題](2013/ploblems-with-dual-boot-windows-and-ubuntu)
 そしてこれ。計19記事。
 
 ## アクセス数
@@ -36,6 +36,7 @@ tags:
 4位:XcodeのOpenCVでカメラを使ってみる(1227view)
 
 やはりOpenCV関連が多い。他webページからリンクされてるのもある。これは純粋に嬉しかった。
+
 ### 全体
 9月:286view(19人/日)
 10月:1318view(43人/日)

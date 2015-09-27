@@ -12,7 +12,7 @@ tags:
 Macで使えるC/C++のコンパイラはgccとclangの2種類ある。どちらがどう優れているかは授業の課題軽度では比較できない。
 あえておすすめするならAppleが力を入れているclangがいいのではないだろうか。
 
-### インストール</h3>
+### インストール
 
 まずXcodeを立ち上げ、「Xcode」から「Preferences...」をクリックする。
 ![手順1](2014/mac-compiler-setup-01.png)
@@ -50,7 +50,7 @@ $ clang Test.c
 するとこんなエラーが出る。
 
 ```shell
-$ clang Test.c 
+$ clang Test.c
 Test.c:4:13: warning: missing terminating '"' character [-Winvalid-pp-token]
     printf( "Hello World! );
     ^
@@ -78,7 +78,7 @@ $ ./a.out
 と入力する。すると
 
 ```shell
-$ ./a.out 
+$ ./a.out
 Hello World!
 $
 ```
@@ -88,7 +88,7 @@ $
 
 ```shell
 $ clang Test.c -o Test
-$ ./Test 
+$ ./Test
 Hello World!
 $
 ```

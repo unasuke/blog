@@ -8,7 +8,7 @@ tags:
 
 ## Macbay2とは
 秋葉館が販売しているHDD(SSD)マウンタ。光学ドライブの場所にHDD(SSD)を設置できる。
-[光学ドライブスペース用HDD/SSDマウンタ Macbay2 \[RGH25BAY2-001\]](http://www.akibakan.com/BCAK0062822/)
+[光学ドライブスペース用HDD/SSDマウンタ Macbay2 RGH25BAY2-001](http://www.akibakan.com/BCAK0062822/)
 
 これを買ってSSDにOS Xをインストールし、延命を図ろうという作成。
 

@@ -16,7 +16,7 @@ tags:
 <blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">散財だよ〜〜٩(ˊᗜˋ*)و <a href="http://t.co/6z9eHMcuTm">pic.twitter.com/6z9eHMcuTm</a></p>&mdash; うなすけ(借金予定有) (@yu_suke1994) <a href="https://twitter.com/yu_suke1994/status/621321140888145921">2015, 7月 15</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-買ったのは、<a href="http://www.tokyo-marui.co.jp/products/electric/compact/195">東京マルイ MP7A1(フルセット)</a>と、<a href="http://www.tokyo-marui.co.jp/products/aircocking/handgun18/342">東京マルイ コルト M1911A1ガバメント(エアーコッキングガン)</a>、あとBB弾とか手袋とかです。
+買ったのは、[東京マルイ MP7A1(フルセット)](http://www.tokyo-marui.co.jp/products/electric/compact/195)と、[東京マルイ コルト M1911A1ガバメント(エアーコッキングガン)](http://www.tokyo-marui.co.jp/products/aircocking/handgun18/342)、あとBB弾とか手袋とかです。
 
 給料日ということでテンション上がりつつも、使い過ぎはヤバいと自分に言い聞かせた結果、出費は6万円強に収まりました。よかったですね。
 
@@ -30,7 +30,7 @@ tags:
 
 ### 写真など
 ![会場パノラマ](2015/survival-game-with-info-sharing-uncle-02.jpg)
-![会場パノラマその2](2015/survival-game-with-info-sharing-uncle-03)
+![会場パノラマその2](2015/survival-game-with-info-sharing-uncle-03.jpg)
 ![蜂の巣](2015/survival-game-with-info-sharing-uncle-04.jpg)
 
 蜂の巣とか蜘蛛の巣があって虫苦手な人は絶対無理だなって思いました。

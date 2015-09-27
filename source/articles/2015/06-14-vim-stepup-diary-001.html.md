@@ -21,7 +21,7 @@ tags:
 
 
 NERDTreeの設定も先輩のからもってきて、space+eで開閉できるようにした。
- 
+
 ```vim
 nmap <silent> <Space>e :NERDTreeToggle<CR>
 
@@ -42,7 +42,7 @@ let g:NERDTreeShowHidden=1
 ## まとめ
 
 ペアvim前 .vimrc
- 
+
 ```vim
 "neobundle.vimの設定
 if has('vim_starting')
@@ -126,6 +126,7 @@ set backspace=indent,eol,start
 
 
 ペアvim後 .vimrc
+
 ```vim
 "neobundle.vimの設定
 if has('vim_starting')
@@ -155,7 +156,7 @@ NeoBundle 'vim-jp/vimdoc-ja'
 NeoBundle 'vim-ruby/vim-ruby'
 NeoBundle 'wakatime/vim-wakatime'
 NeoBundle 'slim-template/vim-slim'
-NeoBundle 'scrooloose/nerdtree' 
+NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'Shougo/vimshell.vim'
 
 call neobundle#end()

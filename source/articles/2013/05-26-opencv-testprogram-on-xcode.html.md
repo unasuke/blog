@@ -9,8 +9,9 @@ tags:
 
 ## OpenCVのインストール
 
-[前回記事](2013-05-23-install-git-using-macports)でMacPortsを使ってGitをインストールした。その流れにのり、MacPortsでOpenCVをインストールする。
-```
+[前回記事](2013/05-23-install-git-using-macports)でMacPortsを使ってGitをインストールした。その流れにのり、MacPortsでOpenCVをインストールする。
+
+```shell
 $ sudo port selfupdate
 $ sudo port install opencv
 ```
@@ -54,6 +55,7 @@ OpenCVの.dylibは(MacPortsからのインストールなら)`/opt/local/lib`に
 ## テストプログラムを打ち込む
 
 今回はある画像をガウシアンフィルタを適用しぼかす。
+
 ```cpp
 //
 //  main.cpp
