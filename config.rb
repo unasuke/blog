@@ -78,3 +78,13 @@ configure :build do
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
 end
+
+activate :deploy do |deploy|
+  deploy.method       = :rsync
+  deploy.host         = "blog.unasuke.com"
+  deploy.path         = "/var/www"
+  deploy.user         = ENV["MIDDLEMAN_USER"]
+  deploy.port         = ENV["MIDDLEMAN_PORT"]
+  deploy.flags        = '-rltgoDvzO --no-p --del'
+  deploy.build_before = true
+end
