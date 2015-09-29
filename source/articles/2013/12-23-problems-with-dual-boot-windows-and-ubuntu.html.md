@@ -54,10 +54,10 @@ Windows領域にアクセスしようとすると、以下のようなメッセ�
 > Windows fully (no hibernation or fast restarting), or mount the volume
 > read-only with the 'ro' mount option.
 
-![引用したエラー文とちょっと違うのは、問題解決後にエラーを意図的に発生させたから。](dual-boot-plobrems-01.png)
+![引用したエラー文とちょっと違うのは、問題解決後にエラーを意図的に発生させたから。](dual-boot-probrems-01.png)
 要するに、ハイバーネートとか高速起動するなと言っている。
 そこで、まずWindowsでコントロールパネル→ハードウェアとサウンド→電源ボタンの動作の変更を開き、「高速スタートアップを有効にする(推奨)」のチェックを外す。
-![チェックを外す](dual-boot-plobrems-02.png)
+![チェックを外す](dual-boot-probrems-02.png)
 その後、ubuntuから以下のコマンドでマウントできる。
 
 `sudo mount -t ntfs-3g -o remove_hiberfile /dev/sda4 /media/unasuke/windows`
@@ -75,7 +75,7 @@ Windows領域にアクセスしようとすると、以下のようなメッセ�
 
 とあるように自己責任で。
 ただ、このコマンドは一時的なもので、再起動するたびにこんなことになる。
-![こんなこと](dual-boot-plobrems-03.png)
+![こんなこと](dual-boot-probrems-03.png)
 ので、
 ` $ sudo vim /etc/fstab`
 なりなんなりでfstabにremove_hiberfileオプションを付加しなければならない。
