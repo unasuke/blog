@@ -24,7 +24,7 @@ tags:
 
 ### 恋と嘘
 
-<a href="http://www.amazon.co.jp/gp/product/4063952843/ref=as_li_ss_il?ie=UTF8&camp=247&creative=7399&creativeASIN=4063952843&linkCode=as2&tag=yusuke199403-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4063952843&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=yusuke199403-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=yusuke199403-22&l=as2&o=9&a=4063952843" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+<a href="http://www.amazon.co.jp/gp/product/4063952843/ref=as_li_ss_il?ie=UTF8&camp=247&creative=7399&creativeASIN=4063952843&linkCode=as2&tag=yusuke199403-22"><img border="0" src="https://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4063952843&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=yusuke199403-22" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=yusuke199403-22&l=as2&o=9&a=4063952843" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 
 [試し読み マンガボックス (MangaBox) / 人気マンガ家の新作連載が無料で読める！](https://www.mangabox.me/)
@@ -35,7 +35,7 @@ tags:
 
 ### 不器用な匠ちゃん
 
-<a href="http://www.amazon.co.jp/gp/product/4840147434/ref=as_li_ss_il?ie=UTF8&camp=247&creative=7399&creativeASIN=4840147434&linkCode=as2&tag=yusuke199403-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4840147434&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=yusuke199403-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=yusuke199403-22&l=as2&o=9&a=4840147434" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+<a href="http://www.amazon.co.jp/gp/product/4840147434/ref=as_li_ss_il?ie=UTF8&camp=247&creative=7399&creativeASIN=4840147434&linkCode=as2&tag=yusuke199403-22"><img border="0" src="https://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4840147434&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=yusuke199403-22" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=yusuke199403-22&l=as2&o=9&a=4840147434" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 
 [試し読み 不器用な匠ちゃん - pixivコミックで漫画を無料試し読み](http://comic.pixiv.net/works/287)
@@ -46,7 +46,7 @@ tags:
 
 ### 制服あばんちゅーる
 
-<a href="http://www.amazon.co.jp/gp/product/4812487994/ref=as_li_ss_il?ie=UTF8&camp=247&creative=7399&creativeASIN=4812487994&linkCode=as2&tag=yusuke199403-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4812487994&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=yusuke199403-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=yusuke199403-22&l=as2&o=9&a=4812487994" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+<a href="http://www.amazon.co.jp/gp/product/4812487994/ref=as_li_ss_il?ie=UTF8&camp=247&creative=7399&creativeASIN=4812487994&linkCode=as2&tag=yusuke199403-22"><img border="0" src="https://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4812487994&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=yusuke199403-22" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=yusuke199403-22&l=as2&o=9&a=4812487994" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 
 [試し読み 制服あばんちゅーる / さぬいゆう、伊丹澄一 / まんがライフWIN](http://mangalifewin.takeshobo.co.jp/rensai/seifukuavan/)
@@ -57,7 +57,7 @@ tags:
 
 ### お前ら全員めんどくさい！
 
-<a href="http://www.amazon.co.jp/gp/product/459385783X/ref=as_li_ss_il?ie=UTF8&camp=247&creative=7399&creativeASIN=459385783X&linkCode=as2&tag=yusuke199403-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=459385783X&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=yusuke199403-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=yusuke199403-22&l=as2&o=9&a=459385783X" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+<a href="http://www.amazon.co.jp/gp/product/459385783X/ref=as_li_ss_il?ie=UTF8&camp=247&creative=7399&creativeASIN=459385783X&linkCode=as2&tag=yusuke199403-22"><img border="0" src="https://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=459385783X&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=yusuke199403-22" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=yusuke199403-22&l=as2&o=9&a=459385783X" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 
 [試し読み お前ら全員めんどくさい！ | 日本最大級の無料Webコミック[COMICメテオ]](http://comic-meteor.jp/omaera/)
@@ -68,7 +68,7 @@ tags:
 
 ### つるつるとザラザラの間
 
-<a href="http://www.amazon.co.jp/gp/product/4063879054/ref=as_li_ss_il?ie=UTF8&camp=247&creative=7399&creativeASIN=4063879054&linkCode=as2&tag=yusuke199403-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4063879054&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=yusuke199403-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=yusuke199403-22&l=as2&o=9&a=4063879054" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+<a href="http://www.amazon.co.jp/gp/product/4063879054/ref=as_li_ss_il?ie=UTF8&camp=247&creative=7399&creativeASIN=4063879054&linkCode=as2&tag=yusuke199403-22"><img border="0" src="https://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4063879054&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=yusuke199403-22" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=yusuke199403-22&l=as2&o=9&a=4063879054" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 
 [試し読み つるつるとザラザラの間/月子 - モーニング・アフタヌーン・イブニング合同Webコミックサイト モアイ](http://www.moae.jp/comic/tsuruzara)
@@ -79,7 +79,7 @@ tags:
 
 ### 第13保健室
 
-<a href="http://www.amazon.co.jp/gp/product/4091255248/ref=as_li_ss_il?ie=UTF8&camp=247&creative=7399&creativeASIN=4091255248&linkCode=as2&tag=yusuke199403-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4091255248&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=yusuke199403-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=yusuke199403-22&l=as2&o=9&a=4091255248" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+<a href="http://www.amazon.co.jp/gp/product/4091255248/ref=as_li_ss_il?ie=UTF8&camp=247&creative=7399&creativeASIN=4091255248&linkCode=as2&tag=yusuke199403-22"><img border="0" src="https://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4091255248&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=yusuke199403-22" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=yusuke199403-22&l=as2&o=9&a=4091255248" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 
 [試し読み 「第１３保健室　１」 | ゲッサン少年サンデーコミックス    | 小学館](http://sample.shogakukan.co.jp/bv?isbn=9784091255242)
@@ -90,7 +90,7 @@ tags:
 
 ### ダンジョン飯
 
-<a href="http://www.amazon.co.jp/gp/product/4047301531/ref=as_li_ss_il?ie=UTF8&camp=247&creative=7399&creativeASIN=4047301531&linkCode=as2&tag=yusuke199403-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4047301531&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=yusuke199403-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=yusuke199403-22&l=as2&o=9&a=4047301531" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+<a href="http://www.amazon.co.jp/gp/product/4047301531/ref=as_li_ss_il?ie=UTF8&camp=247&creative=7399&creativeASIN=4047301531&linkCode=as2&tag=yusuke199403-22"><img border="0" src="https://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4047301531&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=yusuke199403-22" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=yusuke199403-22&l=as2&o=9&a=4047301531" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 
 独特の世界観というか、説得力というか、食べてみたくなるというか。「ヤダーーーーッ！！」ってなる気持ちもわかりますが、ちょっと好奇心のほうが勝っちゃいそう。とりあえず買って読んでください。
@@ -98,7 +98,7 @@ tags:
 
 ### くまみこ
 
-<a href="http://www.amazon.co.jp/gp/product/4040665767/ref=as_li_ss_il?ie=UTF8&camp=247&creative=7399&creativeASIN=4040665767&linkCode=as2&tag=yusuke199403-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4040665767&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=yusuke199403-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=yusuke199403-22&l=as2&o=9&a=4040665767" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+<a href="http://www.amazon.co.jp/gp/product/4040665767/ref=as_li_ss_il?ie=UTF8&camp=247&creative=7399&creativeASIN=4040665767&linkCode=as2&tag=yusuke199403-22"><img border="0" src="https://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4040665767&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=yusuke199403-22" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=yusuke199403-22&l=as2&o=9&a=4040665767" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 
 [試し読み くまみこ - 無料コミック ComicWalker](http://comic-walker.com/contents/detail/KDCW_MF01000004010000_68/)
@@ -109,7 +109,7 @@ tags:
 
 ### とりきっさ
 
-<a href="http://www.amazon.co.jp/gp/product/4199504567/ref=as_li_ss_il?ie=UTF8&camp=247&creative=7399&creativeASIN=4199504567&linkCode=as2&tag=yusuke199403-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4199504567&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=yusuke199403-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=yusuke199403-22&l=as2&o=9&a=4199504567" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+<a href="http://www.amazon.co.jp/gp/product/4199504567/ref=as_li_ss_il?ie=UTF8&camp=247&creative=7399&creativeASIN=4199504567&linkCode=as2&tag=yusuke199403-22"><img border="0" src="https://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4199504567&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=yusuke199403-22" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=yusuke199403-22&l=as2&o=9&a=4199504567" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 
 [試し読み とりきっさ！｜月刊COMICリュウ](http://www.comic-ryu.jp/_torikissa/index.html)
@@ -120,7 +120,7 @@ tags:
 
 ### あせびと空世界の冒険者
 
-<a href="http://www.amazon.co.jp/gp/product/4199504168/ref=as_li_ss_il?ie=UTF8&camp=247&creative=7399&creativeASIN=4199504168&linkCode=as2&tag=yusuke199403-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4199504168&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=yusuke199403-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=yusuke199403-22&l=as2&o=9&a=4199504168" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+<a href="http://www.amazon.co.jp/gp/product/4199504168/ref=as_li_ss_il?ie=UTF8&camp=247&creative=7399&creativeASIN=4199504168&linkCode=as2&tag=yusuke199403-22"><img border="0" src="https://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4199504168&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=yusuke199403-22" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=yusuke199403-22&l=as2&o=9&a=4199504168" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 
 [試し読み あせびと空世界の冒険者｜月刊COMICリュウ](http://www.comic-ryu.jp/_asebi/index.html)
