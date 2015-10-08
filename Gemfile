@@ -18,6 +18,3 @@ gem "builder", "~> 3.0"
 
 # slim
 gem "slim"
-
-# Google Analytics
-gem "middleman-google-analytics"
