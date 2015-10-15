@@ -26,4 +26,4 @@ tags:
 ということで、静的なhtmlを生成することによる懸念事項の減少、新しい技術の勉強なども兼ねて、middlemanでブログを構築することにしました。
 
 ## 移動の顛末
-[middlemanとh2oとVPSによるブログ構築](2015/blog-with-middleman-and-h2o-and-vps-server/)
+[middlemanとh2oとVPSによるブログ構築](/2015/blog-with-middleman-and-h2o-and-vps-server/)
