@@ -16,7 +16,7 @@ ukstudio先輩のdotfile([ukstudio/dotfiles](https://github.com/ukstudio/dotfile
 
 ## lightlineの設定を見直す
 
-[atomに代わってvimをメインのエディタにしていく決意をした](2015/atom-plugin)ので、本格的に環境を整えていくことにします。これが今までのstatuslineです。
+[atomに代わってvimをメインのエディタにしていく決意をした](/2015/atom-plugin-do-not-use-atom/)ので、本格的に環境を整えていくことにします。これが今までのstatuslineです。
 ![以前のstatusline](2015/vim-stepup-lightline-01.png)
 
 とりあえず作者さんの、[作者が教える！ lightline.vimの導入・設定方法！ 〜 初級編 - インストールしよう - プログラムモグモグ](http://itchyny.hatenablog.com/entry/20130828/1377653592)を参考にして、サクッとvimrcをコピペした結果がこちらになります。([Update lightline setting:c2461db](https://github.com/unasuke/dotfiles/commit/c2461db6332fa71be1d951694ab9fd056ea338d2))
