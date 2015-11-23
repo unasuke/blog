@@ -82,5 +82,4 @@ activate :deploy do |deploy|
   deploy.user         = ENV["MIDDLEMAN_USER"]
   deploy.port         = ENV["MIDDLEMAN_PORT"]
   deploy.flags        = '-rltgoDvzO --no-p --del'
-  deploy.build_before = true
 end
