@@ -1,5 +1,5 @@
 ---
-title: CircleCIでmiddlemanのdeoloyを自動化した
+title: CircleCIでmiddlemanのdeployを自動化した
 date: 2015-11-23 20:06 JST
 tags:
 - Programming
