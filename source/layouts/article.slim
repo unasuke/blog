@@ -13,6 +13,12 @@ html
       - else
         = "うなすけとあれこれ"
 
+    meta property="og:title" content="#{current_page.data.title} | うなすけとあれこれ"
+    meta property="og:url" content="https://blog.unasuke.com#{current_resource.url}"
+    meta property="og:locale" content="ja_JP"
+    meta property="og:type" content="article"
+    meta property="og:article:author" content="うなすけ"
+
     = stylesheet_link_tag "normalize", "all"
     = javascript_include_tag "all"
     = partial "layouts/google_analytics"
