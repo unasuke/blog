@@ -4,20 +4,8 @@ $background_color: #f5f1f1;
 
 // font
 $font_color: $main_color;
-//$font_family_sans_serif: 'Open Sans','Helvetica Neue', Helvetica, 'Arial', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif !default;
-//$font_family_serif:       'Times New Roman', Times, '游明朝体', YuMincho, 'ヒラギノ明朝 ProN W3', 'Hiragino Mincho ProN', 'ＭＳ Ｐ明朝', 'MS PMincho', 'MS 明朝', serif !default;
-//$font_family_monospace:   Consolas, "Liberation Mono", Menlo, Courier, monospace !default;
-
-@font-face {
-  font-family: mplus-1c-regular;
-  src: url(font_path('fonts/mplus-1c-regular-sub.woff'));
-}
-
-@font-face {
-  font-family: mplus-1m-regular;
-  src: url(font_path('fonts/mplus-1m-regular-sub.woff'));
-}
-
-$font_family: mplus-1c-regular;
-$font_family_monospace: mplus-1m-regular;
-
+$font-family-humanist-sans-serif: 'Open Sans','Helvetica Neue', Helvetica, 'Arial', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif !default;
+$font-family-sans-serif:  'Open Sans','Helvetica Neue', Helvetica, 'Arial', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif !default;
+$font-family-serif:       'Times New Roman', Times, '游明朝体', YuMincho, 'ヒラギノ明朝 ProN W3', 'Hiragino Mincho ProN', 'ＭＳ Ｐ明朝', 'MS PMincho', 'MS 明朝', serif !default;
+$font-family-monospace:   Consolas, "Liberation Mono", Menlo, Courier, monospace !default;
+$font-family-base:        $font-family-humanist-sans-serif !default;
