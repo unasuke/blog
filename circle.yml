@@ -5,11 +5,13 @@ machine:
     version: 2.3.0
 
 dependencies:
+  cache_directories:
+    - "vendor/bundle"
   pre:
     - gem install bundler -v 1.10.6
 
   override:
-    - bundle install --jobs=4
+    - bundle check --path=vendor/bundle || bundle install --path=vendor/bundle --jobs=4
 
 test:
   override:
