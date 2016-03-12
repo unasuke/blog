@@ -9,3 +9,9 @@ $font-family-sans-serif:  'Open Sans','Helvetica Neue', Helvetica, 'Arial', 'ヒ
 $font-family-serif:       'Times New Roman', Times, '游明朝体', YuMincho, 'ヒラギノ明朝 ProN W3', 'Hiragino Mincho ProN', 'ＭＳ Ｐ明朝', 'MS PMincho', 'MS 明朝', serif !default;
 $font-family-monospace:   Consolas, "Liberation Mono", Menlo, Courier, monospace !default;
 $font-family-base:        $font-family-humanist-sans-serif !default;
+
+// width
+$content_width_standard: 1000px;
+
+// device width
+$small_device_width: 768px;
