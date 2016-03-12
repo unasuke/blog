@@ -2,7 +2,7 @@
 
 .article {
   box-sizing: border-box;
-  width: 1000px;
+  width: $content_width_standard;
   border: 2px solid $main_color;
   padding: 10px 15px;
   margin: 0 auto 10px auto;

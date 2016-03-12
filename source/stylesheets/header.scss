@@ -2,7 +2,7 @@
 
 header {
   box-sizing: border-box;
-  width: 1000px;
+  width: $content_width_standard;
   margin: 30px auto 40px auto;
   padding: 30px;
   border: 2px solid $main_color;
