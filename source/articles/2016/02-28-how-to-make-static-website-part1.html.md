@@ -13,6 +13,10 @@ tags:
 ## はじめに
 これからの一連の記事は、2016年2月27日に行われた[福井技術者の集い その5](http://fukuitech.connpass.com/event/24445/)での僕の発表した内容を、加筆ならびに修正し、よりわかりやすくまとめ直したものとなります。
 
+## つくりかた記事リスト
+- [静的Webサイトのつくりかた その1](/2016/how-to-make-static-website-part1/)
+- [静的Webサイトのつくりかた その2](/2016/how-to-make-static-website-part2/)
+
 ## 静的Webサイトとは
 これから作成する静的Webサイトとは、twitterやfacebookなどのような、アクセスに応じて配信するファイルが変化するようなものではなく、このブログのように、決まったhtml、css、JavaScriptのファイルを返す単純なWebサイトのことを指します。
 
