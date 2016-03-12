@@ -13,4 +13,12 @@ body {
   pre, code {
     font-family: $font-family-monospace;
   }
+
+  pre {
+    overflow: scroll;
+
+    code {
+      white-space: pre;
+    }
+  }
 }
