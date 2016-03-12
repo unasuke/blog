@@ -7,6 +7,14 @@ header {
   padding: 30px;
   border: 2px solid $main_color;
 
+  @media  screen and (max-device-width: $small_device_width) {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    font-size: 0.8rem;
+    margin: 20px auto;
+  }
+
   title {
     text-align: center;
   }

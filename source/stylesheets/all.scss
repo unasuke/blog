@@ -6,9 +6,16 @@
 @import "article";
 
 body {
-  min-width: 1200px;
+  width: 1200px;
   margin: 0 auto;
   font-family: $font-family-sans-serif;
+  font-size: 16px;
+
+  @media screen and (max-device-width: $small_device_width) {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 10px;
+  }
 
   pre, code {
     font-family: $font-family-monospace;
