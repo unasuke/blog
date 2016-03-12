@@ -1,8 +1,9 @@
 @import "definitions";
 
 header {
-  margin-top: 30px;
-  margin-bottom: 40px;
+  box-sizing: border-box;
+  width: 1000px;
+  margin: 30px auto 40px auto;
   padding: 30px;
   border: 2px solid $main_color;
 
