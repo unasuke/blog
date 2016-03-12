@@ -26,10 +26,10 @@ html
   body
     = partial "layouts/header"
     section.article[class="#{page_classes}"]
+      .article-wrote-at
+        = current_page.date.strftime('%Y年%m月%d日')
       h2
         = link_to current_page.data.title, current_page
-        span.article-wrote-at
-          = current_page.date.strftime('%Y年%m月%d日')
       = yield
       = partial "layouts/twitter_button", locals: { url: nil, title: nil }
       .article-info

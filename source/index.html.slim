@@ -6,10 +6,10 @@ site_url: "http://blog.unasuke.com"
 
 - page_articles.each_with_index do |article, i|
   .article
+    .article-wrote-at
+      = article.date.strftime('%Y年%m月%d日')
     h2
       = link_to article.title, article
-      span.article-wrote-at
-        = article.date.strftime('%Y年%m月%d日')
 
     = article.body
     = partial "layouts/twitter_button", locals: { url: "#{current_page.data.site_url + article.url}", title: "#{article.title} | うなすけとあれこれ" }
