@@ -30,7 +30,7 @@ middlemanでは、`source/images`以下に置いた画像を、
 = image_tag "source/images以下のpath"
 ```
 
-で参照することができます。例えば`source/images.n0h0.png`というファイルは、
+で参照することができます。例えば`source/images/n0h0.png`というファイルは、
 
 ```ruby
 = image_tag "n0h0.png"
