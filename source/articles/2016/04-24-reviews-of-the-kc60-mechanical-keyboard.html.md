@@ -23,4 +23,4 @@ __Programmable layers__と銘打ってるだけのことはあり、キー配列
 - [HOW-TO: Programming the KC60 – KeyChatter.com – Mechanical Keyboard Reviews, News, Buyer's Guide, and more](https://www.keychatter.com/2015/07/05/programming-the-kc60/)
 - [kairyu/tkg-toolkit: A collection of tools used for supporting TKG (TMK Keymap Generator).](https://github.com/kairyu/tkg-toolkit)
 
-上記2サイトが参考になります。僕はubuntuでファームウェアの書き込みを行いました。その際、scriptはsudu権限で実行しないと書き込みができませんでした。
+上記2サイトが参考になります。僕はubuntuでファームウェアの書き込みを行いました。その際、scriptはsudoで実行しないと書き込みができませんでした。
