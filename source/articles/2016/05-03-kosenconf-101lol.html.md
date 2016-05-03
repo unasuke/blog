@@ -1,5 +1,5 @@
 ---
-title: 高専カンファレンス lolに参加しました #kosenconf-101lol
+title: "高専カンファレンス lolに参加しました #kosenconf-101lol"
 date: 2016-05-03 18:00 JST
 tags:
 - kosenconf

@@ -24,3 +24,6 @@ __Programmable layers__と銘打ってるだけのことはあり、キー配列
 - [kairyu/tkg-toolkit: A collection of tools used for supporting TKG (TMK Keymap Generator).](https://github.com/kairyu/tkg-toolkit)
 
 上記2サイトが参考になります。僕はubuntuでファームウェアの書き込みを行いました。その際、scriptはsudoで実行しないと書き込みができませんでした。
+
+## 2016-05-03 追記
+- 誤字修正
