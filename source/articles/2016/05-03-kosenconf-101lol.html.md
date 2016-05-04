@@ -55,6 +55,12 @@ diceさんもGitHubパーカーを着ていたのですが、GitHub「の」パ�
 
 ツイートは読みやすいように普通に上から下へ流して、その背景にツイート数に応じてぽわぽわを増やしていく、とかにしても良かったかな、と思います。
 
+### 2016-05-04 追記
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">ブログありがとうございます！<br>サブスクリーンぽわぽわの中身は全く読んでもらうつもりはありませんでした！！（みんな手元で見るでしょ）<br>高専カンファレンス lolに参加しました <a href="https://twitter.com/hashtag/kosenconf?src=hash">#kosenconf</a>-101lol | うなすけとあれこれ <a href="https://t.co/bt5OssEPuS">https://t.co/bt5OssEPuS</a></p>&mdash; やましー@筋肉そんなにすきじゃない (@yamasy1549) <a href="https://twitter.com/yamasy1549/status/727452920938000384">2016年5月3日</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+とのことです。なるほどなるほど。
+
 ## 感想
 今回のカンファは、スポンサーを積極的に募集したこともあるのか、チロルチョコだったり、GitHubステッカーやlolのステッカー、Tシャツなど、さまざまな仕掛けが用意されており、高専カンファレンスの新たな形を示すことができたのではないかなと個人的に思います。
 
