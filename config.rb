@@ -31,6 +31,8 @@ activate :blog do |blog|
 end
 
 page "/feed.xml", layout: false
+page '/404.html', layout: false
+page '/500.html', layout: false
 
 activate :directory_indexes
 

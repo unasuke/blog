@@ -1,0 +1,21 @@
+scss:
+  body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    .not-found {
+      display: block;
+    }
+  }
+
+doctype html
+html
+  head
+    meta[charset="utf-8"]
+    title= '404 not found'
+  body
+    .content
+      = image_tag '404.png', alt: 'not found', class: "not-found"
+      a[href='/']
+        | blog.unasuke.comにもどる
