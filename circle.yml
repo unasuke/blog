@@ -18,8 +18,8 @@ test:
   override:
     - bundle exec middleman build
 
-deployment:
-  publish:
-    branch: master
-    commands:
-      - bundle exec middleman deploy
+#deployment:
+#  publish:
+#    branch: master
+#    commands:
+#      - bundle exec middleman deploy
