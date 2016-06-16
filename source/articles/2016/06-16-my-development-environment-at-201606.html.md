@@ -130,7 +130,7 @@ vim-modeで使っています。特筆することはないです。有名ドコ
 ディレクトリの移動は[peco/peco](https://github.com/peco/peco)による絞込で行っています。
 
 ## 物理環境 at 会社
-<iframe src="http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=FFFFFF&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=yusuke199403-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=B000HCPX58" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+[Amazon.co.jp： サンワサプライ 机上に設置可能便利タップ 3個口 集中スイッチ仕様 TAP-B25: パソコン・周辺機器](http://www.amazon.co.jp/dp/B000HCPX58)
 
 これを机に設置すると無限に便利です。
 
