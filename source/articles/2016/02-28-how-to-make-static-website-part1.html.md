@@ -6,6 +6,7 @@ tags:
 - Programming
 - ruby
 - middleman
+- static-web-page
 ---
 
 ![n0h0.com](2016/n0h0-com.png)
@@ -16,6 +17,7 @@ tags:
 ## つくりかた記事リスト
 - [静的Webサイトのつくりかた その1](/2016/how-to-make-static-website-part1/)
 - [静的Webサイトのつくりかた その2](/2016/how-to-make-static-website-part2/)
+- [静的Webサイトのつくりかた その3](/2016/how-to-make-static-website-part3/)
 
 ## 静的Webサイトとは
 これから作成する静的Webサイトとは、twitterやfacebookなどのような、アクセスに応じて配信するファイルが変化するようなものではなく、このブログのように、決まったhtml、css、JavaScriptのファイルを返す単純なWebサイトのことを指します。
