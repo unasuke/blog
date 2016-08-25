@@ -8,6 +8,7 @@ tags:
 - middleman
 - html
 - css
+- static-web-page
 ---
 
 ![n0h0.com](2016/n0h0-com-2.png)
@@ -15,6 +16,7 @@ tags:
 ## つくりかた記事リスト
 - [静的Webサイトのつくりかた その1](/2016/how-to-make-static-website-part1/)
 - [静的Webサイトのつくりかた その2](/2016/how-to-make-static-website-part2/)
+- [静的Webサイトのつくりかた その3](/2016/how-to-make-static-website-part3/)
 
 ## あまりにもはしょりすぎていた
 > あとは、あなたが好きなようにslimを書き、scssを書き、ページを作っていくだけです。
