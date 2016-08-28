@@ -77,11 +77,11 @@ configure :build do
   # set :http_prefix, "/Content/images/"
 end
 
-#activate :deploy do |deploy|
-#  deploy.method       = :rsync
-#  deploy.host         = "blog.unasuke.com"
-#  deploy.path         = "/var/www"
-#  deploy.user         = ENV["MIDDLEMAN_USER"]
-#  deploy.port         = ENV["MIDDLEMAN_PORT"]
-#  deploy.flags        = '-rltgoDvzO --no-p --del'
-#end
+activate :deploy do |deploy|
+  deploy.method       = :rsync
+  deploy.host         = "unasuke.com"
+  deploy.path         = "/var/web/blog.unasuke.com"
+  deploy.user         = ENV["MIDDLEMAN_USER"]
+  deploy.port         = ENV["MIDDLEMAN_PORT"]
+  deploy.flags        = '-rltgoDvzO --no-p --del'
+end
