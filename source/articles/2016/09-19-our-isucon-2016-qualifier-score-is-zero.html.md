@@ -57,7 +57,7 @@ tags:
 完全に気休めでした。
 
 ### `RACK_ENV`をdeploymentに
-これも効果の程はわかりません。
+unicornは`RACK_ENV`をdeploymentかdevelopment以外は無視するので、アクセスログを見るためにproductionになっていたのをdeploymentにしました(thx kirikiriyamama!)
 
 ### スパム判定の呼び出しを少なくした
 descriptionとkeywordそれぞれでスパム判定している部分を、それらを結合した文字列に対してスパム判定を行うようにしました。
