@@ -57,7 +57,13 @@ tags:
 完全に気休めでした。
 
 ### `RACK_ENV`をdeploymentに
-unicornは`RACK_ENV`をdeploymentかdevelopment以外は無視するので、アクセスログを見るためにproductionになっていたのをdeploymentにしました(thx kirikiriyamama!)
+~~unicornは`RACK_ENV`をdeploymentかdevelopment以外は無視するので、アクセスログを見るためにproductionになっていたのをdeploymentにしました(thx kirikiriyamama!)~~
+
+### 訂正(2016-09-20)
+- [RACK_ENVとUnicorn、SinatraでのRACK_ENVの扱いと注意点 - Shoyan blog](http://shoyan.github.io/blog/2016/05/02/what-is-rack-env-and-unicorn-and-sinatra/)
+- [ISUCON5 で準優勝してきた #isucon - diary.sorah](http://diary.sorah.jp/2015/11/02/isucon5f)
+
+`RACK_ENV`とsinatraの環境は分離させることができて、sinatraの`environment`をproductionにすることで高速化できたようです。ただproductionのままだとunicornでログを見ることができないので、いずれにせよこの値はdeploymentにし、sinatraのenvironmentをproductionにすべきでした。
 
 ### スパム判定の呼び出しを少なくした
 descriptionとkeywordそれぞれでスパム判定している部分を、それらを結合した文字列に対してスパム判定を行うようにしました。
