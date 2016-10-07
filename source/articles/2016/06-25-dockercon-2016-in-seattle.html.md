@@ -36,7 +36,7 @@ spice lifeがショールームを始めるきっかけのひとつが、Warby P
 この記事に助けられました。
 
 電車とバスを乗り継いで、Warby Parkerに到着。
-この時点ではまだ開店していなかったで、starbucksに寄って暇をつぶしました。ほっとコーヒを頼んだら殺しにかかってくるのかというくらい熱くてビビりました。なんなら夜までずっと熱かったです。
+この時点ではまだ開店していなかったで、starbucksに寄って暇をつぶしました。ホットコーヒを頼んだら殺しにかかってくるのかというくらい熱くてビビりました。なんなら夜までずっと熱かったです。
 
 ![starbucks](2016/seattle-starbucks.jpg)
 
@@ -73,7 +73,7 @@ After partyでNTT、docomo、MTI、Yahoo Japanの人と話しましたが、日�
 #### 参加セッション
 - General session
 - The Golden Ticket: Docker and High Security Microservices
-- Contribute 101: Engine/Swarm/ContainerD 
+- Contribute 101: Engine/Swarm/ContainerD
 - Docker for Mac and Windows: The Insider's Guide
 - Making it Easier to Contribute to Open Source Projects Using Docker Containers
 - Hands-on Lab
