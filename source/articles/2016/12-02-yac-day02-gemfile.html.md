@@ -24,17 +24,17 @@ tags:
 
 ## Gemfile
 ### コメントの削除
-[Remove comments · unasuke/imas_api_rails@8bfdca4](https://github.com/unasuke/imas_api_rails/commit/8bfdca47554259dfe0706ef34e3c755d0ad8942d)
+[Remove comments · unasuke/imas\_api\_rails@8bfdca4](https://github.com/unasuke/imas_api_rails/commit/8bfdca47554259dfe0706ef34e3c755d0ad8942d)
 
 いらないと思って消しました。
 
 ### 辞書順に
-[Sorting · unasuke/imas_api_rails@fca1a36](https://github.com/unasuke/imas_api_rails/commit/fca1a363e5583d76827fff30d7e70749646aa4f8)
+[Sorting · unasuke/imas\_api\_rails@fca1a36](https://github.com/unasuke/imas_api_rails/commit/fca1a363e5583d76827fff30d7e70749646aa4f8)
 
 あからさまな`rails`はまあ置いとくとして、gemは基本的に名前の辞書順にやっていきましょう。やっていきましょうって、別に推奨されてるわけではないです。
 
 ### bundle update
-[bundle update 20161202 · unasuke/imas_api_rails@637d0d7](https://github.com/unasuke/imas_api_rails/commit/637d0d7159ff82dca12775819372f22a5955e6f7)
+[bundle update 20161202 · unasuke/imas\_api\_rails@637d0d7](https://github.com/unasuke/imas_api_rails/commit/637d0d7159ff82dca12775819372f22a5955e6f7)
 
 嗜み。
 
