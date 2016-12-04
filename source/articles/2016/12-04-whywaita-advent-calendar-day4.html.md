@@ -8,6 +8,8 @@ tags:
 
 ![slack](2016/whywaita_ac_slack.png)
 
+[whywaita Advent Calendar 2016 - Adventar](http://www.adventar.org/calendars/1371)
+
 <br>
 <br>
 <br>
