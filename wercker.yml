@@ -11,9 +11,7 @@ build:
 deploy:
   steps:
     - install-packages:
-        packages:
-          - nodejs
-          - rsync
+        packages: nodejs rsync
     - bundle-install
     - script:
         name: middleman build
