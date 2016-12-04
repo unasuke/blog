@@ -13,6 +13,12 @@ deploy:
     - install-packages:
         packages: nodejs rsync
     - bundle-install
+    - add-ssh-key:
+        host: unasuke.com
+        keyname: deploy
+    - add-to-known_hosts:
+        hostname: unasuke.com
+        fingerprint: $FINGERPRINT
     - script:
         name: middleman build
         code: bundle exec middleman build
