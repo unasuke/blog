@@ -1,0 +1,21 @@
+box: ruby:2.3.3
+init:
+build:
+  steps:
+    - install-packages:
+        packages: nodejs
+    - bundle-install
+    - script:
+        name: middleman build
+        code: bundle exec middleman build
+deploy:
+  steps:
+    - install-packages:
+        packages: nodejs
+    - bundle-install
+    - script:
+        name: middleman build
+        code: bundle exec middleman build
+    - script:
+        name: middleman deploy
+        code: bundle exec middleman deploy
