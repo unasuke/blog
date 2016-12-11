@@ -3,7 +3,7 @@ title: 情報共有おじさんとサバゲーにいったら
 date: '2015-07-20'
 tags:
 - diary
-- サバゲー
+- sabage
 ---
 
 ![武器とか](2015/survival-game-with-info-sharing-uncle-01.jpg)
