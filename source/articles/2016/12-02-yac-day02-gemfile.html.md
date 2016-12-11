@@ -3,6 +3,7 @@ title: 'やぎすけ Advent Calendar 2日目 Gemfileの整頓'
 date: 2016-12-02 15:48 JST
 tags:
 - programming
+- advent_calendar
 - yac
 - ruby
 - rails
