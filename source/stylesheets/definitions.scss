@@ -36,10 +36,11 @@ body {
   flex-direction: column;
   align-items: center;
   margin: 0;
+  padding-top: 20px;
   font-family: $font-family-sans-serif;
 
   @media screen and (max-device-width: $small_device_width) {
-    padding: 0 10px;
+    padding: 10px 10px 0;
   }
 
   pre, code {
