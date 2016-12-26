@@ -23,7 +23,7 @@ html
 
   body
     = partial "layouts/header"
-    section.article[class="#{page_classes}"]
+    section.article
       .article-wrote-at
         = current_page.date.strftime('%Y年%m月%d日')
       h2
