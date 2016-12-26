@@ -1,11 +1,9 @@
 @import "definitions";
 
 header {
-  box-sizing: border-box;
-  width: $content_width_standard;
+  @include card;
   margin: 30px auto 40px auto;
   padding: 30px;
-  border: 2px solid $main_color;
 
   @media  screen and (max-device-width: $small_device_width) {
     box-sizing: border-box;
