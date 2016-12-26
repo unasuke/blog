@@ -68,10 +68,7 @@ configure :build do
   activate :minify_javascript
 
   # Enable cache buster
-  activate :asset_hash do |opt|
-    opt.ignore += 'images/ogp_image.jpg'
-    opt.ignore += 'images/favicon.png'
-  end
+  activate :asset_hash, ignore: %r[images/(ogp_image\.jpg|favicon\.png)]
 
   # Use relative URLs
   #activate :relative_assets
