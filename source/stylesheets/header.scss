@@ -6,7 +6,6 @@ header {
   padding: 30px;
 
   @media  screen and (max-device-width: $small_device_width) {
-    box-sizing: border-box;
     width: 100%;
     padding: 10px;
     font-size: 0.8rem;
@@ -18,7 +17,6 @@ header {
   }
 
   a {
-    text-align: center;
     text-decoration: none;
     color: $font_color;
   }
