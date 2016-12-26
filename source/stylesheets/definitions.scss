@@ -23,6 +23,9 @@ $small_device_width: 768px;
 @mixin card {
   display: block;
   border: 2px solid $main_color;
+}
+
+@mixin main-content-width {
   width: 80%;
   max-width: $content_width_standard;
 }

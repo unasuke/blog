@@ -2,6 +2,7 @@
 
 .article {
   @include card;
+  @include main-content-width;
   padding: 10px 15px;
   margin: 0 auto 10px auto;
 
