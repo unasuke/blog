@@ -2,20 +2,23 @@
 pageable: false
 ---
 
-h1
-  - case page_type
-    - when 'day'
-      = Date.new(year, month, day).strftime('%Y年%m月%d日')
-    - when 'month'
-      = Date.new(year, month, 1).strftime('%Y年%m月')
-    - when 'year'
-      = "#{year}年"
-  span
-    | の記事
+= stylesheet_link_tag 'calendar'
 
-ul
-  - page_articles.each_with_index do |article, i|
-    li
-      = link_to article.title, article
-      span.article-wrote-at
-        = article.date.strftime('%Y年%m月%d日')
+section.calendar
+  h1
+    - case page_type
+      - when 'day'
+        = Date.new(year, month, day).strftime('%Y年%m月%d日')
+      - when 'month'
+        = Date.new(year, month, 1).strftime('%Y年%m月')
+      - when 'year'
+        = "#{year}年"
+    span
+      | の記事
+
+  ul
+    - page_articles.each_with_index do |article, i|
+      li
+        = link_to article.title, article, class: 'link-to-article'
+        span.article-wrote-at
+          = article.date.strftime('%Y年%m月%d日')
