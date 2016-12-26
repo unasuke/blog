@@ -16,7 +16,7 @@ site_url: "https://blog.unasuke.com"
     .article-info
       .article-wrote-at
         = article.date.strftime('%Y年%m月%d日')
-      .tags
+      ul.tags
         - article.tags.each do |tag|
           li.tag
             = link_to "#{tag}", tag_path(tag)

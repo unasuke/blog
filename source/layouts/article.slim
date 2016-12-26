@@ -33,7 +33,7 @@ html
       .article-info
         .article-wrote-at
           = current_page.date.strftime('%Y年%m月%d日')
-        .tags
+        ul.tags
           - current_page.tags.each do |tag|
             li.tag
               = link_to "#{tag}", tag_path(tag)
