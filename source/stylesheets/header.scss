@@ -1,26 +1,18 @@
 @import "definitions";
 
 header {
-  box-sizing: border-box;
-  width: $content_width_standard;
-  margin: 30px auto 40px auto;
-  padding: 30px;
-  border: 2px solid $main_color;
+  @include card;
+  @include main-content-width;
+  padding: 20px;
+  margin-bottom: 2rem;
 
   @media  screen and (max-device-width: $small_device_width) {
-    box-sizing: border-box;
-    width: 100%;
     padding: 10px;
-    font-size: 0.8rem;
-    margin: 20px auto;
-  }
-
-  title {
-    text-align: center;
+    font-size: 0.7rem;
+    margin-bottom: 1rem;
   }
 
   a {
-    text-align: center;
     text-decoration: none;
     color: $font_color;
   }

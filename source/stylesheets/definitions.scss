@@ -4,14 +4,70 @@ $background_color: #f5f1f1;
 
 // font
 $font_color: $main_color;
-$font-family-humanist-sans-serif: 'Open Sans','Helvetica Neue', Helvetica, 'Arial', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif !default;
-$font-family-sans-serif:  'Open Sans','Helvetica Neue', Helvetica, 'Arial', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif !default;
-$font-family-serif:       'Times New Roman', Times, '游明朝体', YuMincho, 'ヒラギノ明朝 ProN W3', 'Hiragino Mincho ProN', 'ＭＳ Ｐ明朝', 'MS PMincho', 'MS 明朝', serif !default;
-$font-family-monospace:   Consolas, "Liberation Mono", Menlo, Courier, monospace !default;
-$font-family-base:        $font-family-humanist-sans-serif !default;
+$font-family-humanist-sans-serif: sans-serif;
+$font-family-sans-serif: sans-serif;
+$font-family-serif: serif;
+$font-family-monospace: monospace;
+$font-family-base: $font-family-humanist-sans-serif;
 
 // width
 $content_width_standard: 1000px;
 
 // device width
 $small_device_width: 768px;
+
+* {
+  box-sizing: border-box;
+}
+
+@mixin card {
+  display: block;
+  border: 2px solid $main_color;
+}
+
+@mixin main-content-width {
+  width: 80%;
+  max-width: $content_width_standard;
+
+  @media screen and (max-device-width: $small_device_width) {
+    width: 100%;
+  }
+}
+
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding-top: 20px;
+  font-family: $font-family-sans-serif;
+
+  @media screen and (max-device-width: $small_device_width) {
+    padding: 10px 10px 0;
+  }
+
+  pre, code {
+    font-family: $font-family-monospace;
+  }
+
+  pre {
+    overflow: scroll;
+
+    code {
+      white-space: pre;
+    }
+  }
+}
+
+.paginate {
+  @include main-content-width;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+
+  .next-page, .prev-page {
+    display: block;
+  }
+}
