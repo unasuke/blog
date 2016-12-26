@@ -70,6 +70,7 @@ configure :build do
   # Enable cache buster
   activate :asset_hash do |opt|
     opt.ignore += 'images/ogp_image.jpg'
+    opt.ignore += 'images/favicon.png'
   end
 
   # Use relative URLs
