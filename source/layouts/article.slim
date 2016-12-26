@@ -23,6 +23,7 @@ html
     = stylesheet_link_tag "normalize", "all"
     = javascript_include_tag "all"
     = partial "layouts/google_analytics"
+    = partial 'layouts/meta_tags', locals: { title: current_page.data.title, url: current_resource.url }
 
   body
     = partial "layouts/header"
