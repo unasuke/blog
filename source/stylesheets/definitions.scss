@@ -59,3 +59,15 @@ body {
     }
   }
 }
+
+.paginate {
+  @include main-content-width;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+
+  .next-page, .prev-page {
+    display: block;
+  }
+}

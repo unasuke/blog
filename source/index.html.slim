@@ -22,8 +22,10 @@ site_url: "https://blog.unasuke.com"
             = link_to "#{tag}", tag_path(tag)
 
 - if paginate
-  span
-    - if next_page
-      = link_to "古い投稿", next_page
-    - if prev_page
-      = link_to "新しい投稿", prev_page
+  section.paginate
+    .prev-page
+      - if prev_page
+        = link_to "新しい投稿", prev_page
+    .next-page
+      - if next_page
+        = link_to "古い投稿", next_page
