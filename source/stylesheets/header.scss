@@ -2,8 +2,8 @@
 
 header {
   @include card;
-  margin: 30px auto 40px auto;
-  padding: 30px;
+  padding: 20px;
+  margin-bottom: 2rem;
 
   @media  screen and (max-device-width: $small_device_width) {
     width: 100%;
