@@ -15,3 +15,10 @@ $content_width_standard: 1000px;
 
 // device width
 $small_device_width: 768px;
+
+@mixin card {
+  border: 2px solid $main_color;
+  width: 80%;
+  max-width: $content_width_standard;
+}
+
