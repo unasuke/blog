@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem "middleman", "~> 3.4"
+gem "middleman", "~> 4.0"
 gem "middleman-blog"
 gem "middleman-livereload"
 gem "middleman-deploy"
@@ -12,7 +12,7 @@ gem "middleman-syntax"
 gem 'redcarpet'
 
 # For feed.xml.builder
-gem "builder", "~> 3.0"
+gem "builder"
 
 # slim
 gem "slim"
