@@ -36,16 +36,6 @@ page '/500.html', layout: false
 
 activate :directory_indexes
 
-###
-# Compass
-###
-
-# Change Compass configuration
-compass_config do |config|
-  config.output_style = :compact
-end
-
-
 # Reload the browser automatically whenever files change
 activate :livereload
 
@@ -76,6 +66,11 @@ configure :build do
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
 end
+
+activate :external_pipeline,
+  name: :npm,
+  command: "npm run scss",
+  source: "./source/stylesheets"
 
 activate :deploy do |deploy|
   deploy.method       = :rsync

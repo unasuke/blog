@@ -4,6 +4,7 @@
   "description": "unasuke's blog",
   "main": "index.js",
   "scripts": {
+    "scss": "./bin/generate_css.bash",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
