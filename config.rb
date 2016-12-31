@@ -80,3 +80,5 @@ activate :deploy do |deploy|
   deploy.port           = ENV["MIDDLEMAN_PORT"]
   deploy.flags          = '-rltgoDvzO --no-p --del'
 end
+
+Tilt::SYMBOL_ARRAY_SORTABLE = false
