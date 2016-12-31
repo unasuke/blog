@@ -73,10 +73,10 @@ activate :external_pipeline,
   source: "./source/stylesheets"
 
 activate :deploy do |deploy|
-  deploy.method       = :rsync
-  deploy.host         = "unasuke.com"
-  deploy.path         = "/var/web/blog.unasuke.com"
-  deploy.user         = ENV["MIDDLEMAN_USER"]
-  deploy.port         = ENV["MIDDLEMAN_PORT"]
-  deploy.flags        = '-rltgoDvzO --no-p --del'
+  deploy.deploy_method  = :rsync
+  deploy.host           = "unasuke.com"
+  deploy.path           = "/var/web/blog.unasuke.com"
+  deploy.user           = ENV["MIDDLEMAN_USER"]
+  deploy.port           = ENV["MIDDLEMAN_PORT"]
+  deploy.flags          = '-rltgoDvzO --no-p --del'
 end
