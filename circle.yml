@@ -1,0 +1,18 @@
+version: 2
+executorType: docker
+containerInfo:
+  - image: ruby:2.3.3
+stages:
+  build: 
+    workDir: ~/blog
+    steps:
+      - checkout
+      - type: shell
+        name: Install deps
+        command: apt update && apt install -y nodejs
+      - type: shell
+        name: Install gems
+        command: bundle install
+      - type: shell
+        name: build blog
+        command: bundle exec middleman build
