@@ -36,16 +36,6 @@ page '/500.html', layout: false
 
 activate :directory_indexes
 
-###
-# Compass
-###
-
-# Change Compass configuration
-compass_config do |config|
-  config.output_style = :compact
-end
-
-
 # Reload the browser automatically whenever files change
 activate :livereload
 
@@ -77,11 +67,18 @@ configure :build do
   # set :http_prefix, "/Content/images/"
 end
 
+activate :external_pipeline,
+  name: :npm,
+  command: "npm run scss",
+  source: "./source/stylesheets"
+
 activate :deploy do |deploy|
-  deploy.method       = :rsync
-  deploy.host         = "unasuke.com"
-  deploy.path         = "/var/web/blog.unasuke.com"
-  deploy.user         = ENV["MIDDLEMAN_USER"]
-  deploy.port         = ENV["MIDDLEMAN_PORT"]
-  deploy.flags        = '-rltgoDvzO --no-p --del'
+  deploy.deploy_method  = :rsync
+  deploy.host           = "unasuke.com"
+  deploy.path           = "/var/web/blog.unasuke.com"
+  deploy.user           = ENV["MIDDLEMAN_USER"]
+  deploy.port           = ENV["MIDDLEMAN_PORT"]
+  deploy.flags          = '-rltgoDvzO --no-p --del'
 end
+
+Tilt::SYMBOL_ARRAY_SORTABLE = false

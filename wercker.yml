@@ -1,9 +1,18 @@
-box: ruby:2.3.3
+box: ruby:2.4.0
 init:
 build:
   steps:
-    - install-packages:
-        packages: nodejs
+    - script:
+        name: install nodejs v7
+        code: |
+          curl -sL https://deb.nodesource.com/setup_7.x | bash -
+          apt install -y nodejs
+    - script:
+        name: install yarn
+        code: npm install -g yarn
+    - script:
+        name: install npm packages
+        code: yarn install
     - bundle-install
     - script:
         name: middleman build
@@ -11,7 +20,18 @@ build:
 deploy:
   steps:
     - install-packages:
-        packages: nodejs rsync
+        packages: rsync
+    - script:
+        name: install nodejs v7
+        code: |
+          curl -sL https://deb.nodesource.com/setup_7.x | bash -
+          apt install -y nodejs
+    - script:
+        name: install yarn
+        code: npm install -g yarn
+    - script:
+        name: install npm packages
+        code: yarn install
     - bundle-install
     - add-ssh-key:
         host: unasuke.com
