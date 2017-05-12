@@ -26,7 +26,7 @@ __before__
 __after__
 ![t2.medium](2017/mastodon-instance-t2medium.png)
 
-## steramingが動かない
+### steramingが動かない
 つらい。
 
 ![wss can't connect](2017/mastodon-wss-does-not-work.png)
@@ -35,6 +35,13 @@ nodeからpostgresへの接続がうまくいっていないのか、Missing acc
 
 ![DDoS](2017/mastodon-please-ddos-attach.png)
 [https://lupinus.bouquet.blue/@unasuke/59](https://lupinus.bouquet.blue/@unasuke/59)
+
+### 他インスタンスから(他インスタンスの)画像が取得できない
+![mastodon rch](2017/mastodon-rch-avatar.png)
+
+![mastodon pawoo](2017/mastodon-pawoo-app-image.png)
+
+S3のACLはpublicにreadできるはずなのに、何故。
 
 ## 現状
 以下、現状(t2.medium)です。
