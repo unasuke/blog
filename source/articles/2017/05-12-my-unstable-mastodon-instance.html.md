@@ -9,6 +9,8 @@ tags:
 
 ![red mastodon](2017/red-mastodon.png)
 
+(2017-05-13 10:53 誤字修正)
+
 ## 立てて2週間ほど
 こちらになります → [lupinus.bouquet.blue](https://lupinus.bouquet.blue/about/)
 
@@ -26,7 +28,7 @@ __before__
 __after__
 ![t2.medium](2017/mastodon-instance-t2medium.png)
 
-### steramingが動かない
+### streamingが動かない
 つらい。
 
 ![wss can't connect](2017/mastodon-wss-does-not-work.png)
