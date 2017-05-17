@@ -8,6 +8,9 @@ gem "middleman-deploy", "2.0.0.pre.alpha"
 # synatax highlight
 gem "middleman-syntax"
 
+# emoji
+gem 'middleman-somemoji'
+
 # markdown engine
 gem 'redcarpet'
 
