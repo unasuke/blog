@@ -8,6 +8,8 @@ tags:
 - middleman
 ---
 
+![somemoji](2017/somemoji-extract.png)
+
 ## つくりました :v: :v: :v: :v:
 middlemanでemoji記法 `:example:` をemoji画像に置換するmiddleman pluginをつくりました。 :tada:
 
