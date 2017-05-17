@@ -58,7 +58,7 @@ configure :build do
   activate :minify_javascript
 
   # Enable cache buster
-  activate :asset_hash, ignore: %r[images/(ogp_image\.jpg|favicon\.png)]
+  activate :asset_hash, ignore: %r[images/(ogp_image\.jpg|favicon\.png|emoji)]
 
   # Use relative URLs
   #activate :relative_assets
@@ -82,3 +82,5 @@ activate :deploy do |deploy|
 end
 
 Tilt::SYMBOL_ARRAY_SORTABLE = false
+
+activate :somemoji, provider: 'twemoji'
