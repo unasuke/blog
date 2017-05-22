@@ -25,6 +25,7 @@ html
     = favicon_tag 'images/favicon.png'
     = partial "layouts/google_analytics"
     = partial 'layouts/meta_tags', locals: { title: current_page.data.title, url: current_resource.url }
+    = hatenastar_tag
 
   body
     = partial "layouts/header"
