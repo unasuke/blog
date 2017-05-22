@@ -11,6 +11,9 @@ gem "middleman-syntax"
 # emoji
 gem 'middleman-somemoji'
 
+# hatenastar
+gem 'middleman-hatenastar'
+
 # markdown engine
 gem 'redcarpet'
 
