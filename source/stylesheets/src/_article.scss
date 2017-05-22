@@ -10,6 +10,17 @@
     margin-bottom: 1rem;
   }
 
+  img.hatena-star-star, img.hatena-star-add-button {
+    max-width: none;
+    display: inline-block;
+    margin: 0;
+
+    @media  screen and (max-device-width: $small_device_width) {
+      max-width: initial;
+      width: initial;
+    }
+  }
+
   img {
     max-width: 80%;
     display: block;
