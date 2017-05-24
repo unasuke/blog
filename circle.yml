@@ -13,3 +13,8 @@ stages:
         command: bundle install
       - name: build blog
         command: bundle exec middleman build
+      - name: deploy
+        command: |
+          if [ "${CIRCLE_BRANCH}" == "master" ]; then
+            bundle exec middleman deploy
+          fi
