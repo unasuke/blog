@@ -1,0 +1,21 @@
+version: 2
+executorType: docker
+containerInfo:
+  - image: unasuke/ruby-nodejs:2.3.4-nodejs6
+stages:
+  build: 
+    workDir: ~/blog
+    steps:
+      - checkout
+      - run:
+          command: yarn install
+      - run:
+          command: bundle install
+      - run:
+          command: bundle exec middleman build
+      - run:
+          name: deploy
+          command: |
+            if [ "${CIRCLE_BRANCH}" == "master" ]; then
+              bundle exec middleman deploy
+            fi
