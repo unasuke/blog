@@ -7,14 +7,15 @@ stages:
     workDir: ~/blog
     steps:
       - checkout
-      - name: Install npm packages
-        command: yarn install
-      - name: Install gems
-        command: bundle install
-      - name: build blog
-        command: bundle exec middleman build
-      - name: deploy
-        command: |
-          if [ "${CIRCLE_BRANCH}" == "master" ]; then
-            bundle exec middleman deploy
-          fi
+      - run:
+          command: yarn install
+      - run:
+          command: bundle install
+      - run:
+          command: bundle exec middleman build
+      - run:
+          name: deploy
+          command: |
+            if [ "${CIRCLE_BRANCH}" == "master" ]; then
+              bundle exec middleman deploy
+            fi
