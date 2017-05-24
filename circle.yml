@@ -7,12 +7,9 @@ stages:
     workDir: ~/blog
     steps:
       - checkout
-      - type: shell
-        name: Install npm packages
+      - name: Install npm packages
         command: yarn install
-      - type: shell
-        name: Install gems
+      - name: Install gems
         command: bundle install
-      - type: shell
-        name: build blog
+      - name: build blog
         command: bundle exec middleman build
