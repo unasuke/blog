@@ -7,13 +7,30 @@ stages:
     workDir: ~/blog
     steps:
       - checkout
+      - restore_cache:
+          keys:
+            - gems
+            - node_modules
+            - builded_pages
       - run: apt update && apt install --assume-yes rsync
       - run:
           command: yarn install
+      - save_cache:
+          key: node_modules
+          paths:
+            - node_modules
       - run:
-          command: bundle install
+          command: bundle install --path vendor/bundle
+      - save_cache:
+          key: gems
+          paths:
+            - vendor/bundle
       - run:
           command: bundle exec middleman build
+      - save_cache:
+          key: builded_pages
+          paths:
+            - build
       - run:
           name: deploy
           command: |
