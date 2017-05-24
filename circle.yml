@@ -8,8 +8,8 @@ stages:
     steps:
       - checkout
       - type: shell
-        name: Install deps
-        command: apt update && apt install -y nodejs
+        name: Install npm packages
+        command: yarn install
       - type: shell
         name: Install gems
         command: bundle install
