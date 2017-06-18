@@ -4,6 +4,7 @@ date: 2017-03-07 22:30 JST
 tags:
 - golang
 - Programming
+- aws
 ---
 
 ![commits](2017/maekawa-github-commits.png)
