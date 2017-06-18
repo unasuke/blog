@@ -15,6 +15,8 @@ tags:
 
 上のみくにゃんはリリース記念に描きました。やる気の続く限り、maekawaのリリースごとにみくにゃんを描いていこうかと思います。
 
+[「前川みく」/「うなすけ」のイラスト [pixiv]](https://www.pixiv.net/member_illust.php?mode=medium&illust_id=63449940)
+
 ## What's new?
 ### TargetのRoleArn指定対応
 いつの日からか、TargetにもIAM Roleを指定できるようになっていたのでそれの対応をしました。
