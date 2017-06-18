@@ -5,26 +5,14 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem "builder"
 gem "middleman", "~> 4.0"
 gem "middleman-blog"
-gem "middleman-livereload"
 gem "middleman-deploy", "2.0.0.pre.alpha"
-gem 'middleman-s3_sync', github: 'fredjean/middleman-s3_sync'
-
-# synatax highlight
-gem "middleman-syntax"
-
-# emoji
-gem 'middleman-somemoji'
-
-# hatenastar
 gem 'middleman-hatenastar'
-
-# markdown engine
+gem "middleman-livereload"
+gem 'middleman-s3_sync', github: 'fredjean/middleman-s3_sync'
+gem 'middleman-somemoji'
+gem "middleman-syntax"
 gem 'redcarpet'
-
-# For feed.xml.builder
-gem "builder"
-
-# slim
 gem "slim"
