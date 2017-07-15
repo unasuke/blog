@@ -72,15 +72,6 @@ activate :external_pipeline,
   command: "npm run scss",
   source: "./source/stylesheets"
 
-activate :deploy do |deploy|
-  deploy.deploy_method  = :rsync
-  deploy.host           = "unasuke.com"
-  deploy.path           = "/var/web/blog.unasuke.com"
-  deploy.user           = ENV["MIDDLEMAN_USER"]
-  deploy.port           = ENV["MIDDLEMAN_PORT"]
-  deploy.flags          = '-rltgoDvzO --no-p --del'
-end
-
 Tilt::SYMBOL_ARRAY_SORTABLE = false
 
 activate :somemoji, provider: 'twemoji'
@@ -90,3 +81,14 @@ activate :hatenastar,
   title: 'h2 a',
   container: 'h2',
   entry_node: 'section.article'
+
+activate :s3_sync do |s3_sync|
+  s3_sync.region                     = 'ap-northeast-1'
+  s3_sync.after_build                = false
+  s3_sync.prefer_gzip                = true
+  s3_sync.path_style                 = true
+  s3_sync.acl                        = 'public-read'
+  s3_sync.encryption                 = false
+  s3_sync.index_document             = 'index.html'
+  s3_sync.error_document             = '404/index.html'
+end

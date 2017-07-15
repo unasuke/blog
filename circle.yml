@@ -35,5 +35,5 @@ stages:
           name: deploy
           command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
-              bundle exec middleman deploy
+              bundle exec middleman s3_sync
             fi
