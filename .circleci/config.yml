@@ -36,4 +36,6 @@ stages:
           command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
               bundle exec middleman s3_sync
+            else
+              bundle exec middleman s3_sync --dry-run
             fi
