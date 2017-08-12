@@ -1,7 +1,7 @@
 version: 2
 executorType: docker
 containerInfo:
-  - image: unasuke/ruby-nodejs:2.3.4-nodejs6
+  - image: unasuke/ruby-nodejs:2.4.1-nodejs8
 stages:
   build: 
     workDir: ~/blog
@@ -14,7 +14,7 @@ stages:
             - builded_pages
       - run: apt update && apt install --assume-yes rsync
       - run:
-          command: yarn install
+          command: npm install
       - save_cache:
           key: node_modules
           paths:
