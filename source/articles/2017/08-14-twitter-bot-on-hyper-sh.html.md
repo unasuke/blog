@@ -77,7 +77,12 @@ $ hyper compose up -d -p unasuke_annual_income
 という訳で、僕に「年収」とだけ書いたDMを送ると僕の年収が返ってきます。
 
 ## 超簡単Hyper.sh
-どうですか、Hyper.sh。ちなみにプランは自動で決まるのか、僕のBotはS4(月$5.18)で実行されています。
+どうですか、Hyper.sh。~~ちなみにプランは自動で決まるのか、僕のBotはS4(月$5.18)で実行されています。~~
 
 以下にinvitation linkを置いておくので是非活用してください。
 <a href="https://console.hyper.sh/register/invite/yApE4Arn3osDm9RPDG3LuLJPj1BwR8fK">https://console.hyper.sh/register/invite/yApE4Arn3osDm9RPDG3LuLJPj1BwR8fK</a>
+
+### 訂正(2017/08/15 00:27)
+デフォルトでS4になり、docker-compose.yml内で指定できるそうです。
+
+[Compose File Reference | Hyper.sh User Guide](https://docs.hyper.sh/Reference/compose_file_ref.html)
