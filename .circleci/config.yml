@@ -1,7 +1,7 @@
 version: 2
 executorType: docker
 containerInfo:
-  - image: unasuke/ruby-nodejs:2.5.0-nodejs9
+  - image: unasuke/blog
 stages:
   build: 
     workDir: ~/blog
