@@ -89,7 +89,7 @@ execute "test $(ps h -C nginx | wc -l) -eq 0" # test
 
 [https://github.com/itamae-kitchen/itamae/blob/2c57ecc2f085643a47a7d509040685dbecde8bc7/spec/integration/recipes/default.rb#L246](https://github.com/itamae-kitchen/itamae/blob/2c57ecc2f085643a47a7d509040685dbecde8bc7/spec/integration/recipes/default.rb#L246)
 
-見てわかるように、rcスクリプトを参照しれているrecipeがあります。しかし、ubuntu xenialにアップグレードしたことによって、initがUpstartからsystemdへと変化しました。その結果、rcスクリプトは利用できなくなってしまい、このrecipeは適用できません。(この辺ちゃんとした理解ができてないです)
+見てわかるように、rcスクリプトを参照しているrecipeがあります。しかし、ubuntu xenialにアップグレードしたことによって、initがUpstartからsystemdへと変化しました。その結果、rcスクリプトは利用できなくなってしまい、このrecipeは適用できません。(この辺ちゃんとした理解ができてないです)
 
 ただ、rcスクリプトを使用したコマンドの内容自体は、続く行で実行している `ps` にて担保できているとみなせます。なので、rcスクリプトを使用しているrecipeを削除することで対応しました。
 
@@ -164,7 +164,7 @@ end
 しかし、同様にrepcipeでのインストール指定を行なっているbundler 1.16では、rakeのversion 10系をdependencyとしています。
 そのために、`gem list`の実行では複数versionのrakeがインストールされている事実が返ってくるので、文字列 `'rake (11.1.0)'` のmatchに失敗します。
 
-これについては、文字列の末尾の閉じカッコを削除し、複数versionのrake gemがインストールされている状態でも通るようにしました。(あまり筋がいいとは思えませんんが……)
+これについては、文字列の末尾の閉じカッコを削除し、複数versionのrake gemがインストールされている状態でも通るようにしました。(あまり筋がいいとは思えませんが……)
 
 ### test-unit gemが存在してしまう
 test-unit gem、2回目の登場です。
@@ -199,7 +199,7 @@ xenialでは、Ruby 2.3.1がaptからインストールされますが、Ruby 2.
 
 まずは愚直に、Ruby officialのdocker imageをboxに指定してみましたが、Vagrantの起動に失敗します。エラーの内容を見ると、`modinfo`が存在していない、というものでした。
 
-しかし、色々調べてみたところ、docker contaner内で`modinfo`をインストールすることはできないようです。
+しかし、色々調べてみたところ、docker container内で`modinfo`をインストールすることはできないようです。
 
 (数ヶ月前のことなのでどこを参照してその結論に至ったかは覚えてないのですが、今`ruby:2.3.1`のimageに対して`apt install kmod`を実行すると、インストールできるので、この認識が間違っている可能性は大いにあります。
 しかし、`modinfo`の実行自体も、様々なmoduleに対して実行してもエラーが返ってくるので、やはり一筋縄ではいかないようです)
