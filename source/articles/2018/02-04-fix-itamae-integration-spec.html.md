@@ -11,9 +11,9 @@ tags:
 ![itamae readme](2018/itamae-readme.png)
 
 ## master build failed
-itamaeの名前を久々に聞いたのは、昨年11月行なわれた福岡Ruby会議02でのことでした。前夜祭でのまなてぃさんの発表でitamaeを使っているとの話を聞き、また、懇親会でまなてぃさんがPullRequsetを出したがテスト通らずmergeもしてもらえないという話を聞き、それからずっとitamaeのことがどこか頭の片隅にありました。
+itamaeの名前を久々に聞いたのは、昨年11月に行なわれた福岡Ruby会議02でのことでした。前夜祭でのまなてぃさんの発表でitamaeを使っているとの話を聞き、また、懇親会でまなてぃさんがPullRequsetを出したがテストが通らずmergeもしてもらえないという話を聞き、それからずっとitamaeのことがどこか頭の片隅にありました。
 
-その後、転職記事でも触れましたが、業務でpuppetを置き替えることになったときに、ここはitamaeを使ってみようと考えました。そこで[itamae-kitchen/itamae](https://github.com/itamae-kitchen/itamae)を見に行くと、そもそもmaster branchのでのCIが(2017年3月から)failedになっていうことに気づきました。
+その後、転職記事でも触れましたが、業務でpuppetを置き替えることになったときに、ここはitamaeを使ってみようと考えました。そこで[itamae-kitchen/itamae](https://github.com/itamae-kitchen/itamae)を見に行くと、そもそもmaster branchのでのCIが(2017年3月から)failedになっていることに気づきました。
 
 cookpadでの採用実績や、gihyoでの解説記事、バージョンも1.9を迎えるなどそれなりに成熟しているOSSと言って差し支えないでしょうが、masterのCIが失敗しているプロダクトにあまりいい印象はないでしょう。そこで、業務でitamae recipeを書きつつ、その合間と個人的な時間でitamaeのCIを直すことに挑戦しました。
 
@@ -89,7 +89,7 @@ execute "test $(ps h -C nginx | wc -l) -eq 0" # test
 
 [https://github.com/itamae-kitchen/itamae/blob/2c57ecc2f085643a47a7d509040685dbecde8bc7/spec/integration/recipes/default.rb#L246](https://github.com/itamae-kitchen/itamae/blob/2c57ecc2f085643a47a7d509040685dbecde8bc7/spec/integration/recipes/default.rb#L246)
 
-見てわかるように、rcスクリプトを参照しれているrecipeがあります。しかし、ubuntu xenialにアップグレードしたことによって、initがUpstartからsystemdへと変化しました。その結果、rcスクリプトは利用できなくなってしまい、このrecipeは適用できません。(この辺ちゃんとした理解ができてないです)
+見てわかるように、rcスクリプトを参照しているrecipeがあります。しかし、ubuntu xenialにアップグレードしたことによって、initがUpstartからsystemdへと変化しました。その結果、rcスクリプトは利用できなくなってしまい、このrecipeは適用できません。(この辺ちゃんとした理解ができてないです)
 
 ただ、rcスクリプトを使用したコマンドの内容自体は、続く行で実行している `ps` にて担保できているとみなせます。なので、rcスクリプトを使用しているrecipeを削除することで対応しました。
 
@@ -164,7 +164,7 @@ end
 しかし、同様にrepcipeでのインストール指定を行なっているbundler 1.16では、rakeのversion 10系をdependencyとしています。
 そのために、`gem list`の実行では複数versionのrakeがインストールされている事実が返ってくるので、文字列 `'rake (11.1.0)'` のmatchに失敗します。
 
-これについては、文字列の末尾の閉じカッコを削除し、複数versionのrake gemがインストールされている状態でも通るようにしました。(あまり筋がいいとは思えませんんが……)
+これについては、文字列の末尾の閉じカッコを削除し、複数versionのrake gemがインストールされている状態でも通るようにしました。(あまり筋がいいとは思えませんが……)
 
 ### test-unit gemが存在してしまう
 test-unit gem、2回目の登場です。
@@ -199,7 +199,7 @@ xenialでは、Ruby 2.3.1がaptからインストールされますが、Ruby 2.
 
 まずは愚直に、Ruby officialのdocker imageをboxに指定してみましたが、Vagrantの起動に失敗します。エラーの内容を見ると、`modinfo`が存在していない、というものでした。
 
-しかし、色々調べてみたところ、docker contaner内で`modinfo`をインストールすることはできないようです。
+しかし、色々調べてみたところ、docker container内で`modinfo`をインストールすることはできないようです。
 
 (数ヶ月前のことなのでどこを参照してその結論に至ったかは覚えてないのですが、今`ruby:2.3.1`のimageに対して`apt install kmod`を実行すると、インストールできるので、この認識が間違っている可能性は大いにあります。
 しかし、`modinfo`の実行自体も、様々なmoduleに対して実行してもエラーが返ってくるので、やはり一筋縄ではいかないようです)
@@ -230,6 +230,7 @@ xenialでは、Ruby 2.3.1がaptからインストールされますが、Ruby 2.
 
 また、これに関して、情報科学若手の会冬の陣2018で発表してきました。以下が資料となります。
 
-[unasuke/wakate2018w_talk](https://github.com/unasuke/wakate2018w_talk)
 
 <iframe src='https://unasuke.github.io/wakate2018w_talk/' width='800px' height='600px'></iframe>
+
+[unasuke/wakate2018w\_talk](https://github.com/unasuke/wakate2018w_talk)
