@@ -11,9 +11,9 @@ tags:
 ![itamae readme](2018/itamae-readme.png)
 
 ## master build failed
-itamaeの名前を久々に聞いたのは、昨年11月行なわれた福岡Ruby会議02でのことでした。前夜祭でのまなてぃさんの発表でitamaeを使っているとの話を聞き、また、懇親会でまなてぃさんがPullRequsetを出したがテスト通らずmergeもしてもらえないという話を聞き、それからずっとitamaeのことがどこか頭の片隅にありました。
+itamaeの名前を久々に聞いたのは、昨年11月に行なわれた福岡Ruby会議02でのことでした。前夜祭でのまなてぃさんの発表でitamaeを使っているとの話を聞き、また、懇親会でまなてぃさんがPullRequsetを出したがテストが通らずmergeもしてもらえないという話を聞き、それからずっとitamaeのことがどこか頭の片隅にありました。
 
-その後、転職記事でも触れましたが、業務でpuppetを置き替えることになったときに、ここはitamaeを使ってみようと考えました。そこで[itamae-kitchen/itamae](https://github.com/itamae-kitchen/itamae)を見に行くと、そもそもmaster branchのでのCIが(2017年3月から)failedになっていうことに気づきました。
+その後、転職記事でも触れましたが、業務でpuppetを置き替えることになったときに、ここはitamaeを使ってみようと考えました。そこで[itamae-kitchen/itamae](https://github.com/itamae-kitchen/itamae)を見に行くと、そもそもmaster branchのでのCIが(2017年3月から)failedになっていることに気づきました。
 
 cookpadでの採用実績や、gihyoでの解説記事、バージョンも1.9を迎えるなどそれなりに成熟しているOSSと言って差し支えないでしょうが、masterのCIが失敗しているプロダクトにあまりいい印象はないでしょう。そこで、業務でitamae recipeを書きつつ、その合間と個人的な時間でitamaeのCIを直すことに挑戦しました。
 
@@ -230,6 +230,7 @@ xenialでは、Ruby 2.3.1がaptからインストールされますが、Ruby 2.
 
 また、これに関して、情報科学若手の会冬の陣2018で発表してきました。以下が資料となります。
 
-[unasuke/wakate2018w_talk](https://github.com/unasuke/wakate2018w_talk)
 
 <iframe src='https://unasuke.github.io/wakate2018w_talk/' width='800px' height='600px'></iframe>
+
+[unasuke/wakate2018w\_talk](https://github.com/unasuke/wakate2018w_talk)
