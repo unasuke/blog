@@ -123,7 +123,7 @@ end
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">mkdir -p でうまくいったりしないの <a href="https://twitter.com/hashtag/wakate2018w?src=hash&amp;ref_src=twsrc%5Etfw">#wakate2018w</a></p>&mdash; why/橘和板 (@whywaita) <a href="https://twitter.com/whywaita/status/959663338350260224?ref_src=twsrc%5Etfw">2018年2月3日</a></blockquote>
 
-### 解消できなっかったsticky bit問題
+### 解消できなかったsticky bit問題
 とあるrecipeの実行で、net-scp gemが例外を吐いて落ちる、という問題が発生しました。
 
 ```ruby
