@@ -21,7 +21,7 @@ tags:
 
 [Railsdm 2018 day 3 extreme - unasuke - Rabbit Slide Show](https://slide.rabbit-shocker.org/authors/unasuke/railsdm_2018_day_3_extreme/)
 
-「Railsのissueを毎日読む方法」という題で登壇せて頂きました。
+「Railsのissueを毎日読む方法」という題で登壇させて頂きました。
 
 実際のところ、pixivFANBOXでのwatchは結構継続できており、ありがたいことに支援者も6名ほどおられます。
 
