@@ -18,7 +18,6 @@
   },
   "homepage": "https://github.com/unasuke/blog#readme",
   "devDependencies": {
-    "node-sass": "^4.11.0",
-    "yarn": "^0.18.1"
+    "node-sass": "^4.12.0"
   }
 }
