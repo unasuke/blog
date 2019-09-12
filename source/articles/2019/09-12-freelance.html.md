@@ -3,7 +3,7 @@ title: "フリーランスになっていました"
 date: 2019-09-12 15:14 JST
 tags: 
 - diary
-- freelanse
+- freelance
 ---
 
 
