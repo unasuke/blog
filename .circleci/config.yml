@@ -1,36 +1,41 @@
 version: 2
-jobs:
-  build:
-    docker:
-      - image: unasuke/blog
+executorType: docker
+containerInfo:
+  - image: unasuke/blog
+stages:
+  build: 
+    workDir: ~/blog
     steps:
       - checkout
-      - run: npm install
-      - run: bundle install --path vendor/bundle
-      - run: bundle exec middleman build
-      - run: bundle exec middleman s3_sync --dry-run
-  deploy:
-    docker:
-      - image: unasuke/blog
-    steps:
-      - checkout
-      - run: npm install
-      - run: bundle install --path vendor/bundle
-      - run: bundle exec middleman build
-      - run: bundle exec middleman s3_sync
-workflows:
-  version: 2
-  build_and_dry_deploy:
-    jobs:
-      - build:
-          filters:
-            branches:
-              ignore:
-                - master
-  deploy:
-    jobs:
-      - deploy:
-          filters:
-            branches:
-              only:
-                - master
+      - restore_cache:
+          keys:
+            - gems
+            - node_modules
+            - builded_pages
+      - run: apt update && apt install --assume-yes rsync
+      - run:
+          command: npm install
+      - save_cache:
+          key: node_modules
+          paths:
+            - node_modules
+      - run:
+          command: bundle install --path vendor/bundle
+      - save_cache:
+          key: gems
+          paths:
+            - vendor/bundle
+      - run:
+          command: bundle exec middleman build
+      - save_cache:
+          key: builded_pages
+          paths:
+            - build
+      - run:
+          name: deploy
+          command: |
+            if [ "${CIRCLE_BRANCH}" == "master" ]; then
+              bundle exec middleman s3_sync
+            else
+              bundle exec middleman s3_sync --dry-run
+            fi
