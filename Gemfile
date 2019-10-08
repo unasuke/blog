@@ -15,4 +15,5 @@ gem 'middleman-s3_sync', github: 'fredjean/middleman-s3_sync'
 gem 'middleman-somemoji'
 gem "middleman-syntax"
 gem 'redcarpet'
+gem "redcarpet-render-html_lazy_img"
 gem "slim"
