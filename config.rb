@@ -47,7 +47,6 @@ set :images_dir, 'images'
 activate :syntax
 set :markdown_engine, :redcarpet
 set :markdown,
-  renderer: Redcarpet::Render::HTMLLazyImg::Lazy,
   fenced_code_blocks: true, smartypants: true, strikethrough: true, tables: true, footnotes: true
 Slim::Engine.set_options pretty: true, sort_attrs: false
 
