@@ -122,6 +122,10 @@ GEM
       ptools
     middleman-hatenastar (0.1.0)
       middleman-core (>= 4)
+    middleman-img_loading_attribute (0.3.0)
+      middleman-cli
+      middleman-core
+      nokogiri
     middleman-livereload (3.4.6)
       em-websocket (~> 0.5.1)
       middleman-core (>= 3.3)
@@ -159,8 +163,6 @@ GEM
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
     redcarpet (3.5.0)
-    redcarpet-render-html_lazy_img (0.2.0)
-      redcarpet (~> 3)
     rouge (2.2.1)
     ruby-progressbar (1.10.0)
     sass (3.4.25)
@@ -194,12 +196,12 @@ DEPENDENCIES
   middleman-blog
   middleman-deploy (= 2.0.0.pre.alpha)
   middleman-hatenastar
+  middleman-img_loading_attribute
   middleman-livereload
   middleman-s3_sync!
   middleman-somemoji
   middleman-syntax
   redcarpet
-  redcarpet-render-html_lazy_img
   slim
 
 BUNDLED WITH

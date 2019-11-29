@@ -93,3 +93,7 @@ activate :s3_sync do |s3_sync|
   s3_sync.index_document             = 'index.html'
   s3_sync.error_document             = '404/index.html'
 end
+
+activate :img_loading_attribute do |c|
+  c.loading = 'lazy'
+end
