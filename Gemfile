@@ -10,10 +10,10 @@ gem "middleman", "~> 4.0"
 gem "middleman-blog"
 gem "middleman-deploy", "2.0.0.pre.alpha"
 gem 'middleman-hatenastar'
+gem "middleman-img_loading_attribute"
 gem "middleman-livereload"
 gem 'middleman-s3_sync', github: 'fredjean/middleman-s3_sync'
 gem 'middleman-somemoji'
 gem "middleman-syntax"
 gem 'redcarpet'
-gem "redcarpet-render-html_lazy_img"
 gem "slim"
