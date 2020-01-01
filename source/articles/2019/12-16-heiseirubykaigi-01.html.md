@@ -39,4 +39,4 @@ tags:
 あ、あとこれ。
 
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">エモ散らかしてて限界なんだが <a href="https://twitter.com/hashtag/heiseirubykaigi?src=hash&amp;ref_src=twsrc%5Etfw">#heiseirubykaigi</a> <a href="https://t.co/SgSXIRv1bp">https://t.co/SgSXIRv1bp</a></p>&mdash; うなすけ(C97火曜日南リ17a) (@yu_suke1994) <a href="https://twitter.com/yu_suke1994/status/1205677426849673216?ref_src=twsrc%5Etfw">December 14, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">エモ散らかしてて限界なんだが <a href="https://twitter.com/hashtag/heiseirubykaigi?src=hash&amp;ref_src=twsrc%5Etfw">#heiseirubykaigi</a> <a href="https://t.co/SgSXIRv1bp">https://t.co/SgSXIRv1bp</a></p>&mdash; うなすけ(C97火曜日南リ17a) (@yu\_suke1994) <a href="https://twitter.com/yu_suke1994/status/1205677426849673216?ref_src=twsrc%5Etfw">December 14, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
