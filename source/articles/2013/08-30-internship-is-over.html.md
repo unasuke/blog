@@ -11,7 +11,7 @@ tags:
 
 ## なにをしたか
 さて、僕がインターンシップで何をしてきたか。それは「iOSアプリの開発」である。僕はiOSプログラミングも、Objective-Cも、そもそもオブジェクト指向プログラミングさえもやったことがなく、それはインターンシップの相方も同じであった。そんな2人がチームを組んで作ったアプリだ。出来がいいわけがない。それでも、iOSプログラミングの初歩を学ぶことが出来た。
-<iframe src="http://www.slideshare.net/slideshow/embed_code/25749917" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/yusukenakamura1994/ss-25749917" title="インターンシップ成果報告プレゼン" target="_blank">インターンシップ成果報告プレゼン</a> </strong> from <strong><a href="http://www.slideshare.net/yusukenakamura1994" target="_blank">うなすけ</a></strong> </div>
+<iframe src="https://www.slideshare.net/slideshow/embed_code/25749917" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/yusukenakamura1994/ss-25749917" title="インターンシップ成果報告プレゼン" target="_blank">インターンシップ成果報告プレゼン</a> </strong> from <strong><a href="https://www.slideshare.net/yusukenakamura1994" target="_blank">うなすけ</a></strong> </div>
 成果発表のスライドがこれである。利益を得たりする目的ではないため問題無いとは思うが、もしも無断体裁等の規約に違反しているならすぐに削除するので教えてほしい。(教えて欲しいっていうのもなんだか上から目線だな)
 
 ## それで？これどうすんの？
