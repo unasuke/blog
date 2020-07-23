@@ -4,7 +4,10 @@ WORKDIR /blog
 
 RUN apt update \
   && apt install --assume-yes --no-install-recommends \
+    curl  \
+    git   \
     g++   \
+    openssh \
     rsync \
   && rm -rf /var/lib/apt/lists/*
 
