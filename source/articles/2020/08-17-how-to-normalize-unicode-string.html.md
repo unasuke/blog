@@ -19,7 +19,8 @@ tags:
 それでは実際にそのような文字列変換を行うにはどうすればよいのか、またコメントでiconvについて触れられていたので、この記事ではUnicodeにおけるNFKC正規化をどうやって行うのか試してみることにしました。
 
 ## 追記
-GoとPythonとJavaScriptでの例を足しました。またいくつかのscriptにおいてブラウザ上で実行できるURLを添付しました。 (2020-08-17 16:22)
+- GoとPythonとJavaScriptでの例を足しました。またいくつかのscriptにおいてブラウザ上で実行できるURLを添付しました。 (2020-08-17 16:22)
+- "Go" に表記を統一しました。 (2020-08-17 17:00)
 
 ## Ruby
 僕にとって文字列処理といえばRubyなので、まずは以下のようなscriptを書いてみました。
@@ -139,7 +140,7 @@ Pythonにおいては、`unicodedata` モジュールをインポートするこ
 
 [unicodedata --- Unicode データベース — Python 3.8.5 ドキュメント](https://docs.python.org/ja/3/library/unicodedata.html)
 
-## Golang
+## Go
 ```go
 package main
 
@@ -198,7 +199,7 @@ func main() {
 
 <https://play.golang.org/p/xG255G32mlJ>
 
-Golangでは、`norm` packageを使用することで正規化を行うことができます。
+Goでは、`norm` packageを使用することで正規化を行うことができます。
 
 - [norm package · pkg.go.dev](https://pkg.go.dev/golang.org/x/text/unicode/norm?tab=doc)
 - [Strings, bytes, runes and characters in Go - The Go Blog](https://blog.golang.org/strings)
