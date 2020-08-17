@@ -4,6 +4,9 @@ title: "UTF-8 の文字列をできる限り Shift_JIS に変換したい(実践
 date: 2020-08-17 08:59 JST
 tags: 
 - ruby
+- python
+- golang
+- javascript
 - unicode
 ---
 
@@ -14,6 +17,9 @@ tags:
 [UTF-8 の文字列をできる限り Shift_JIS に変換したい - きりきりやま](https://kirikiriyamama.hatenablog.com/entry/2020/08/05/144205)
 
 それでは実際にそのような文字列変換を行うにはどうすればよいのか、またコメントでiconvについて触れられていたので、この記事ではUnicodeにおけるNFKC正規化をどうやって行うのか試してみることにしました。
+
+## 追記
+GoとPythonとJavaScriptでの例を足しました。またいくつかのscriptにおいてブラウザ上で実行できるURLを添付しました。 (2020-08-17 16:22)
 
 ## Ruby
 僕にとって文字列処理といえばRubyなので、まずは以下のようなscriptを書いてみました。
@@ -73,9 +79,172 @@ codepoints => [13213]
 NFKC normalized codepoints => [99, 109]
 ```
 
+<https://wandbox.org/permlink/CQaSM6ffOHc0zLu6>
+
 Rubyにおいては、Unicode正規化を行うには `String#unicode_normalize` によって行うことができます。その際にoptionとして正規化の形式を指定することができます。とても簡単ですね。
 
 <https://docs.ruby-lang.org/ja/latest/class/String.html#I_UNICODE_NORMALIZE>
+
+## Python
+```python
+import unicodedata
+
+print('\u304c (U+304c)')
+print('codepoints => ', end='')
+for char in '\u304c'.strip():
+  print(hex(ord(char)) + ' ' , end='')
+print()
+print('NFKC normalized codepoints => ', end='')
+for char in unicodedata.normalize('NFKC', '\u304c').strip():
+  print(hex(ord(char)) + ' ' , end='')
+print()
+print('=' * 20)
+
+print('\u304b\u3099 (U+304b U+3099)')
+print('codepoints => ', end='')
+for char in '\u304b\u3099'.strip():
+  print(hex(ord(char)) + ' ' , end='')
+print()
+print('NFKC normalized codepoints => ', end='')
+for char in unicodedata.normalize('NFKC', '\u304b\u3099').strip():
+  print(hex(ord(char)), end='')
+print()
+print('=' * 20)
+
+print('\u0063\u006d (U+0063 U+006d)')
+print('codepoints => ', end='')
+for char in '\u0063\u006d'.strip():
+  print(hex(ord(char)) + ' ' , end='')
+print()
+print('NFKC normalized codepoints => ', end='')
+for char in unicodedata.normalize('NFKC', '\u0063\u006d').strip():
+  print(hex(ord(char)) + ' ' , end='')
+print()
+print('=' * 20)
+
+print('\u339d (U+339d)')
+print('codepoints => ', end='')
+for char in '\u339d'.strip():
+  print(hex(ord(char)) + ' ' , end='')
+print()
+print('NFKC normalized codepoints => ', end='')
+for char in unicodedata.normalize('NFKC', '\u339d').strip():
+  print(hex(ord(char)) + ' ' , end='')
+print()
+```
+
+<https://wandbox.org/permlink/cMc7S5blWLZLLObD>
+
+Pythonにおいては、`unicodedata` モジュールをインポートすることによって使用できる `unicodedata.normalize` により、形式を指定して正規化を行うことができます。
+
+[unicodedata --- Unicode データベース — Python 3.8.5 ドキュメント](https://docs.python.org/ja/3/library/unicodedata.html)
+
+## Golang
+```go
+package main
+
+import (
+	"fmt"
+
+	"strings"
+
+	"unicode/utf8"
+
+	"golang.org/x/text/unicode/norm"
+)
+
+func printCodepoints(str string) {
+	fmt.Print("codepoints => ")
+	for i, w := 0, 0; i < len(str); i += w {
+		runeValue, width := utf8.DecodeRuneInString(str[i:])
+		fmt.Printf("%U ", runeValue)
+		w = width
+	}
+	fmt.Print("\n")
+}
+
+func main() {
+	fmt.Println("\u304c (U+304c)")
+	printCodepoints("\u304c")
+
+	fmt.Print("NFKC normalized ")
+	printCodepoints(norm.NFKC.String("\u304c"))
+
+	fmt.Println(strings.Repeat("=", 20))
+
+	fmt.Println("\u304b\u3099 (U+204c u+3099)")
+	printCodepoints("\u304b\u3099")
+
+	fmt.Print("NFKC normalized ")
+	printCodepoints(norm.NFKC.String("\u304b\u3099"))
+
+	fmt.Println(strings.Repeat("=", 20))
+
+	fmt.Println("\u0063\u006d (U+0063 U+006d)")
+	printCodepoints("\u0063\u006d")
+
+	fmt.Print("NFKC normalized ")
+	printCodepoints(norm.NFKC.String("\u0063\u006d"))
+
+	fmt.Println(strings.Repeat("=", 20))
+
+	fmt.Println("\u339d (U+339d)")
+	printCodepoints("\u339d")
+
+	fmt.Print("NFKC normalized ")
+	printCodepoints(norm.NFKC.String("\u339d"))
+}
+```
+
+<https://play.golang.org/p/xG255G32mlJ>
+
+Golangでは、`norm` packageを使用することで正規化を行うことができます。
+
+- [norm package · pkg.go.dev](https://pkg.go.dev/golang.org/x/text/unicode/norm?tab=doc)
+- [Strings, bytes, runes and characters in Go - The Go Blog](https://blog.golang.org/strings)
+- [Goでの文字列の正規化 (Text normalization in Go) | The Go Blog 日本語訳](https://www.ymotongpoo.com/works/goblog-ja/post/normalization/)
+
+## JavaScript
+```javascript
+// function from https://jsprimer.net/basic/string-unicode/#code-point-is-not-code-unit
+function convertCodeUnits(str) {
+    const codeUnits = [];
+    for (let i = 0; i < str.length; i++) {
+        codeUnits.push(str.charCodeAt(i).toString(16));
+    }
+    return codeUnits;
+}
+
+
+console.log('\u304c (U+304c)')
+console.log('codepoints => ' + convertCodeUnits('\u304c'))
+console.log('NFKC normalized codepoints => ' + convertCodeUnits('\u304c'.normalize('NFKC')))
+console.log('=' .repeat(20))
+
+
+console.log('\u304b\u3099 (U+304b U+3099)')
+console.log('codepoints => ' + convertCodeUnits('\u304b\u3099'))
+console.log('NFKC normalized codepoints => ' + convertCodeUnits('\u304b\u3099'.normalize('NFKC')))
+console.log('='.repeat(20))
+
+console.log('\u0063\u006d (U+0063 U+006d)')
+console.log('codepoints => ' + convertCodeUnits('\u0063\u006d'))
+console.log('NFKC normalized codepoints => ' + convertCodeUnits('\u0063\u006d'.normalize('NFKC')))
+console.log('='.repeat(20))
+
+
+console.log('\u339d (U+339d)')
+console.log('codepoints => ' + convertCodeUnits('\u339d'))
+console.log('NFKC normalized codepoints => ' + convertCodeUnits('\u339d'.normalize('NFKC')))
+console.log('='.repeat(20))
+```
+
+<https://wandbox.org/permlink/JLQH8LasdQo9ewgS>
+
+JavaScriptでは、 `String.prototype.normalize()` によって正規化を行うことができます。
+
+- [String.prototype.normalize() - JavaScript | MDN](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/String/normalize)
+- [文字列とUnicode · JavaScript Primer #jsprimer](https://jsprimer.net/basic/string-unicode/)
 
 それでは他のツールはどうでしょうか。
 
