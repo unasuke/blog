@@ -3,6 +3,12 @@
   color: #93a1a1;
   text-align: left;
   padding: 10px;
+  margin-bottom: 10px;
+  overflow: auto;
+
+  pre {
+    margin: 0;
+  }
 
   .c { color: #586e75 } /* Comment */
   .err { color: #93a1a1 } /* Error */
