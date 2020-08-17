@@ -5,6 +5,7 @@
   @include main-content-width;
   padding: 10px 15px;
   margin-bottom: 2rem;
+  word-break: break-word;
 
   @media  screen and (max-device-width: $small_device_width) {
     margin-bottom: 1rem;
