@@ -3,11 +3,11 @@ FROM unasuke/ruby-nodejs:2.6-nodejs12
 WORKDIR /blog
 
 RUN apt update \
-  && apt install --assume-yes --no-install-recommends \
+  && apt-get install -y --no-install-recommends \
     curl  \
     git   \
     g++   \
-    openssh \
+    openssh-server \
     rsync \
   && rm -rf /var/lib/apt/lists/*
 
