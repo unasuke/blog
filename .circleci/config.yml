@@ -8,29 +8,8 @@ jobs:
       - run: npm install
       - run: bundle install --path vendor/bundle
       - run: bundle exec middleman build
-      - run: bundle exec middleman s3_sync --dry-run
-  deploy:
-    docker:
-      - image: unasuke/blog
-    steps:
-      - checkout
-      - run: npm install
-      - run: bundle install --path vendor/bundle
-      - run: bundle exec middleman build
-      - run: bundle exec middleman s3_sync
 workflows:
   version: 2
   build_and_dry_deploy:
     jobs:
-      - build:
-          filters:
-            branches:
-              ignore:
-                - master
-  deploy:
-    jobs:
-      - deploy:
-          filters:
-            branches:
-              only:
-                - master
+      - build

@@ -12,7 +12,7 @@ RUN apt update \
   && rm -rf /var/lib/apt/lists/*
 
 COPY Gemfile Gemfile.lock /blog/
-RUN bundle install --path vendor/bundle
+RUN bundle install --path vendor/bundle --jobs 3
 
 COPY package.json package-lock.json /blog/
 RUN npm install
