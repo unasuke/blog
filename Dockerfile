@@ -1,4 +1,4 @@
-FROM unasuke/ruby-nodejs:2.6-nodejs12
+FROM unasuke/ruby-nodejs:2.7-nodejs14
 
 WORKDIR /blog
 
