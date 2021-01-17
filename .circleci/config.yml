@@ -6,6 +6,7 @@ jobs:
     steps:
       - checkout
       - run: npm install
+      - run: gem install bundler:2.2.3
       - run: bundle install --path vendor/bundle
       - run: bundle exec middleman build
 workflows:
