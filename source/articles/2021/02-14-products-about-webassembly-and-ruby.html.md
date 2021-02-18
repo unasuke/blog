@@ -26,7 +26,7 @@ tags:
 * [WebAssembly | MDN](https://developer.mozilla.org/ja/docs/WebAssembly)
 * [WebAssembly Community Group](https://www.w3.org/community/webassembly/)
 
-## Ruby  to WASM
+## Ruby to WASM
 Rubyを何らかの方法で最終的にWASM Bitecodeにコンパイルするものたちです。
 
 ### blacktm/ruby-wasm
@@ -112,6 +112,15 @@ BASICが動く教育向け(でいいのか？)マイコンボードのIchigoJam�
 
 [mruby on web - WebAssemblyのバイナリ4KB以下で動かす超軽量クライアントサイド用Ruby #ruby / 福野泰介の一日一創 / Create every day by Taisuke Fukuno](https://fukuno.jig.jp/2480)
 
+### emruby
+<https://github.com/mame/emruby>
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">作り込みはぜんぜんダメですが、仲間にいれてあげてください！ 最近の ruby/ruby master を emscripten できるようにしてます<a href="https://t.co/7PvkHsZ0In">https://t.co/7PvkHsZ0In</a></p>&mdash; Yusuke Endoh (@mametter) <a href="https://twitter.com/mametter/status/1362226547151622145?ref_src=twsrc%5Etfw">February 18, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+作者のmameさんから直接教えていただきました。 ruby/rubyにpatchを当てたものをEmscriptenによってWASMにコンパイルしています。(WASMにしているのはminiruby) <https://mame.github.io/emruby/> で試すこともできます。最近作成されていることもあり、Rubyのversionが3.1.0devなのが凄いですね。
+
+読み方は「いーえむるびー」であり、「えむるびー」ではないのに注意。この40行ほどのpatchでWASMにコンパイルできるんですね……
+
 ## WASM runs by Ruby
 RubyからWASMを実行できるようにするものです。
 
@@ -152,3 +161,6 @@ READMEには
 [WebAssemblyを Rubyにコンパイルする 黒魔術コード完全解説 - Speaker Deck](https://speakerdeck.com/alice345/webassemblywo-rubynikonpairusuru-hei-mo-shu-kodowan-quan-jie-shuo)
 
 [^isminiruby]: <https://naruse.hateblo.jp/entry/20110118/1295345908> より
+
+## 追記 (2021-02-18)
+emrubyについての記述を追加しました。
