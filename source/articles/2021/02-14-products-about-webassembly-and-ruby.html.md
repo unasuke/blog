@@ -121,6 +121,10 @@ BASICが動く教育向け(でいいのか？)マイコンボードのIchigoJam�
 
 読み方は「いーえむるびー」であり、「えむるびー」ではないのに注意。この40行ほどのpatchでWASMにコンパイルできるんですね……
 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ありがとうございます！patch は、文字列を JS eval する emscripten API を生やすだけなので、なくてもコンパイルできるはずです</p>&mdash; Yusuke Endoh (@mametter) <a href="https://twitter.com/mametter/status/1362243221120716800?ref_src=twsrc%5Etfw">February 18, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+Emscriptenって、凄いですね。
+
 ## WASM runs by Ruby
 RubyからWASMを実行できるようにするものです。
 
