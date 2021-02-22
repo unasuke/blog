@@ -164,7 +164,54 @@ READMEには
 
 [WebAssemblyを Rubyにコンパイルする 黒魔術コード完全解説 - Speaker Deck](https://speakerdeck.com/alice345/webassemblywo-rubynikonpairusuru-hei-mo-shu-kodowan-quan-jie-shuo)
 
-[^isminiruby]: <https://naruse.hateblo.jp/entry/20110118/1295345908> より
 
-## 追記 (2021-02-18)
+## その他
+「こんなものもありますよ」と教えていただいたものの、現時点でWASMは使用されていなかったものです。
+
+### webruby
+<https://github.com/xxuejie/webruby>
+
+Rubyではなくmrubyではありますが、Web上でruby scriptを実行できるようにするものです。
+<http://joshnuss.github.io/mruby-web-irb/> から実際に試すことができます。
+
+これはEmscriptenによってmrubyをJavaScriptに変換しているのみで、WASMは使用されていませんでした。
+
+### DXOpal
+まず、RubyのコードをJavaScriptに変換するOpalというコンパイラがあります。例えばRuby公式Webサイトからリンクされている、Webブラウザ上でRubyを試すことのできる <https://try.ruby-lang.org> ではOpalが使われています。
+
+- <https://opalrb.com>
+- <https://github.com/opal/opal>
+- <https://try.ruby-lang.org>
+
+そして、RubyからDirextXのAPIを利用することができ、RubyによってWindows向けにゲームを開発することのできるライブラリ、DXRubyというものがあります。
+
+- <http://dxruby.osdn.jp>
+- <https://github.com/mirichi/dxruby>
+
+DXOpalは、そのDXRubyのAPIを「だいたいそのまま」移植してWebブラウザ上でゲームを開発できるようにしたライブラリです。
+
+- <https://yhara.github.io/dxopal/index.html>
+- <https://github.com/yhara/dxopal>
+- [Rubyで始めるゲームプログラミング - DXOpal編 -](https://magazine.rubyist.net/articles/0057/0057-GameProgramingWithDXOpal.html)
+
+そのDXOpalですが、RubyKaigi 2017にて一部をWebAssmeblyにしてみたとの発表がありました。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bNTajEO_ndA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[Ruby, Opal and WebAssembly - Speaker Deck](https://speakerdeck.com/yhara/ruby-opal-and-webassembly)
+
+発表では、RubyをWebAssemblyに移植する難しさについても言及されています。
+
+しかし発表内でデモされていたWebAssembly実装ですが、現時点ではmasterにmergeされてはいないようでした。
+
+- <https://github.com/yhara/dxopal/tree/rk2017>
+- <https://github.com/yhara/dxopal/issues/1>
+
+## 追記
+### 2021-02-18
 emrubyについての記述を追加しました。
+
+### 2021-02-22
+「その他」を追加しました。
+
+[^isminiruby]: <https://naruse.hateblo.jp/entry/20110118/1295345908> より
