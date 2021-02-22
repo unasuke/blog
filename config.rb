@@ -83,17 +83,6 @@ activate :hatenastar,
   container: 'h2',
   entry_node: 'section.article'
 
-activate :s3_sync do |s3_sync|
-  s3_sync.region                     = 'ap-northeast-1'
-  s3_sync.after_build                = false
-  s3_sync.prefer_gzip                = true
-  s3_sync.path_style                 = true
-  s3_sync.acl                        = 'public-read'
-  s3_sync.encryption                 = false
-  s3_sync.index_document             = 'index.html'
-  s3_sync.error_document             = '404/index.html'
-end
-
 activate :img_loading_attribute do |c|
   c.loading = 'lazy'
 end
