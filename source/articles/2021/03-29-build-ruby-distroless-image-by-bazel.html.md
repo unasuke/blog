@@ -524,7 +524,7 @@ CMD ["exec", "ruby", "server.rb"]
 
 また、この記事はZennにクロスポストしました。内容について面白かった、参考になったなどのお気持ちを「サポート」として頂けると非常に嬉しいです。非常に労力がかかっているので……
 
-<https://zenn.dev/articles/f51fa23483bec6>
+<https://zenn.dev/unasuke/articles/f51fa23483bec6>
 
 [^py2]: [2020年2月21日号　focalの開発: PHP 7.4への切り替えとPython 2の去就：Ubuntu Weekly Topics｜gihyo.jp … 技術評論社](https://gihyo.jp/admin/clip/01/ubuntu-topics/202002/21)
 [^debian-snapshot]: `snapshot.debian.org` に国内mirrorがあれば切り替えて試したかったのですが、2019年時点で90TBものストレージを必要とするらしく、なかなかmirrorも用意できないですよね
