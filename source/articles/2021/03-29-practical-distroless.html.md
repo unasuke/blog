@@ -184,7 +184,7 @@ PythonやRubyのようなscript言語は、実行時に必要となるライブ�
 ## おわりに
 この記事はZennにクロスポストしました。内容について面白かった、参考になったなどのお気持ちを「サポート」として頂けると非常に嬉しいです。
 
-https://zenn.dev/unasuke/articles/5ee6e2067ab1ba>
+<https://zenn.dev/unasuke/articles/5ee6e2067ab1ba>
 
 ## おまけ musl libcとglibcの違いって何
 軽量なイメージのベースとして使われることも多いAlpine Linuxは、標準CライブラリにGNU C Library(glibc)ではなくmusl libcを採用しています。glibcとmusl libcは完全に同じ動作をするものではなく、現にRubyにおいては以下のような報告があります。
