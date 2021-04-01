@@ -170,7 +170,7 @@ Key長の課題を解決した時点で、失敗しているテストは以下3�
 
 このうち、 `test_delete_multi` と `test_crazy_key_characters` については実装を少し修正することによってテストが通るようになりました。しかし、 `test_expires_in` はそうもいきません。
 
-## test_expires_in をどうするか
+## test\_expires\_in をどうするか
 このテストの内容は以下です。
 
 <https://github.com/rails/rails/blob/v6.1.3.1/activesupport/test/cache/behaviors/cache_store_behavior.rb#L392-L407>
