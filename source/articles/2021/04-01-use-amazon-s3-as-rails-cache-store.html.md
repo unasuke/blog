@@ -38,7 +38,7 @@ Amazon S3の実体はKey-Value storeという事実は、既にご存知の方�
 
 それでは、実際に `ActiveSupport::Cache::S3CacheStore` の実装をやってみましょう。
 
-## Cashe Storeを新規に作成する
+## Cache Storeを新規に作成する
 そもそも、Cache storeを新規に作成することはできるのか、できるならどのようにすればいいのでしょうか。
 
 `activesupport/lib/active_support/cache.rb` には、以下のような記述があります。
