@@ -150,6 +150,14 @@ WasmtimeのRuby bindingとあります。Wasmtimeは、(Wasmerのように)あ�
 
 `require 'wasmtime/require'` とすることで、WASMバイナリ及びテキスト表現を直接 `require`して実行できるのは面白いですね。
 
+### WASM.rb
+<https://github.com/technohippy/wasmrb>
+
+Wasmerとは異なり、pure rubyのWASM処理系です。(languageで半数以上がWASMになっていますが、これはtest dir以下に含まれているものっぽい)
+また、WASM binaryをRubyのhashっぽくinspectしてくれる機能もあります。
+
+[TODO.md](https://github.com/technohippy/wasmrb/blob/master/TODO.md) を見る限りではまだ未実装の仕様も多いですが、WASMの勉強には(まだ)コードの量も少なく勉強するのには良さそうです。
+
 ## WASM to Ruby
 WASMをRubyのコードに変換するものです。(逆アセンブル？)
 
@@ -213,5 +221,8 @@ emrubyについての記述を追加しました。
 
 ### 2021-02-22
 「その他」を追加しました。
+
+### 2021-04-13
+WASM.rbについての記述を追加しました。
 
 [^isminiruby]: <https://naruse.hateblo.jp/entry/20110118/1295345908> より
