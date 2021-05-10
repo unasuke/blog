@@ -24,7 +24,7 @@ VoiceMeeter Bananaは仮想ミキサーソフトウェアで、配信用途で�
 - [京都大学 Panda／Zoom／Kaltura利用支援サイト](https://kyoto-u.github.io/online-edu/zoom-audio-voicemeter)
 
 
-## 他りアプリと組み合せたポン出し
+## 他のアプリと組み合せたポン出し
 [リモート飲み会やテレビ会議でBGMや効果音を流して和もう！ (ソフトウェアミキサーで遊ぶ)](https://www.kokozo.net/remoteNomikai/)
 
 上記の記事にもあるように、VLCなどのメディアプレイヤーとVoiceMeeter Bananaを組み合わせればポン出しは可能です。
