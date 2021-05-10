@@ -1,5 +1,5 @@
 ---
-title: 電子辞書 "Brain" 上でRuby 3.0をビルドするのには○○時間かかる
+title: "電子辞書 'Brain' 上でRuby 3.0をビルドするのには○○時間かかる"
 date: 2021-05-10 08:41 JST
 tags: 
 - linux
