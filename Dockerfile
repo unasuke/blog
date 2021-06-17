@@ -11,8 +11,9 @@ RUN apt update \
     rsync \
   && rm -rf /var/lib/apt/lists/*
 
+RUN bundle config set --global path vendor/bundle
 COPY Gemfile Gemfile.lock /blog/
-RUN bundle install --path vendor/bundle --jobs 3
+RUN bundle install --jobs 3
 
 COPY package.json package-lock.json /blog/
 RUN npm install
