@@ -27,7 +27,7 @@ tags:
 * [WebAssembly Community Group](https://www.w3.org/community/webassembly/)
 
 ## Ruby to WASM
-Rubyを何らかの方法で最終的にWASM Bitecodeにコンパイルするものたちです。
+Rubyを何らかの方法で最終的にWASM Bytecodeにコンパイルするものたちです。
 
 ### blacktm/ruby-wasm
 <https://github.com/blacktm/ruby-wasm>
@@ -41,7 +41,7 @@ Rubyを何らかの方法で最終的にWASM Bitecodeにコンパイルするも
 
 > Ruby script → MRuby bytecode → C → emcc (Emscripten Compiler Frontend) → LLVM → Binaryen → WebAssembly
 
-ここで登場する[binaryen](https://github.com/WebAssembly/binaryen)ですが、GitHubのWebAssembly org以下で開発されている、公式のtoolchainです。上記で行われているようなWebAssemblyへのコンパイルの他にも、wasm bitecodeからのunassemble(text formatへの変換)などの様々なツールが同梱されています。
+ここで登場する[binaryen](https://github.com/WebAssembly/binaryen)ですが、GitHubのWebAssembly org以下で開発されている、公式のtoolchainです。上記で行われているようなWebAssemblyへのコンパイルの他にも、wasm bytecodeからのunassemble(text formatへの変換)などの様々なツールが同梱されています。
 
 <https://github.com/WebAssembly/binaryen>
 
@@ -49,7 +49,7 @@ Rubyを何らかの方法で最終的にWASM Bitecodeにコンパイルするも
 <https://github.com/ljulliar/rlang>
 > a Ruby-like language compiled to WebAssembly
 
-Rubyのsubsetである "Rlang" からWASM bitecodeへのコンパイルを行うものです。このRlangとRubyの差異は以下にまとまっています。例えば整数型のサイズを32bitか64bitかを指定するsyntaxや、可変長引数が使用できないなどの違いがあります。
+Rubyのsubsetである "Rlang" からWASM bytecodeへのコンパイルを行うものです。このRlangとRubyの差異は以下にまとまっています。例えば整数型のサイズを32bitか64bitかを指定するsyntaxや、可変長引数が使用できないなどの違いがあります。
 
 <https://github.com/ljulliar/rlang/blob/master/docs/RlangManual.md>
 
@@ -81,11 +81,11 @@ Rust実装によるRuby runtimeです。Ruby界隈ではArtichokeの名前を聞
 - <https://runrb.io>
 - <https://github.com/jasoncharnes/run.rb>
 
-ruby/rubyをEmscriptenで動かしているようです。もっと詳しく説明すると、独自patchを適用したRuby 2.6からEmscripten(emmake)でminirubyのbitecodeを生成しています。それをさらにEmscripten(emcc)でWASMにコンパイルしています。ここから先がちょっとよくわからなかったのですが、最終的にRubyをWASM bitecodeにしているのでしょうか？
+ruby/rubyをEmscriptenで動かしているようです。もっと詳しく説明すると、独自patchを適用したRuby 2.6からEmscripten(emmake)でminirubyのbytecodeを生成しています。それをさらにEmscripten(emcc)でWASMにコンパイルしています。ここから先がちょっとよくわからなかったのですが、最終的にRubyをWASM bytecodeにしているのでしょうか？
 
 <https://github.com/jasoncharnes/run.rb/blob/d0f5cf9c954335795fca7c24760e728dbf47b425/src/emscripten/ruby-2.6.1/Dockerfile>
 
-PlaygroundでRubyを実行する度にworkerが生成されて別のbitecodeを実行しているようなのですが……`RUBY_PLATFORM` は `x86_64-linux`、`RUBY_VERSION`は `2.6.1`となっていました。`Encoding.list`の結果が少なかった[^isminiruby]から実際に動いているのはminirubyなのかもしれません。
+PlaygroundでRubyを実行する度にworkerが生成されて別のbytecodeを実行しているようなのですが……`RUBY_PLATFORM` は `x86_64-linux`、`RUBY_VERSION`は `2.6.1`となっていました。`Encoding.list`の結果が少なかった[^isminiruby]から実際に動いているのはminirubyなのかもしれません。
 
 ![runrb.io](2021/wasm-and-ruby-runrb.png)
 
@@ -226,3 +226,6 @@ emrubyについての記述を追加しました。
 WASM.rbについての記述を追加しました。
 
 [^isminiruby]: <https://naruse.hateblo.jp/entry/20110118/1295345908> より
+
+### 2021-07-28
+誤字を修正しました。
