@@ -492,7 +492,7 @@ pp QUICCRYPTOFrame.read(payload)
 
 CRYPTO frame の中に何やらそれらしき文字列が出現していることから、payload の復号に成功したことがうかがえますね。
 
-実際に curl から受けとった packet の parse もやっていきたいところですか、一旦この記事ではここまでとします。
+実際に curl から受けとった packet の parse もやっていきたいところですが、一旦この記事ではここまでとします。
 
 ## さいごに
 
