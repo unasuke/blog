@@ -116,7 +116,7 @@ class QUICInitialPacket < BinData::Record
   # Variable-Length Integer Encoding for token
   bit2 :token_two_most_significant_bits
   bit :token_length, nbits: lambda { tms(token_two_most_significant_bits) }
-  bit :token, nbits: :token_length
+  string :token, read_length: lambda { token_length }
 
   # Variable-Length Integer Encoding for length
   bit2 :length_two_most_significant_bits
@@ -501,6 +501,10 @@ CRYPTO frame の中に何やらそれらしき文字列が出現しているこ�
 記事内の誤り、誤字脱字等は気軽に [twitter @yu_suke1994](https://twitter.com/yu_suke1994) にリプライしていただけると嬉しいです。
 
 記事をチェックしてくれた [あらやくん](https://twitter.com/arayaryoma) と [おりさのくん](https://twitter.com/orisano) と [とちくじさん](https://twitter.com/tochikuji) に感謝します。
+
+## 追記
+
+- 2021-08-12 12:30 コードを少し修正しました
 
 ## 参考文献
 
