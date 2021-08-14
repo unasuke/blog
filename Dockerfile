@@ -1,13 +1,8 @@
 FROM rubylang/ruby:2.7-bionic
 RUN apt update && apt install --assume-yes --no-install-recommends curl \
   && curl -sL https://deb.nodesource.com/setup_14.x | bash - \
-  && apt update && apt install --assume-yes --no-install-recommends nodejs \
-  && rm -rf /var/lib/apt/lists/*
-
-WORKDIR /blog
-
-RUN apt update \
-  && apt-get install -y --no-install-recommends \
+  && apt update \
+  && apt install --assume-yes --no-install-recommends nodejs \
   curl  \
   git   \
   g++   \
@@ -15,7 +10,8 @@ RUN apt update \
   rsync \
   && rm -rf /var/lib/apt/lists/*
 
-RUN bundle config set --global path vendor/bundle
+WORKDIR /blog
+
 COPY Gemfile Gemfile.lock /blog/
 RUN bundle install --jobs 3
 
