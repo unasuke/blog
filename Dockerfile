@@ -6,6 +6,7 @@ RUN apt update && apt install --assume-yes --no-install-recommends curl \
   curl  \
   git   \
   g++   \
+  libvips-dev \
   openssh-server \
   rsync \
   && rm -rf /var/lib/apt/lists/*

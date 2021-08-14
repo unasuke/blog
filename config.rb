@@ -1,6 +1,7 @@
 ###
 # Blog settings
 ###
+require_relative 'lib/auto_ogp'
 
 Time.zone = "Tokyo"
 
@@ -86,3 +87,5 @@ activate :hatenastar,
 activate :img_loading_attribute do |c|
   c.loading = 'lazy'
 end
+
+activate :auto_ogp

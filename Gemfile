@@ -13,5 +13,7 @@ gem "middleman-img_loading_attribute"
 gem "middleman-livereload"
 gem 'middleman-somemoji'
 gem "middleman-syntax"
+gem "parallel"
 gem 'redcarpet'
+gem "ruby-vips"
 gem "slim"
