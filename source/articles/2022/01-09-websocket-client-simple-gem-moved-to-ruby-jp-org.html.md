@@ -61,21 +61,21 @@ tags:
 ### READMEの更新
 まずは既存のrepositoryのREADMEを更新します。websocket-client-simple gemは歴史のあるrepositoryですから、 `shokai/websocket-client-simple` であるという共通認識があることでしょう。
 
-そのため、「開発は `ruby-jp/websocket-client-simple` に移動したよ」ということをREADMEの上部、すぐ目に入る部分に記載するべきでしょう。(これは元々の `shokai/websocket-client-simple` に出す必用があります)
+そのため、「開発は `ruby-jp/websocket-client-simple` に移動したよ」ということをREADMEの上部、すぐ目に入る部分に記載するべきでしょう。(これは元々の `shokai/websocket-client-simple` に出す必要があります)
 
 [Update README (repo moved notice) by unasuke · Pull Request #42 · shokai/websocket-client-simple](https://github.com/shokai/websocket-client-simple/pull/42)
 
 merge後、既存のissue及びpull requestに対して「まだこの変更が必用なら `ruby-jp/websocket-client-simple` 側にお願いします」とコメントしました。
 
 ### CIをGitHub Actionsに & 定期的に実行されるように
-次に、CIが長期間実行されていないので、テストが通るかどうかを確認する必用があります。テストはGitHub Actionsで実行することにしました。
+次に、CIが長期間実行されていないので、テストが通るかどうかを確認する必要があります。テストはGitHub Actionsで実行することにしました。
 
 [GitHub Actions by unasuke · Pull Request #1 · ruby-jp/websocket-client-simple](https://github.com/ruby-jp/websocket-client-simple/pull/1)
 
 そして、CIが定期的に実行されるように設定しておきます。これにより、依存している別のgemの破壊的変更にすばやく気づくことができるようになります。
 
 ### コードは変更せずにリリース
-CIは整備しましたが、ここまでロジックは変更していません。最低限必用とするRubyのバージョンも変更していません。この状態で「開発は `ruby-jp/websocket-client-simple` に移動したよ」というメッセージをgemのinstall時に出すような変更を行い patch releaseを行いました。
+CIは整備しましたが、ここまでロジックは変更していません。最低限必要とするRubyのバージョンも変更していません。この状態で「開発は `ruby-jp/websocket-client-simple` に移動したよ」というメッセージをgemのinstall時に出すような変更を行い patch releaseを行いました。
 
 [Update gem metadata by unasuke · Pull Request #2 · ruby-jp/websocket-client-simple](https://github.com/ruby-jp/websocket-client-simple/pull/2)
 
@@ -113,3 +113,8 @@ CIは整備しましたが、ここまでロジックは変更していません
 * [RFC for ownership transfer by vachhanihpavan · Pull Request #25 · rubygems/rfcs](https://github.com/rubygems/rfcs/pull/25)
 * [Add support for ownership calls and requests by sonalkr132 · Pull Request #2748 · rubygems/rubygems.org](https://github.com/rubygems/rubygems.org/pull/2748)
 * [Add blog post for rubygems adoptions by sonalkr132 · Pull Request #95 · rubygems/rubygems.github.io](https://github.com/rubygems/rubygems.github.io/pull/95)
+
+## 追記 2022-01-10
+shokaiさんの視点からの記事が出ているのでリンクを貼ります。
+
+[websocket-client-simpleをruby-jpに移管した - 橋本商会](https://scrapbox.io/shokai/websocket-client-simple%E3%82%92ruby-jp%E3%81%AB%E7%A7%BB%E7%AE%A1%E3%81%97%E3%81%9F)
