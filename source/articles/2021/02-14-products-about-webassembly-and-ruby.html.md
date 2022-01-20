@@ -125,6 +125,26 @@ BASICが動く教育向け(でいいのか？)マイコンボードのIchigoJam�
 
 Emscriptenって、凄いですね。
 
+### Ruby本体 (2022-01-21追記)
+2022年1月19日に、kateinoigakukunさんによってCRubyのplatformとしてWASIを対象としたコンパイルができるようになりました。kateinoigakukunさんは1月14日にMatzのapproveによってRuby commiterになられています。すごい……
+
+* [Add WASI based WebAssembly support by kateinoigakukun · Pull Request #5407 · ruby/ruby](https://github.com/ruby/ruby/pull/5407)
+* [Feature #18462: Proposal to merge WASI based WebAssembly support - Ruby master - Ruby Issue Tracking System](https://bugs.ruby-lang.org/issues/18462)
+* [RubyがWebAssemblyのWASI対応へ前進。ブラウザでもサーバでもエッジでもどこでもWebAssembly版Rubyが動くように － Publickey](https://www.publickey1.jp/blog/22/rubywebassemblywasiwebassemblyruby.html)
+
+これは2021年度Rubyアソシエーション開発助成によって支援されている取り組みでもあります。
+
+[2021年度Rubyアソシエーション開発助成金 公募結果発表](https://www.ruby.or.jp/ja/news/20211025)
+
+> RubyプログラムをWebAssemblyバイナリにパッケージ化し、1バイナリでの配布を可能にすることも目指す
+
+ともあります。とても期待が高まりますね。
+
+実際にどういう風に試せるかについては、公式のドキュメント及びznzさんの記事が参考になります。
+
+* [ruby/wasm/README.md at master · ruby/ruby](https://github.com/ruby/ruby/blob/master/wasm/README.md)
+* [WebAssembly / WASI port of Rubyをビルドしてみた - @znz blog](https://blog.n-z.jp/blog/2022-01-20-ruby-wasm.html)
+
 ## WASM runs by Ruby
 RubyからWASMを実行できるようにするものです。
 
@@ -229,3 +249,6 @@ WASM.rbについての記述を追加しました。
 
 ### 2021-07-28
 誤字を修正しました。
+
+### 2022-01-21
+Ruby本体についての記述を追加しました。
