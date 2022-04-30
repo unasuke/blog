@@ -29,6 +29,7 @@ class AutoOGP < ::Middleman::Extension
         ).add_next_sibling("<meta property='og:image' content='#{img_url}' >")
 
         File.open(file, 'w') do |f|
+          puts "write #{file}"
           f.write doc.to_html
         end
       end
