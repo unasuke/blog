@@ -108,13 +108,18 @@ CIは整備しましたが、ここまでロジックは変更していません
 ## 余談 gemのowner権限について
 さてこの度、Twitterでコミュニケーションしてgemの権限を頂くということを行いました。ところで、このような「owner権限のリクエスト」という機能がrubygems.orgに入っています。この機能では、作者がownerを引き受けてくれる人の募集、もしくはあるgemに対してのowner権限のリクエスト(こっちはgemのdownload数などに制限がある)を行うことができます。
 
-ただ、まだリリースアナウンスはされていないようです。
+~~ただ、まだリリースアナウンスはされていないようです。~~
 
 * [RFC for ownership transfer by vachhanihpavan · Pull Request #25 · rubygems/rfcs](https://github.com/rubygems/rfcs/pull/25)
 * [Add support for ownership calls and requests by sonalkr132 · Pull Request #2748 · rubygems/rubygems.org](https://github.com/rubygems/rubygems.org/pull/2748)
 * [Add blog post for rubygems adoptions by sonalkr132 · Pull Request #95 · rubygems/rubygems.github.io](https://github.com/rubygems/rubygems.github.io/pull/95)
+* [Rubygems Adoptions - RubyGems Blog](https://blog.rubygems.org/2022/01/19/rubygems-adoptions.html)
+
 
 ## 追記 2022-01-10
 shokaiさんの視点からの記事が出ているのでリンクを貼ります。
 
 [websocket-client-simpleをruby-jpに移管した - 橋本商会](https://scrapbox.io/shokai/websocket-client-simple%E3%82%92ruby-jp%E3%81%AB%E7%A7%BB%E7%AE%A1%E3%81%97%E3%81%9F)
+
+## 追記 2022-05-01
+Rubygems Adopationsについて公式の発表があったので更新しました。
