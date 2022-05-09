@@ -35,7 +35,9 @@ html
       h2
         = link_to current_page.data.title, current_page
       = yield
-      = partial "layouts/twitter_button", locals: { url: nil, title: nil }
+      .social-buttons
+        = partial "layouts/twitter_button", locals: { url: nil, title: nil }
+        = partial "layouts/buymeacoffee"
       .article-info
         .article-wrote-at
           = current_page.date.strftime('%Y年%m月%d日')

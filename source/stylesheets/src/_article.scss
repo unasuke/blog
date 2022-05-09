@@ -56,4 +56,13 @@
   th, td {
     padding: 5px;
   }
+
+  .social-buttons {
+    width: 360px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
 }
