@@ -64,7 +64,7 @@ Herokuにおける `app.json` と似たようなものとして、Blueprintと�
 
 ![Renderの課金画面](2022/heroku-alternatives-render-billing.png)
 
-また、今回deployしたアプリでは使いませんでしたが、Diskとminioを組み合わせたオプジェクトスレトージを用意できるのは便利そうです。
+また、今回deployしたアプリでは使いませんでしたが、Diskとminioを組み合わせたオブジェクトストレージを用意できるのは便利そうです。
 
 ## Railway
 
