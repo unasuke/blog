@@ -2,7 +2,7 @@
 title: VoiceMeeter Bananaだけでポン出しをする
 date: 2021-05-10 19:00 JST
 tags: 
-- dialy
+- diary
 - voicemeeter_banana
 - windows
 ---

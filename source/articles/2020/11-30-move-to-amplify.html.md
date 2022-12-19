@@ -3,7 +3,7 @@
 title: "このブログをS3 Static website hosting + CloudFrontからAWS Amplifyに移行しました"
 date: 2020-11-30 19:08 JST
 tags: 
-- dialy
+- diary
 - aws
 ---
 

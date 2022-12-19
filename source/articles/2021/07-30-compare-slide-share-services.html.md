@@ -2,7 +2,7 @@
 title: スライド置き場のポリシー
 date: 2021-07-30 00:25 JST
 tags:
-- dialy
+- diary
 ---
 
 

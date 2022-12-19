@@ -3,7 +3,7 @@ title: "サーバーサイドエンジニアとして2021年に使った技術�
 date: 2021-12-27 18:00 JST
 tags: 
 - programming
-- dialy
+- diary
 ---
 
 

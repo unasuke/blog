@@ -3,7 +3,7 @@ title: "サーバーサイドエンジニアとして2020年に使った技術"
 date: 2020-12-12 21:59 JST
 tags: 
 - programming
-- dialy
+- diary
 ---
 
 
