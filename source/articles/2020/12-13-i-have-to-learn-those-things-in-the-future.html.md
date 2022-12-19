@@ -2,7 +2,7 @@
 title: "Railsを主戦場としている自分が今後学ぶべき技術について(随筆)"
 date: 2020-12-13 21:22 JST
 tags: 
-- dialy
+- diary
 - programming
 ---
 
