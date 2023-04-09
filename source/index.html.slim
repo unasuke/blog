@@ -15,6 +15,7 @@ site_url: "https://blog.unasuke.com"
     .social-buttons
       = partial "layouts/twitter_button", locals: { url: "#{current_page.data.site_url + article.url}", title: "#{article.title} | うなすけとあれこれ" }
       = partial "layouts/buymeacoffee"
+      = partial "layouts/mastodon_share_button", locals: { url: "#{current_page.data.site_url + article.url}", title: "#{article.title} | うなすけとあれこれ" }
     .article-info
       .article-wrote-at
         = article.date.strftime('%Y年%m月%d日')
