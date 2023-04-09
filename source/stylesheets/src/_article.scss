@@ -58,11 +58,19 @@
   }
 
   .social-buttons {
-    width: 360px;
+    width: 480px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 10px;
+    img {
+      max-width: unset;
+      margin: unset;
+      display: unset;
+    }
+    a.mstdn-share-button {
+      display: unset;
+    }
   }
 }
