@@ -4,10 +4,10 @@ $background_color: #f5f1f1;
 
 // font
 $font_color: $main_color;
-$font-family-humanist-sans-serif: sans-serif;
-$font-family-sans-serif: sans-serif;
-$font-family-serif: serif;
-$font-family-monospace: monospace;
+$font-family-humanist-sans-serif: 'Noto Sans JP', sans-serif;
+$font-family-sans-serif: 'Noto Sans JP', sans-serif;
+$font-family-serif: 'Noto Serif JP', serif;
+$font-family-monospace: 'Noto Sans Mono', monospace;
 $font-family-base: $font-family-humanist-sans-serif;
 
 // width
@@ -42,6 +42,7 @@ body {
   margin: 0;
   padding-top: 20px;
   font-family: $font-family-sans-serif;
+  letter-spacing: 0.02em;
 
   @media screen and (max-device-width: $small_device_width) {
     padding: 10px 10px 0;
