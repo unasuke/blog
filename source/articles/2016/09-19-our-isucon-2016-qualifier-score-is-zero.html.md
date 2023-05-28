@@ -1,6 +1,6 @@
 ---
 title: "ISUCON予選スコア0"
-date: 2016-09-19
+date: 2016-09-19 00:00 JST
 tags:
 - Programming
 - isucon

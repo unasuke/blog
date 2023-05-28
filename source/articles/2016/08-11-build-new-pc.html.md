@@ -1,6 +1,6 @@
 ---
 title: 'PCを新しく組みました'
-date: 2016-08-11
+date: 2016-08-11 00:00 JST
 tags:
 - diary
 ---

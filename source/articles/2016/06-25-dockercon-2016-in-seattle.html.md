@@ -1,6 +1,6 @@
 ---
 title: 'Dockercon 2016 in Seattleに参加した'
-date: 2016-06-25
+date: 2016-06-25 00:00 JST
 tags:
 - diary
 - Programming
