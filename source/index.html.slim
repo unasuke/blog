@@ -13,8 +13,10 @@ site_url: "https://blog.unasuke.com"
 
     = article.body
     .social-buttons
-      = partial "layouts/twitter_button", locals: { url: "#{current_page.data.site_url + article.url}", title: "#{article.title} | うなすけとあれこれ" }
-      = partial "layouts/buymeacoffee"
+      .social-button
+        = partial "layouts/twitter_button", locals: { url: "#{current_page.data.site_url + article.url}", title: "#{article.title} | うなすけとあれこれ" }
+      .social-button
+        = partial "layouts/buymeacoffee"
       /= partial "layouts/mastodon_share_button", locals: { url: "#{current_page.data.site_url + article.url}", title: "#{article.title} | うなすけとあれこれ" }
     .article-info
       .article-wrote-at

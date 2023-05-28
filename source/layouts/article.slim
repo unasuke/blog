@@ -37,9 +37,12 @@ html lang="ja"
         = link_to current_page.data.title, current_page
       = yield
       .social-buttons
-        = partial "layouts/twitter_button", locals: { url: nil, title: nil }
-        = partial "layouts/buymeacoffee"
-        = partial 'layouts/mastodon_share_button', locals: { title: "#{current_page.data.title} | うなすけとあれこれ", url: "https://blog.unasuke.com#{current_resource.url}" }
+        .social-button
+          = partial "layouts/twitter_button", locals: { url: nil, title: nil }
+        .social-button
+          = partial "layouts/buymeacoffee"
+        .social-button
+          = partial 'layouts/mastodon_share_button', locals: { title: "#{current_page.data.title} | うなすけとあれこれ", url: "https://blog.unasuke.com#{current_resource.url}" }
       .article-info
         .article-wrote-at
           = current_page.date.strftime('%Y年%m月%d日')

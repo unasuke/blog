@@ -58,19 +58,29 @@
   }
 
   .social-buttons {
-    width: 480px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    flex-wrap: wrap;
     margin-bottom: 10px;
-    img {
-      max-width: unset;
-      margin: unset;
-      display: unset;
+
+    .social-button {
+      margin-right: 10px;
+      margin-bottom: 15px;
+
+      img {
+        max-width: unset;
+        width: unset;
+        margin: unset;
+        display: unset;
+      }
+
+      a.mstdn-share-button {
+        display: unset;
+      }
     }
-    a.mstdn-share-button {
-      display: unset;
-    }
+
+
   }
 }
