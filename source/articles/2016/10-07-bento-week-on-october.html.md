@@ -1,6 +1,6 @@
 ---
 title: "1週間お弁当をつくった"
-date: 2016-10-07
+date: 2016-10-07 00:00 JST
 tags:
 - diary
 - bento
