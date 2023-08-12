@@ -2,7 +2,7 @@
 
 title: "Rubyアソシエーション開発助成2022を終えて"
 date: 2023-03-23 19:10 JST
-tags: 
+tags:
 - ruby
 - quic
 ---
@@ -11,12 +11,13 @@ tags:
 
 ## 成果
 * 最終成果報告書
-    * Rubyアソシエーション側で公開されたらURLをここに貼ります
+  * <https://gist.github.com/unasuke/6b1d7cf68059283f1f149f94a327b4b2>
+      * [2022年度Rubyアソシエーション開発助成金成果報告](https://www.ruby.or.jp/ja/news/20230808)
 * リポジトリ
-    * <https://github.com/unasuke/raioquic>
-    * <https://github.com/unasuke/lsqpack-ruby>
+  * <https://github.com/unasuke/raioquic>
+  * <https://github.com/unasuke/lsqpack-ruby>
 
-Rubyアソシエーション開発助成 2022年度の僕のプロジェクトの成果としては、以上の通りとなります。このブログは最終成果方向ではなく、個人的なふりかえりなどを書いています。
+Rubyアソシエーション開発助成 2022年度の僕のプロジェクトの成果としては、以上の通りとなります。このブログは最終成果報告ではなく、個人的なふりかえりなどを書いています。
 
 ## 感想
 感想としては、「勉強にはなったが、しんどかった」です。いくら既存の実装を移植するタスクとはいえ、いくらPythonがRubyと似た言語であるとはいえ、移植作業はとても困難[^dev-env]でした。単純に行数が多いというのもその理由のひとつですが、特に移植が大変だった `tls.py` と `connection.py` では、さらに大きな問題がありました。
@@ -111,3 +112,6 @@ Media Over QUICのほうに目を向けてみると、mailing listの投稿が�
 
 ## Acknowledgment
 メンターとして面倒を見てくださった笹田さん、そしてそもそも僕のproposalを採択していただき、このような機会をくださったRubyアソシエーションさんに感謝します。本当にありがとうございました。
+
+## 更新履歴
+* 2023-08-12 最終成果報告書へのURLを追加
