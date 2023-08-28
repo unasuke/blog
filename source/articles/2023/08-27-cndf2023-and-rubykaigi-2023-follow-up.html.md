@@ -42,7 +42,7 @@ CNDF2023においては、静的WebサイトとNginxなどのWebサーバーの2
 * Webサイト<https://cndf2023.unasuke.dev/>
 * GitHub <https://github.com/unasuke/cndf2023-infra>
 
-半月ほどしか運用していませんでしたが、コスト削減を真面目にやっていなかったこともあり、AWS側で$122(&yen;1,700程度)、Google Cloud側で&yen;1,100ほどの費用がかかりました。
+半月ほどしか運用していませんでしたが、コスト削減を真面目にやっていなかったこともあり、AWS側で$122(&yen;17,000程度)、Google Cloud側で&yen;1,100ほどの費用がかかりました。
 
 ![AWSのコスト](2023/cndf2023-aws.png)
 
