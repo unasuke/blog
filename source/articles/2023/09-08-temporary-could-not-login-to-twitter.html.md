@@ -45,3 +45,9 @@ tags:
 ![](2023/twitter-account-verify-pattern4.png)
 
 ![](2023/twitter-account-verify-pattern5.png)
+
+## 追記 (2023-09-08 08:50)
+
+たぶんこれですね。
+
+[9/7現在、X(旧Twitter)にて名前／プロフィール変更をするとアカウント認証に飛ばされ認証通過しても「技術的な問題が発生したため」とログイン出来なくなるバグが発生中 - Togetter](https://togetter.com/li/2219970)
