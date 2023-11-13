@@ -12,12 +12,14 @@ tags:
 
 ## 方法
 1. `/Library/Input Methods/AquaSKK.app/Contents/Resource/kana-rule.conf` を `~/Library/Application Support/AquaSKK/kana-rule.conf` にコピーする
-2. `~/Library/Application Support/AquaSKK/kana-rule.conf` の末尾に以下を追記する (~~EUC-JP~~ EUC-JIS-2004であることに注意)
+2. `~/Library/Application Support/AquaSKK/kana-rule.conf` の末尾に以下を追記する (EUC-JPである[^encoding]ことに注意)
 
 ```
 !,！,！,!
 ?,？,？,?
 ```
+
+[^encoding]: 記載する文字種によって保存する文字コードが `EUC-JP` 以外になる場合があります。 <https://twitter.com/tobetchi/status/1722908547045019681>
 
 ### 参考
 - [AquaSKK プロジェクト::フォルダとファイル](https://aquaskk.osdn.jp/folders_and_files.html)
@@ -53,5 +55,4 @@ tags:
 <https://ja.osdn.net/projects/sourceforge/wiki/potm_0811_AquaSKK>
 
 ## 更新履歴
-* 2023-11-13 `kana-rule.conf` の文字コードについて訂正
-  * <https://twitter.com/tobetchi/status/1722908547045019681>
+* 2023-11-13 `kana-rule.conf` の文字コードについて注釈を追加
