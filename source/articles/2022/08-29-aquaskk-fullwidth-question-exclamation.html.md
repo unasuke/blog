@@ -12,7 +12,7 @@ tags:
 
 ## 方法
 1. `/Library/Input Methods/AquaSKK.app/Contents/Resource/kana-rule.conf` を `~/Library/Application Support/AquaSKK/kana-rule.conf` にコピーする
-2. `~/Library/Application Support/AquaSKK/kana-rule.conf` の末尾に以下を追記する (EUC-JPであることに注意)
+2. `~/Library/Application Support/AquaSKK/kana-rule.conf` の末尾に以下を追記する (~~EUC-JP~~ EUC-JIS-2004であることに注意)
 
 ```
 !,！,！,!
@@ -51,3 +51,7 @@ tags:
 [^ikm-confdir]: <https://moch-lite.hatenadiary.org/entry/20090116/p1> の 「Imk版の設定ファイルは以下になります。」より
 
 <https://ja.osdn.net/projects/sourceforge/wiki/potm_0811_AquaSKK>
+
+## 更新履歴
+* 2023-11-13 `kana-rule.conf` の文字コードについて訂正
+  * <https://twitter.com/tobetchi/status/1722908547045019681>
