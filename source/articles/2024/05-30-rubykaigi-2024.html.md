@@ -49,7 +49,7 @@ tags:
     * 以下の投稿を参照
         * <https://twitter.com/mizchi/status/1791299723355435147>
         * <https://twitter.com/udzura/status/1791300095981629543>
-    * これはRubyKaigi 2023の前週に開催されたTSKaigi 2024でmizchiさんと話していてワクワクしていた
+    * これはRubyKaigi 2024の前週に開催されたTSKaigi 2024でmizchiさんと話していてワクワクしていた
         * というのも、初学者が選ぶ言語としてRubyが選択肢に上がらないのは何故か、という問題意識が(個人的に)あり、例えばNext.jsだったりedge functionとしてのJavaScriptは無料で動かす環境がそれなりに揃っているのに対し、Railsなどサーバーとして動くインスタンスが必要になる場合はあまり無料枠でいろいろいじれる環境がなくなってきているので、その辺で手を出しづらくなっていたりしないか、みたいな仮定をしていました
             * そして、ではEdgeでRubyが動く未来が来るとどうなるのか、そもそもEdgeでRubyが動くためには/選択肢のひとつになるには何が不足しているのか？みたいな議論をTSKaigiの場でmizchiさんとしていたのでした
     * 速度さえなんとかなればmrubyでWASMでedge computing with Ruby、アリなんだよな……
