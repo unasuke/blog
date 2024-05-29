@@ -73,7 +73,7 @@ tags:
 
 <blockquote class="twitter-tweet"><p lang="qme" dir="ltr"><a href="https://twitter.com/hashtag/rubykaigi?src=hash&amp;ref_src=twsrc%5Etfw">#rubykaigi</a> <a href="https://twitter.com/yu_suke1994?ref_src=twsrc%5Etfw">@yu\_suke1994</a> <a href="https://t.co/PRrRq86Lmj">pic.twitter.com/PRrRq86Lmj</a></p>&mdash; ima1zumi (@ima1zumi) <a href="https://twitter.com/ima1zumi/status/1791575939731636427?ref_src=twsrc%5Etfw">May 17, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-![RubyMusicMixin](2024/rubykaigi-2024-rubymusicmixin.jpg)
+![RubyMusicMixin terfno撮影](2024/rubykaigi-2024-rubymusicmixin.jpg)
 
 [^gomen]: Jeremyと話したかった人がいたらマジごめんという感じ
 
