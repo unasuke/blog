@@ -19,11 +19,17 @@ jobs:
           registry: ghcr.io
           username: ${{ github.repository_owner }}
           password: ${{ secrets.GITHUB_TOKEN }}
-      - name: Build and push
-        id: docker_build
-        uses: docker/build-push-action@v6
+      - id: meta
+        uses: docker/metadata-action@v5
         with:
+          images: "ghcr.io/unasuke/blog"
+          tags: |
+            type=sha,format=long,prefix=
+            type=raw,value=latest
+      - uses: docker/build-push-action@v6
+        with:
+          context: "."
           push: true
-          tags: ghcr.io/unasuke/blog:latest
+          tags: ${{ steps.meta.outputs.tags }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
