@@ -16,6 +16,11 @@ tags:
 ## 参加したセッション
 「参加したセッション」とはいっても前述のようにリアルタイムでmeetechoに入るのは厳しく、基本的に資料と議事録を見て書いています。httpbis、httpapi、masque、webtrans、ccwg、moqについてもまとめようと思ったんですが、一旦7月中に出すことを考えると余裕がなく、力尽きました。追って書くかもしれません。
 
+### 2024-08-21 追記
+書きました。
+
+[IETF 120 Vancouverにリモート参加しました その2](/2024/ietf-120-vancouver-2)
+
 ### Transport Layer Security (tls)
 #### Agenda
 <https://datatracker.ietf.org/meeting/120/session/tls>
