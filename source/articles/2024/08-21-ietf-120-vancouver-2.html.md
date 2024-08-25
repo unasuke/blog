@@ -223,7 +223,7 @@ Mozilla (Firefox)は6ヶ月以内にWebTransport over HTTP/2を実装するら�
 
 HTTP authenticationの使用可否については、禁止する理由がないということで使用できるという方向でまとまった。
 
-DRAIN_WEBTRANSPORT_SESSIONについてはめっちゃ議論が長びいてて、さらに数回議論が行われそう。
+DRAIN\_WEBTRANSPORT\_SESSIONについてはめっちゃ議論が長びいてて、さらに数回議論が行われそう。
 
 > David thanks the academy, his family, and all the friends he made along the way. In lieu of flowers he requests PRs and comments.
 
@@ -264,8 +264,8 @@ GoogleとMetaの人によってInternet-Draftが作成されている！BBRv3が
 
 これもホヤホヤdraft。"Slow start Exit At Right CHokepoint" でSEARCH。特に無線ネットワークにおいて既存のTCP Cubic with HyStartはスロースタートからの脱出が早すぎる？ためにリンク使用率(とは何？)を低下させる。とはいえHystartがない場合はスロースタートの期間が長すぎ不要なパケロスが生まれる。ack済の配送に基づく輻輳制御をTCP senderが行うようにするSEARCHは既にLinux kernel v5.16 moduleとして実装されて評価済み。
 
-* https://github.com/Project-Faster/tcp_ss_search
-* https://github.com/Project-Faster/quicly/pull/2
+* <https://github.com/Project-Faster/tcp_ss_search>
+* <https://github.com/Project-Faster/quicly/pull/2>
 
 主な著者の所属であるviasatはアメリカの通信事業者で、衛星通信事業が主っぽい。wgの反応としては前向きな感じ。
 
