@@ -17,3 +17,11 @@ gem "parallel"
 gem 'redcarpet'
 gem "ruby-vips"
 gem "slim"
+
+gem "mutex_m"
+gem "csv"
+gem "base64"
+gem "logger"
+gem "ostruct"
+gem "bigdecimal"
+gem "rdoc"
