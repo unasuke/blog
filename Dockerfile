@@ -10,6 +10,7 @@ RUN apt update && apt install --assume-yes --no-install-recommends curl ca-certi
   make \
   openssh-server \
   rsync \
+  libyaml-dev \
   && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /blog
