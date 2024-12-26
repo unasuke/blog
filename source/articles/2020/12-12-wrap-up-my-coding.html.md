@@ -4,6 +4,7 @@ date: 2020-12-12 21:59 JST
 tags: 
 - programming
 - diary
+- yearly-wrap-up
 ---
 
 

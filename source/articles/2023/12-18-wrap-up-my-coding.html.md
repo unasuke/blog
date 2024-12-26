@@ -5,6 +5,7 @@ date: 2023-12-18 21:05 JST
 tags:
 - programming
 - diary
+- yearly-wrap-up
 ---
 
 ![使用したプログラミング言語統計](2023/programming-language-stats.png)
