@@ -1,5 +1,5 @@
 ---
-title: " QUIC実装月報 2025年7月"
+title: "QUIC実装月報 2025年7月"
 date: 2025-07-31 23:35 JST
 tags: 
 - quic
