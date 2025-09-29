@@ -128,7 +128,7 @@ GEM
     rdoc (6.7.0)
       psych (>= 4.0.0)
     redcarpet (3.5.1)
-    rexml (3.3.9)
+    rexml (3.4.2)
     rouge (3.21.0)
     ruby-vips (2.1.2)
       ffi (~> 1.12)
