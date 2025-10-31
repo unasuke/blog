@@ -392,7 +392,7 @@ Certificate:
         00:e6:bf:d6:ae:34:87:5b:3f:67:c7:1d:a8:6f:d5:12:78:b5:
         e6:87:31:44:a9:5d:c6:b8:78:cc:cf:ef:d4:32:58:11:ff:3a:
         85:06:3c:1d:84:6f:d3:f5:f9:da:33:1c:a4
-</code?</pre>
+</code></pre>
 
 </p>
 </details>
@@ -418,3 +418,6 @@ Certificate:
         * OpenSSL側からの`WORLD`の受信に成功する
 
 行き詰まっています。
+
+## 2025-10-31 追記
+[解決しました](/2025/quic-impl-monthly-report-202510/)
