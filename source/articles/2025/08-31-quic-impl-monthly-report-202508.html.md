@@ -418,3 +418,6 @@ Certificate:
         * OpenSSL側からの`WORLD`の受信に成功する
 
 行き詰まっています。
+
+## 2025-10-31 追記
+[解決しました](/2025/quic-impl-monthly-report-202510/)
