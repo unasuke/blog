@@ -5,34 +5,6 @@ on:
   schedule:
     - cron: "0 0 * * *"
 jobs:
-  docker:
-    permissions:
-      packages: write
-      contents: read
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v3
-      - uses: docker/login-action@v3
-        with:
-          registry: ghcr.io
-          username: ${{ github.repository_owner }}
-          password: ${{ secrets.GITHUB_TOKEN }}
-      - id: meta
-        uses: docker/metadata-action@v5
-        with:
-          images: "ghcr.io/unasuke/blog"
-          tags: |
-            type=sha,format=long,prefix=
-            type=raw,value=latest
-      - uses: docker/build-push-action@v6
-        with:
-          context: "."
-          push: true
-          tags: ${{ steps.meta.outputs.tags }}
-          cache-from: type=gha
-          cache-to: type=gha,mode=max
   s3_sync_dryrun:
     permissions:
       id-token: write
