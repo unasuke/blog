@@ -1,9 +1,7 @@
 on:
-  push:
+  pull_request:
     branches:
-      - '*'
-  schedule:
-    - cron: "0 0 * * *"
+      - master
 jobs:
   s3_sync_dryrun:
     permissions:
