@@ -33,3 +33,25 @@ jobs:
           tags: ${{ steps.meta.outputs.tags }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
+  s3_sync_dryrun:
+    permissions:
+      id-token: write
+      contents: read
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          sudo apt-get update && sudo apt-get install -y libvips-dev
+      - uses: actions/checkout@v4
+      - uses: aws-actions/configure-aws-credentials@61815dcd50bd041e203e49132bacad1fd04d2708 # v5.1.1
+        with:
+          role-to-assume: arn:aws:iam::423695832787:role/static-site-deploy-role
+          aws-region: ap-northeast-1
+      - uses: ruby/setup-ruby@d697be2f83c6234b20877c3b5eac7a7f342f0d0c # v1.269.0
+        with:
+          bundler-cache: true
+      - uses: actions/setup-node@395ad3262231945c25e8478fd5baf05154b1d79f # v6.1.0
+        with:
+          cache: npm
+      - run: npm ci
+      - run: bundle exec middleman build
+      - run: aws s3 sync ./build s3://static-site-blog-unasuke-com --delete --dryrun
