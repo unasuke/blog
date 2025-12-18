@@ -9,7 +9,7 @@ tags:
 ![kc60 mechanical keyboard](2016/kc60-mechanical-keyboard.jpg)
 
 ## 60% keyboard
-どうにも僕はテンキーもカーソルキーもファンクションキーもない、いわゆる60% layout keyboardというものが好きで、[これまでにはTEX Yodaなんかを買っています。](2015/tex-yoda-trackpoint-keyboard-assembly)
+どうにも僕はテンキーもカーソルキーもファンクションキーもない、いわゆる60% layout keyboardというものが好きで、[これまでにはTEX Yodaなんかを買っています。](/2015/tex-yoda-trackpoint-keyboard-assembly/)
 
 その時からMassdropの[Mechanical keyboards community](https://www.massdrop.com/mechanical-keyboards)を購読しているのですが、よさ気なキーボードを見つけたので買いました。
 
