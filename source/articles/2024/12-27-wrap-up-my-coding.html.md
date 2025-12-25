@@ -22,6 +22,12 @@ tags:
 
 例年同様、冒頭の画像はwakatimeによる2024年1月1日から12月25日までのプログラミング言語使用率です。業務で触れたコードは含まれていません。やっぱり不動の1位はRuby。次がYAMLなんですが、これはKaigi on Rails 2024の公式サイトのデータソースにYAMLを使っていたり、あとはGitHub Actionsとかですね。"Other" となってるものの大半はRBSでした。
 
+### 追記 2025-12-26
+
+[Code stats for all users in 2024 - WakaTime](https://wakatime.com/a-look-back-at-2024/37308ca7-0bc2-43dd-bdd9-cd213e3f62b1/qovduiycwq)
+
+WakaTimeによる "真の" 2024年のまとめが生成されていました。
+
 ## 立場(毎年同様)
 フリーランスで、主にRailsやAWSを使用しているサービスの運用、開発に関わっています。いくつもの会社を見てきた訳ではなく、数社に深く関わっている都合上、視野が狭いかもしれません。
 
