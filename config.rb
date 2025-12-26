@@ -76,7 +76,7 @@ activate :external_pipeline,
 
 Tilt::SYMBOL_ARRAY_SORTABLE = false
 
-activate :somemoji, provider: 'twemoji'
+# activate :somemoji, provider: 'twemoji'
 activate :hatenastar,
   token: 'd87af8244bf9abaa30fcb93185c4fe1a43ece711',
   uri: 'h2 a',
