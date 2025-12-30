@@ -4,6 +4,7 @@ date: 2025-10-31 21:25 JST
 tags: 
 - quic
 - tls
+- quic-impl-monthly-report
 ---
 
 ![8月にハマってたことの解決diff(後述)](2025/quic-impl-monthly-report-202510-servername-ext-diff.png)
