@@ -5,8 +5,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-gem "builder"
-gem "middleman", "~> 4.0"
+gem "middleman"
 gem "middleman-blog"
 gem 'middleman-hatenastar'
 gem "middleman-img_loading_attribute"
@@ -25,3 +24,4 @@ gem "logger"
 gem "ostruct"
 gem "bigdecimal"
 gem "rdoc"
+gem "webrick"
