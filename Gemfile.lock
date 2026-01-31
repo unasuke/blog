@@ -9,10 +9,8 @@ GEM
       zeitwerk (~> 2.3)
     addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
-    backports (3.21.0)
     base64 (0.2.0)
     bigdecimal (3.1.5)
-    builder (3.2.4)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -24,7 +22,7 @@ GEM
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
-    erubis (2.7.0)
+    erubi (1.13.1)
     eventmachine (1.2.7)
     execjs (2.8.1)
     fast_blank (1.0.0)
@@ -41,49 +39,49 @@ GEM
     i18n (1.6.0)
       concurrent-ruby (~> 1.0)
     json (2.3.1)
-    kramdown (2.3.1)
-      rexml
+    kramdown (2.5.1)
+      rexml (>= 3.3.9)
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
     logger (1.6.1)
     memoist (0.16.2)
-    middleman (4.4.0)
-      coffee-script (~> 2.2)
-      haml (>= 4.0.5)
-      kramdown (>= 2.3.0)
-      middleman-cli (= 4.4.0)
-      middleman-core (= 4.4.0)
+    middleman (4.6.2)
+      middleman-cli (= 4.6.2)
+      middleman-core (= 4.6.2)
     middleman-blog (4.0.3)
       addressable (~> 2.3)
       middleman-core (>= 4.0.0)
       tzinfo (>= 0.3.0)
-    middleman-cli (4.4.0)
-      thor (>= 0.17.0, < 2.0)
-    middleman-core (4.4.0)
-      activesupport (>= 6.1, < 7.0)
+    middleman-cli (4.6.2)
+      thor (>= 0.17.0, < 2)
+    middleman-core (4.6.2)
+      activesupport (>= 6.1)
       addressable (~> 2.4)
-      backports (~> 3.6)
       bundler (~> 2.0)
-      contracts (~> 0.13.0)
+      coffee-script (~> 2.2)
+      contracts
       dotenv
-      erubis
+      erubi
       execjs (~> 2.0)
       fast_blank
       fastimage (~> 2.0)
+      haml (>= 4.0.5)
       hamster (~> 3.0)
-      hashie (~> 3.4)
-      i18n (~> 1.6.0)
-      listen (~> 3.0.0)
+      hashie (>= 3.4, < 6.0)
+      i18n (>= 1.6, < 1.15)
+      kramdown (~> 2.4)
+      listen (~> 3.0)
       memoist (~> 0.14)
       padrino-helpers (~> 0.15.0)
       parallel
-      rack (>= 1.4.5, < 3)
+      rack (>= 3)
+      rackup
       sassc (~> 2.0)
       servolux
-      tilt (~> 2.0.9)
+      tilt (~> 2.2)
       toml
-      uglifier (~> 3.0)
+      uglifier (>= 3, < 5)
       webrick
     middleman-hatenastar (0.1.0)
       middleman-core (>= 4)
@@ -119,9 +117,11 @@ GEM
       stringio
     public_suffix (4.0.6)
     racc (1.8.1)
-    rack (2.2.20)
+    rack (3.2.4)
     rack-livereload (0.3.17)
       rack
+    rackup (2.3.1)
+      rack (>= 3)
     rb-fsevent (0.11.0)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
@@ -135,18 +135,18 @@ GEM
     sassc (2.4.0)
       ffi (~> 1.9)
     servolux (0.13.0)
-    slim (4.1.0)
-      temple (>= 0.7.6, < 0.9)
-      tilt (>= 2.0.6, < 2.1)
+    slim (5.2.1)
+      temple (~> 0.10.0)
+      tilt (>= 2.1.0)
     slop (4.8.2)
     somemoji (0.7.1)
       gemoji (= 3.0.0)
       json
       slop
     stringio (3.1.1)
-    temple (0.8.2)
-    thor (1.1.0)
-    tilt (2.0.10)
+    temple (0.10.4)
+    thor (1.5.0)
+    tilt (2.7.0)
     toml (0.3.0)
       parslet (>= 1.8.0, < 3.0.0)
     tzinfo (2.0.6)
@@ -162,10 +162,9 @@ PLATFORMS
 DEPENDENCIES
   base64
   bigdecimal
-  builder
   csv
   logger
-  middleman (~> 4.0)
+  middleman
   middleman-blog
   middleman-hatenastar
   middleman-img_loading_attribute
@@ -179,6 +178,7 @@ DEPENDENCIES
   redcarpet
   ruby-vips
   slim
+  webrick
 
 BUNDLED WITH
-   2.5.20
+   2.7.2
