@@ -1,4 +1,4 @@
-//@import "definitions";
+@use "definitions" as *;
 
 .article {
   @include card;

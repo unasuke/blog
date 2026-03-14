@@ -1,4 +1,4 @@
-@import "definitions";
+@use "definitions" as *;
 
 .tag-list {
   @include card;
