@@ -1,10 +1,10 @@
 @charset "utf-8";
 
-@import "normalize";
-@import "definitions";
-@import "solarized";
-@import "header";
-@import "article";
-@import "calendar";
-@import "tags";
-@import "emoji";
+@use "normalize";
+@use "definitions";
+@use "solarized";
+@use "header";
+@use "article";
+@use "calendar";
+@use "tags";
+@use "emoji";
