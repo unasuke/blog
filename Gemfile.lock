@@ -108,8 +108,9 @@ GEM
       em-websocket (~> 0.5.1)
       middleman-core (>= 3.3)
       rack-livereload (~> 0.3.15)
-    middleman-somemoji (0.1.0)
-      middleman-core (>= 4)
+    middleman-somemoji (0.2.0)
+      middleman-cli (~> 4)
+      middleman-core (~> 4)
       somemoji
     middleman-syntax (3.6.1)
       middleman-core (>= 3.2)
@@ -161,7 +162,7 @@ GEM
     slim (5.2.1)
       temple (~> 0.10.0)
       tilt (>= 2.1.0)
-    slop (4.8.2)
+    slop (4.10.1)
     somemoji (0.7.1)
       gemoji (= 3.0.0)
       json
