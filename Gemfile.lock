@@ -98,8 +98,8 @@ GEM
       toml
       uglifier (>= 3, < 5)
       webrick
-    middleman-hatenastar (0.1.0)
-      middleman-core (>= 4)
+    middleman-hatenastar (0.3.0)
+      middleman-core
     middleman-img_loading_attribute (0.3.0)
       middleman-cli
       middleman-core
