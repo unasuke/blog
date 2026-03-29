@@ -123,7 +123,7 @@ GEM
     nokogiri (1.19.1)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
-    ostruct (0.6.0)
+    ostruct (0.6.3)
     padrino-helpers (0.16.0)
       i18n (>= 0.6.7, < 2)
       padrino-support (= 0.16.0)
