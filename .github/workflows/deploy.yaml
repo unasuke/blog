@@ -4,6 +4,9 @@ on:
       - 'master'
 jobs:
   s3_sync:
+    environment:
+      name: production
+      url: https://blog.unasuke.com
     permissions:
       id-token: write
       contents: read
