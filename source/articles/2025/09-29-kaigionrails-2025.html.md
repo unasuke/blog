@@ -10,6 +10,7 @@ tags:
 
 ![](2025/kaigionrails-2025-lanyards.jpg)
 
+<div lang="en">
 
 ## Acknowledgments
 We would like to express our sincere gratitude to everyone who participated in Kaigi on Rails 2025. The event's success was made possible by the contributions of all speakers, proposal submitters, sponsoring companies, and attendees. This year's event followed our hybrid format also. While this marks our third year and third iteration, we recognize there's still room for improvement in our operational processes. We encourage anyone who has feedback or suggestions—whether about operations or how things could be improved—to fill out the survey.
@@ -46,6 +47,7 @@ We implemented this feature in a rush, making full use of Claude Code. There are
 ## 2026
 I'll do my best!
 
+</div>
 
 ## 感謝
 Kaigi on Rails 2025に参加していただいたみなさま、ありがとうございました。登壇者の皆様、Proposalを出してくださった皆様、協賛してくださった企業の皆様、そして一般参加者の皆様のご協力のおかげでKaigi on Rails 2025を無事に終えることができました。今年もハイブリッド開催となりました。3年目そして3回目ではありますが、運営の面でまだまだ改善の余地があるなと思っています。運営に伝えたいこと、もっとこうすればいいんじゃないかということがあれば、是非アンケートへの回答をお願いします。
