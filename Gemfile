@@ -7,6 +7,7 @@ end
 
 gem "middleman"
 gem "middleman-blog"
+gem "middleman-commonmarker"
 gem 'middleman-hatenastar'
 gem "middleman-img_loading_attribute"
 gem "middleman-livereload"
