@@ -13,8 +13,8 @@ GEM
       minitest (>= 5.1, < 6)
       securerandom (>= 0.3)
       tzinfo (~> 2.0, >= 2.0.5)
-    addressable (2.8.0)
-      public_suffix (>= 2.0.2, < 5.0)
+    addressable (2.9.0)
+      public_suffix (>= 2.0.2, < 8.0)
     base64 (0.2.0)
     benchmark (0.5.0)
     bigdecimal (3.1.5)
@@ -131,7 +131,7 @@ GEM
     parslet (2.0.0)
     psych (5.1.2)
       stringio
-    public_suffix (4.0.6)
+    public_suffix (7.0.5)
     racc (1.8.1)
     rack (3.2.6)
     rack-livereload (0.3.17)
@@ -203,7 +203,7 @@ DEPENDENCIES
 
 CHECKSUMS
   activesupport (7.2.3.1) sha256=11ebed516a43a0bb47346227a35ebae4d9427465a7c9eb197a03d5c8d283cb34
-  addressable (2.8.0) sha256=f76d29d2d1f54b6c6a49aec58f9583b08d97e088c227a3fcba92f6c6531d5908
+  addressable (2.9.0) sha256=7fdf6ac3660f7f4e867a0838be3f6cf722ace541dd97767fa42bc6cfa980c7af
   base64 (0.2.0) sha256=0f25e9b21a02a0cc0cea8ef92b2041035d39350946e8789c562b2d1a3da01507
   benchmark (0.5.0) sha256=465df122341aedcb81a2a24b4d3bd19b6c67c1530713fd533f3ff034e419236c
   bigdecimal (3.1.5) sha256=534faee5ae3b4a0a6369fe56cd944e907bf862a9209544a9e55f550592c22fac
@@ -256,7 +256,7 @@ CHECKSUMS
   parallel (1.20.1) sha256=ed4faec4498bf921e10ac8683ed5840d91e2f307c26f8e24f8d8ae58415ea500
   parslet (2.0.0) sha256=d45130695d39b43d7e6a91f4d2ec66b388a8d822bae38de9b4de9a5fbde1f606
   psych (5.1.2) sha256=337322f58fc2bf24827d2b9bd5ab595f6a72971867d151bb39980060ea40a368
-  public_suffix (4.0.6) sha256=a99967c7b2d1d2eb00e1142e60de06a1a6471e82af574b330e9af375e87c0cf7
+  public_suffix (7.0.5) sha256=1a8bb08f1bbea19228d3bed6e5ed908d1cb4f7c2726d18bd9cadf60bc676f623
   racc (1.8.1) sha256=4a7f6929691dbec8b5209a0b373bc2614882b55fc5d2e447a21aaa691303d62f
   rack (3.2.6) sha256=5ed78e1f73b2e25679bec7d45ee2d4483cc4146eb1be0264fc4d94cb5ef212c2
   rack-livereload (0.3.17) sha256=b1dcf1f7f9b7b320dc2e84406d3450d30edcec0731a171d815f75d4577a59fea
