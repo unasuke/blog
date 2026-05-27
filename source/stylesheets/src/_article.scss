@@ -41,6 +41,11 @@
     margin: 0;
   }
 
+  [lang="en"] {
+    font-family: $font-family-en-sans-serif;
+    letter-spacing: normal;
+  }
+
   .article-wrote-at {
     font-weight: bold;
   }
