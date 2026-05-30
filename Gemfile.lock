@@ -66,7 +66,7 @@ GEM
     middleman (4.6.3)
       middleman-cli (= 4.6.3)
       middleman-core (= 4.6.3)
-    middleman-blog (4.0.3)
+    middleman-blog (4.2.1)
       addressable (~> 2.3)
       middleman-core (>= 4.0.0)
       tzinfo (>= 0.3.0)
@@ -251,7 +251,7 @@ CHECKSUMS
   logger (1.6.1) sha256=3ad9587ed3940bf7897ea64a673971415523f4f7d6b22c5e3af5219705669653
   memoist (0.16.2) sha256=a52c53a3f25b5875151670b2f3fd44388633486dc0f09f9a7150ead1e3bf3c45
   middleman (4.6.3) sha256=cf6293bf3d7917d495f466358c7d9707843c06347d5db2168e950b24c235704e
-  middleman-blog (4.0.3) sha256=2764b5fc6c7704898dc75a517294ff3c759b57b82ea8d8108c59b2356c8670d8
+  middleman-blog (4.2.1) sha256=63c9df258970b4da0ba99c69930a1da8ac70c9b8d3947c9c3e27391f37d823ac
   middleman-cli (4.6.3) sha256=03deb5b893f748a5adeaf22ccc1452dfede2de25a4583bb451a0162857eb9974
   middleman-commonmarker (0.1.0) sha256=079f1445d399e72fd4f72732fa22861bb7cdd2b5f2f29b65a76e60bc4787c989
   middleman-core (4.6.3) sha256=5cab1e1f16b00d26f541a4ca787427e1e0203c34f2d81471c1fae3bf1e7509a8
