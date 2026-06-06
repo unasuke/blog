@@ -61,7 +61,7 @@ GEM
       logger
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
-    logger (1.6.1)
+    logger (1.7.0)
     memoist (0.16.2)
     middleman (4.6.3)
       middleman-cli (= 4.6.3)
@@ -248,7 +248,7 @@ CHECKSUMS
   json (2.19.8) sha256=6354310fd76ef69b87d5bd1f38b40d730613baf90b6803d2d0a48f618d32dfaa
   kramdown (2.5.2) sha256=1ba542204c66b6f9111ff00dcc26075b95b220b07f2905d8261740c82f7f02fa
   listen (3.10.0) sha256=c6e182db62143aeccc2e1960033bebe7445309c7272061979bb098d03760c9d2
-  logger (1.6.1) sha256=3ad9587ed3940bf7897ea64a673971415523f4f7d6b22c5e3af5219705669653
+  logger (1.7.0) sha256=196edec7cc44b66cfb40f9755ce11b392f21f7967696af15d274dde7edff0203
   memoist (0.16.2) sha256=a52c53a3f25b5875151670b2f3fd44388633486dc0f09f9a7150ead1e3bf3c45
   middleman (4.6.3) sha256=cf6293bf3d7917d495f466358c7d9707843c06347d5db2168e950b24c235704e
   middleman-blog (4.2.1) sha256=63c9df258970b4da0ba99c69930a1da8ac70c9b8d3947c9c3e27391f37d823ac
