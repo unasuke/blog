@@ -113,8 +113,9 @@ GEM
       em-websocket (~> 0.5.1)
       middleman-core (>= 3.3)
       rack-livereload (~> 0.6.1)
-    middleman-somemoji (0.1.0)
-      middleman-core (>= 4)
+    middleman-somemoji (0.2.0)
+      middleman-cli (~> 4)
+      middleman-core (~> 4)
       somemoji
     middleman-syntax (3.6.1)
       middleman-core (>= 3.2)
@@ -169,7 +170,7 @@ GEM
     slim (5.2.1)
       temple (~> 0.10.0)
       tilt (>= 2.1.0)
-    slop (4.8.2)
+    slop (4.10.1)
     somemoji (0.7.1)
       gemoji (= 3.0.0)
       json
@@ -258,7 +259,7 @@ CHECKSUMS
   middleman-hatenastar (0.3.0) sha256=3ec890e4c5701492c4c6f993108dfbf9a9814f06fc8b3414000121a37353ccb7
   middleman-img_loading_attribute (0.3.0) sha256=c1622f7548ba05a4486755c046a3695989786a124da3e3b246b340b4e7009f26
   middleman-livereload (3.5.0) sha256=8244d596851cac983719346bd13828b95cc049db9df8911e4d00f22b6fd6a762
-  middleman-somemoji (0.1.0) sha256=d5cbdd36a61131d5cfe1849e8cf9d738024944588cce26839ca19f1432348683
+  middleman-somemoji (0.2.0) sha256=ecb963a224ed912e583e2ed44660ea9abb7495dcf0418386e0cff29ccbf7f565
   middleman-syntax (3.6.1) sha256=8bf1799a3cb39089d07981d67149707bcf2962dc3576c034f2ebd8392ddcccdf
   mini_portile2 (2.8.9) sha256=0cd7c7f824e010c072e33f68bc02d85a00aeb6fce05bb4819c03dfd3c140c289
   minitest (6.0.6) sha256=153ea36d1d987a62942382b61075745042a2b3123b1cd48f4c3675af9cc7d6f1
@@ -289,7 +290,7 @@ CHECKSUMS
   securerandom (0.4.1) sha256=cc5193d414a4341b6e225f0cb4446aceca8e50d5e1888743fac16987638ea0b1
   servolux (0.13.0) sha256=1a33c45458f8061d8a989b19d3ad6e5cfad04881b3fe988508a90850a3961519
   slim (5.2.1) sha256=72351dff7e2ff20e2d5c393cfc385bb9142cef5db059141628fd7163ac3c13e7
-  slop (4.8.2) sha256=a3d5be3ad304b9dbd00b7c18a0a067b09ff6fd28485d4c6b05adb294d1eea115
+  slop (4.10.1) sha256=844322b5ffcf17ed4815fdb173b04a20dd82b4fd93e3744c88c8fafea696d9c7
   somemoji (0.7.1) sha256=e7dd1699814aa9e0073b6a075ec4084a55867f74db2232399f4deace29ee86d7
   stringio (3.2.0) sha256=c37cb2e58b4ffbd33fe5cd948c05934af997b36e0b6ca6fdf43afa234cf222e1
   temple (0.10.4) sha256=b7a1e94b6f09038ab0b6e4fe0126996055da2c38bec53a8a336f075748fff72c
