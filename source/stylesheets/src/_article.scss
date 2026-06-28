@@ -83,10 +83,19 @@
       }
 
       a.mstdn-share-button {
-        display: unset;
+        display: flex;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: #6364ff;
+        color: #fff;
+        border-radius: 10px;
+        font-weight: 700;
+        text-decoration: none;
+        font-size: 20px;
+        span {
+          margin-right: 8px;
+        }
       }
     }
-
-
   }
 }
