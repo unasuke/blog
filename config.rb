@@ -71,7 +71,7 @@ end
 
 activate :external_pipeline,
   name: :npm,
-  command: "npm run scss",
+  command: build? ? "npm run scss" : "npm run scss:watch",
   source: "./source/stylesheets"
 
 Tilt::SYMBOL_ARRAY_SORTABLE = false
