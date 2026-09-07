@@ -14,7 +14,7 @@ class AutoOGP < ::Middleman::Extension
     Parallel.map(files) do |file|
       doc = Nokogiri::HTML(File.read(file))
       if doc.at('body section.article')
-        elem = doc.css('body section.article img').first
+        elem = doc.css('body section.article .e-content img').first
         next unless elem
 
         next if elem[:src].start_with?('http')
