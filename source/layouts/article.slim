@@ -20,7 +20,7 @@ html lang="ja"
     meta name="fediverse:creator" content="@unasuke@mstdn.unasuke.com"
 
     link rel="alternate" type="application/atom+xml" title="Atom" href="https://blog.unasuke.com/feed.xml"
-    link rel="author" href="http://www.hatena.ne.jp/yu_suke1994/"
+    link rel="author" href="https://www.hatena.ne.jp/yu_suke1994/"
     link rel="preconnect" href="https://fonts.googleapis.com"
     link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"
     link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet"
@@ -54,3 +54,4 @@ html lang="ja"
           - current_page.tags.each do |tag|
             li.tag
               = link_to "#{tag}", tag_path(tag)
+    = partial "layouts/hcard", locals: { author: false }

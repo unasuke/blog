@@ -29,3 +29,4 @@ html lang="ja"
   body
     = partial "layouts/header"
     = yield
+    = partial "layouts/hcard", locals: { author: false }
