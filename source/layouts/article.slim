@@ -12,10 +12,6 @@ html lang="ja"
     / Use title if it's in the page YAML frontmatter
     title= "#{current_page.data.title} | うなすけとあれこれ"
 
-    meta property="og:title" content="#{current_page.data.title} | うなすけとあれこれ"
-    meta property="og:url" content="https://blog.unasuke.com#{current_resource.url}"
-    meta property="og:locale" content="ja_JP"
-    meta property="og:type" content="article"
     meta property="og:article:author" content="うなすけ"
     meta name="fediverse:creator" content="@unasuke@mstdn.unasuke.com"
 
@@ -25,11 +21,11 @@ html lang="ja"
     link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"
     link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet"
 
-    = stylesheet_link_tag "normalize", "all"
+    = stylesheet_link_tag "all"
     = javascript_include_tag "all"
     = favicon_tag 'images/favicon.png'
     = partial "layouts/google_analytics"
-    = partial 'layouts/meta_tags', locals: { title: current_page.data.title, url: current_resource.url }
+    = partial 'layouts/meta_tags', locals: { title: current_page.data.title, url: current_resource.url, type: 'article' }
     = hatenastar_tag
 
   body
