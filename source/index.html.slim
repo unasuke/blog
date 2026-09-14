@@ -5,13 +5,15 @@ site_url: "https://blog.unasuke.com"
 ---
 
 - page_articles.each_with_index do |article, i|
-  .article
+  .article.h-entry
     .article-wrote-at
-      = article.date.strftime('%Y年%m月%d日')
+      time.dt-published datetime=article.date.to_time.iso8601
+        = article.date.strftime('%Y年%m月%d日')
     h2
-      = link_to article.title, article
+      = link_to article.title, article, class: 'p-name u-url'
 
-    = article.body
+    .e-content
+      = article.body
     .social-buttons
       .social-button
         = partial "layouts/twitter_button", locals: { url: "#{current_page.data.site_url + article.url}", title: "#{article.title} | うなすけとあれこれ" }
@@ -24,7 +26,7 @@ site_url: "https://blog.unasuke.com"
       ul.tags
         - article.tags.each do |tag|
           li.tag
-            = link_to "#{tag}", tag_path(tag)
+            = link_to "#{tag}", tag_path(tag), class: 'p-category'
 
 - if paginate
   section.paginate

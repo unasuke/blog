@@ -1,6 +1,8 @@
 - if title
-  meta property="og:title" content="#{title} | うなすけとあれこれ"
-  meta name="twitter:title" content="#{title} | うなすけとあれこれ"
+  / Middleman disables Slim's escaping, and titles in frontmatter may already contain HTML entities, so only escape the attribute delimiter
+  - escaped_title = title.gsub('"', '&quot;')
+  meta property="og:title" content="#{escaped_title} | うなすけとあれこれ"
+  meta name="twitter:title" content="#{escaped_title} | うなすけとあれこれ"
 - else
   meta property="og:title" content='うなすけとあれこれ'
   meta name="twitter:title" content='うなすけとあれこれ'
@@ -12,7 +14,7 @@
 
 meta property="og:description" content='うなすけとあれこれ'
 meta property="og:locale" content='ja_JP'
-meta property="og:type" content='website'
+meta property="og:type" content="#{type}"
 
 meta name="twitter:card" content="summary"
 meta name="twitter:site" content='@yu_suke1994'

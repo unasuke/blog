@@ -60,7 +60,7 @@ configure :build do
   activate :minify_javascript
 
   # Enable cache buster
-  activate :asset_hash, ignore: %r[images/favicon\.png]
+  activate :asset_hash, ignore: [%r[images/favicon\.png], %r[images/icon\.png]]
 
   # Use relative URLs
   #activate :relative_assets

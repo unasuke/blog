@@ -12,34 +12,32 @@ html lang="ja"
     / Use title if it's in the page YAML frontmatter
     title= "#{current_page.data.title} | うなすけとあれこれ"
 
-    meta property="og:title" content="#{current_page.data.title} | うなすけとあれこれ"
-    meta property="og:url" content="https://blog.unasuke.com#{current_resource.url}"
-    meta property="og:locale" content="ja_JP"
-    meta property="og:type" content="article"
     meta property="og:article:author" content="うなすけ"
     meta name="fediverse:creator" content="@unasuke@mstdn.unasuke.com"
 
     link rel="alternate" type="application/atom+xml" title="Atom" href="https://blog.unasuke.com/feed.xml"
-    link rel="author" href="http://www.hatena.ne.jp/yu_suke1994/"
+    link rel="author" href="https://www.hatena.ne.jp/yu_suke1994/"
     link rel="preconnect" href="https://fonts.googleapis.com"
     link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"
     link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet"
 
-    = stylesheet_link_tag "normalize", "all"
+    = stylesheet_link_tag "all"
     = javascript_include_tag "all"
     = favicon_tag 'images/favicon.png'
     = partial "layouts/google_analytics"
-    = partial 'layouts/meta_tags', locals: { title: current_page.data.title, url: current_resource.url }
+    = partial 'layouts/meta_tags', locals: { title: current_page.data.title, url: current_resource.url, type: 'article' }
     = hatenastar_tag
 
   body
     = partial "layouts/header"
-    section.article
+    section.article.h-entry
       .article-wrote-at
-        = current_page.date.strftime('%Y年%m月%d日')
+        time.dt-published datetime=current_page.date.to_time.iso8601
+          = current_page.date.strftime('%Y年%m月%d日')
       h2
-        = link_to current_page.data.title, current_page
-      = yield
+        = link_to current_page.data.title, current_page, class: 'p-name u-url'
+      .e-content
+        = yield
       .social-buttons
         .social-button
           = partial "layouts/twitter_button", locals: { url: nil, title: nil }
@@ -53,4 +51,6 @@ html lang="ja"
         ul.tags
           - current_page.tags.each do |tag|
             li.tag
-              = link_to "#{tag}", tag_path(tag)
+              = link_to "#{tag}", tag_path(tag), class: 'p-category'
+      = partial "layouts/hcard", locals: { author: true }
+    = partial "layouts/hcard", locals: { author: false }
