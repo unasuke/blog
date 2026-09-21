@@ -1,0 +1,73 @@
+@use "definitions" as *;
+
+.footnote-tooltip {
+  @include card;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  max-width: 480px;
+  padding: 0.6em 0.8em;
+  background-color: #fff;
+  color: $font_color;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  text-align: left;
+  word-break: break-word;
+  box-shadow: 4px 4px 0 rgba($main_color, 0.25);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.12s ease-out;
+
+  &[hidden] {
+    display: none;
+  }
+
+  &.is-visible {
+    opacity: 1;
+  }
+
+  p {
+    margin: 0;
+
+    + p {
+      margin-top: 0.5em;
+    }
+  }
+
+  a {
+    word-break: break-all;
+  }
+
+  [lang="en"] {
+    font-family: $font-family-en-sans-serif;
+    letter-spacing: normal;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0.4em auto;
+  }
+
+  pre {
+    overflow-x: auto;
+    max-width: 100%;
+  }
+
+  ul, ol {
+    margin: 0.4em 0;
+    padding-left: 1.5em;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .footnote-tooltip {
+    transition: none;
+  }
+}
+
+.footnote-ref a {
+  cursor: pointer;
+}
