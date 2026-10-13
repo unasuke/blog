@@ -65,6 +65,8 @@ configure :build do
   # Enable cache buster
   activate :asset_hash, ignore: [%r[images/favicon\.png], %r[images/icon\.png]]
 
+  activate :asset_host, host: "https://dfufg1ixeqzc0.cloudfront.net"
+
   # Use relative URLs
   #activate :relative_assets
 
