@@ -48,7 +48,10 @@ set :images_dir, 'images'
 activate :syntax
 activate :commonmarker
 set :markdown,
-  fenced_code_blocks: true, smartypants: true, strikethrough: true, tables: true, footnotes: true
+  fenced_code_blocks: true, smartypants: true, strikethrough: true, tables: true, footnotes: true,
+  plugins: {
+    syntax_highlighter: { theme: "github-light", path: File.expand_path("lib/syntax_themes", __dir__) },
+  }
 Slim::Engine.set_options pretty: true, sort_attrs: false
 
 # Build-specific configuration
