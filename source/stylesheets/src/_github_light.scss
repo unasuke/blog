@@ -1,0 +1,73 @@
+/*!
+ * GitHub light, ported from Rouge's github theme (`rougify style github`)
+ * https://github.com/rouge-ruby/rouge/blob/main/lib/rouge/themes/github.rb
+ * Colors are from Primer primitives https://github.com/primer/primitives
+ *
+ * Copyright (c) 2012 Jeanine Adkisson.
+ * Copyright (c) 2018 GitHub Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+.highlight {
+  background-color: #f6f8fa;
+  color: #24292f;
+  text-align: left;
+  padding: 10px;
+  margin-bottom: 10px;
+  overflow: auto;
+
+  pre {
+    margin: 0;
+  }
+
+  .c, .ch, .cd, .cm, .cp, .cpf, .c1, .cs { color: #6e7781 } /* Comment */
+  .err, .gr { color: #f6f8fa; background-color: #82071e } /* Error, Generic.Error */
+  .gd { color: #82071e; background-color: #ffebe9 } /* Generic.Deleted */
+  .ge { color: #24292f; font-style: italic } /* Generic.Emph */
+  .ges { font-weight: bold; font-style: italic } /* Generic.EmphStrong */
+  .gh { color: #0550ae; font-weight: bold } /* Generic.Heading */
+  .gi { color: #116329; background-color: #dafbe1 } /* Generic.Inserted */
+  .gl { color: #6e7781 } /* Generic.Lineno */
+  .gs { color: #24292f; font-weight: bold } /* Generic.Strong */
+  .gt { color: #6e7781 } /* Generic.Traceback */
+  .gu { color: #0550ae; font-weight: bold } /* Generic.Subheading */
+  .k, .kd, .kn, .kp, .kr, .kt, .kv { color: #cf222e } /* Keyword */
+  .kc { color: #0550ae } /* Keyword.Constant */
+  .l, .ld, .m, .mb, .mf, .mh, .mi, .il, .mo, .mx { color: #0550ae } /* Literal, Literal.Number */
+  .s, .sa, .sc, .dl, .sd, .s2, .se, .sh, .sx, .s1, .ss { color: #0a3069 } /* Literal.String */
+  .sb { color: #0550ae } /* Literal.String.Backtick */
+  .si { color: #24292f } /* Literal.String.Interpol */
+  .sr { color: #116329 } /* Literal.String.Regex */
+  .na { color: #116329 } /* Name.Attribute */
+  .nb { color: #953800 } /* Name.Builtin */
+  .bp { color: #0550ae } /* Name.Builtin.Pseudo */
+  .nc { color: #953800 } /* Name.Class */
+  .no { color: #953800 } /* Name.Constant */
+  .nd { color: #8250df } /* Name.Decorator */
+  .ni { color: #24292f } /* Name.Entity */
+  .ne { color: #0550ae } /* Name.Exception */
+  .nf, .fm { color: #8250df } /* Name.Function */
+  .nl { color: #0550ae } /* Name.Label */
+  .nn { color: #953800 } /* Name.Namespace */
+  .nt { color: #116329 } /* Name.Tag */
+  .nv, .vc, .vg, .vi, .vm { color: #0550ae } /* Name.Variable */
+  .py { color: #0550ae } /* Name.Property */
+  .o, .ow { color: #0550ae } /* Operator */
+  .w { color: #24292f } /* Text.Whitespace */
+}
