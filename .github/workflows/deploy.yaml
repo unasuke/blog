@@ -19,7 +19,7 @@ jobs:
         with:
           role-to-assume: arn:aws:iam::423695832787:role/static-site-deploy-role
           aws-region: ap-northeast-1
-      - uses: ruby/setup-ruby@b1da4809b005e0178fe08a1d57317bffc00b7b4c # v1.332.0
+      - uses: ruby/setup-ruby@7f797815d8adceb1c412e7abefdd1ab4abc47a5f # v1.335.0
         with:
           bundler-cache: true
       - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
