@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/unasuke/blog#readme",
   "devDependencies": {
-    "sass": "^1.106.0"
+    "sass": "^1.106.1"
   }
 }
