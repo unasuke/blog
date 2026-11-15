@@ -4,6 +4,11 @@ on:
       - 'master'
 jobs:
   s3_sync:
+    # Avoid concurrent rsync / s3 sync --delete runs to the same destinations.
+    # A running deploy is not cancelled; the newest pending run waits for it.
+    concurrency:
+      group: deploy-production
+      cancel-in-progress: false
     environment:
       name: production
       url: https://blog.unasuke.com
