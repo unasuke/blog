@@ -32,6 +32,8 @@ jobs:
           cache: npm
       - run: npm ci
       - run: bundle exec middleman build
+      - run: aws s3 sync ./build s3://static-site-blog-unasuke-com --delete --quiet
+      - run: aws cloudfront create-invalidation --distribution-id E27VRKNRHRNYHG --paths "/*"
       # The OpenBSD host of blog.unasuke.com. blogsync can only run rrsync into the document root there.
       - name: Write the SSH key and known_hosts for the origin
         env:
@@ -46,5 +48,3 @@ jobs:
         env:
           BLOG_ORIGIN_HOST: ${{ secrets.BLOG_ORIGIN_HOST }}
         run: rsync -rlz --delete --chmod=D755,F644 -e "ssh -p 9922 -i $HOME/.ssh/blog_origin" ./build/ "blogsync@$BLOG_ORIGIN_HOST:"
-      - run: aws s3 sync ./build s3://static-site-blog-unasuke-com --delete --quiet
-      - run: aws cloudfront create-invalidation --distribution-id E27VRKNRHRNYHG --paths "/*"
