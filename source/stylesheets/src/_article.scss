@@ -7,6 +7,7 @@
   margin-bottom: 2rem;
   word-break: break-word;
   text-autospace: normal;
+  container-type: inline-size;
 
   @media  screen and (max-device-width: $small_device_width) {
     margin-bottom: 1rem;
@@ -31,6 +32,21 @@
     @media  screen and (max-device-width: $small_device_width) {
       max-width: initial;
       width: 100%;
+    }
+  }
+
+  // Rabbit Slide Show embeds have a fixed width (e.g. 640px) and overflow on narrow screens.
+  // The inline style uses `box-sizing: content-box` with a 1px border, so subtract the borders.
+  iframe[src^="https://slide.rabbit-shocker.org/"] {
+    max-width: calc(100% - 2px);
+
+    // The viewer consists of a 16:9 slide and a 44px toolbar (640x360 + 44 = 404),
+    // so scale only the slide part to keep the toolbar visible.
+    // Avoid bare min() here: minify_css uses libsass, which evaluates it and fails on cqw.
+    &[width="640"][height="404"] {
+      width: calc(100cqw - 2px);
+      max-width: 640px;
+      height: calc(min(640px, 100cqw - 2px) * 9 / 16 + 44px);
     }
   }
 
